@@ -187,9 +187,9 @@
 		<init target="Путь" ver="5" value="QI7E2"/>
 		<init target="Формат" ver="5" value="1"/>
 	</object>
-	<object access-modifier="private" name="DI_1" display-name="DI_1" uuid="a8200a49-bc1c-4f57-80ea-99fea801d355" base-type="DI" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="5" description="" cardinal="1">
-		<designed target="X" value="495.25" ver="5"/>
-		<designed target="Y" value="677" ver="5"/>
+	<object access-modifier="private" name="DI_1" display-name="DI_1" uuid="a8200a49-bc1c-4f57-80ea-99fea801d355" base-type="DI_1" base-type-id="3f426f7f-bac8-4770-962e-daf13598d793" ver="5" description="" cardinal="1">
+		<designed target="X" value="413.25" ver="5"/>
+		<designed target="Y" value="685" ver="5"/>
 		<designed target="Rotation" value="0" ver="5"/>
 		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
 		<init target="Путь" ver="5" value="B_11.LevelHigh"/>
