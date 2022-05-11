@@ -192,6 +192,7 @@
 		<designed target="Y" value="677" ver="5"/>
 		<designed target="Rotation" value="0" ver="5"/>
 		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="B_11.LevelHigh"/>
 	</object>
 	<object access-modifier="private" name="Выпарной_Аппарат_1284_1" display-name="Выпарной_Аппарат_1284_1" uuid="84b4b592-2e1a-43f1-babf-0860a07a5ddf" base-type="Выпарной_Аппарат_1284" base-type-id="8c9eb826-c48e-436e-aed4-6c039c7f8b23" ver="5" description="" cardinal="1">
 		<designed target="X" value="1796.5" ver="5"/>
