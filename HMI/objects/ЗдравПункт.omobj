@@ -1,0 +1,1311 @@
+<type access-modifier="private" name="ЗдравПункт" display-name="ЗдравПункт" uuid="40c9cdd5-6105-4a45-bff5-c5379192b489" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="950" ver="2"/>
+	<designed target="Height" value="390" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="0xffc7c7c7" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="20" ver="2"/>
+	<designed target="WindowY" value="20" ver="2"/>
+	<designed target="WindowWidth" value="950" ver="2"/>
+	<designed target="WindowHeight" value="390" ver="2"/>
+	<designed target="WindowCaption" value="Вентиляции ЗдравПункта" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="false" ver="2"/>
+	<designed target="ShowWindowMaximize" value="false" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="true" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="2" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<object access-modifier="private" name="Warning" display-name="Warning" uuid="ff9015fe-cd8b-42ba-8ce0-e8892139483b" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-action="open-new" form-by-id="false">
+			<object access-modifier="private" uuid="b10536d5-eda6-4127-b12b-3a1377000b3a" base-type="Warning" base-type-id="4fabacbe-190e-45d8-82df-6f4bf28f007e" ver="2"/>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Warning_cmd" display-name="Warning_cmd" uuid="0343320c-9628-408d-8ff7-3737ca7c7f34" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-by-id="false" form-action="open-new">
+			<object access-modifier="private" uuid="efae2a12-f858-48fa-b1a0-8ab12b924410" base-type="Warning_cmd" base-type-id="f651adcf-10e2-4741-81d5-1c6b72349b4b" ver="2"/>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="P1_Start" display-name="P1_Start" uuid="7e5e4eae-3392-4c86-b8bb-4ae0f0ed29ee" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_P1.Start"/>
+	</object>
+	<object access-modifier="private" name="P1_Stop" display-name="P1_Stop" uuid="5a61932b-908a-4009-9270-1c24d8c48ff3" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_P1.Stop"/>
+	</object>
+	<object access-modifier="private" name="P2_Start" display-name="P2_Start" uuid="67100e7d-2a77-4873-b9c3-4ea8d8dd2a41" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_P2.Start"/>
+	</object>
+	<object access-modifier="private" name="P2_Stop" display-name="P2_Stop" uuid="c50a57bf-cf1d-4e68-9423-0657f21b1ed0" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_P2.Stop"/>
+	</object>
+	<object access-modifier="private" name="VD1_Start" display-name="VD1_Start" uuid="384fb6e8-7330-4b3a-8034-c2a4ab53e8c0" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_VD1.Start"/>
+	</object>
+	<object access-modifier="private" name="VD1_Stop" display-name="VD1_Stop" uuid="76e775c7-42d7-43fc-ab36-3b508889538c" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_VD1.Stop"/>
+	</object>
+	<object access-modifier="private" name="PD1_Start" display-name="PD1_Start" uuid="a7aa2f70-5106-4d96-89ac-8e035b52b47b" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_PD1.Start"/>
+	</object>
+	<object access-modifier="private" name="PD1_Stop" display-name="PD1_Stop" uuid="82abc3d4-65ee-4262-9196-eaf09151856b" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		<init target="Path" ver="4" value="ZD_PD1.Stop"/>
+	</object>
+	<object access-modifier="private" name="Rectangle_P1" display-name="Rectangle_P1" uuid="e7659f6f-25e2-44e8-b8c2-14f334c70a00" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="20" ver="4"/>
+		<designed target="Y" value="20" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="450" ver="4"/>
+		<designed target="Height" value="170" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Text_Sklad1" display-name="Text_Sklad1" uuid="04cc8311-8fb7-4554-ad8a-a750f764d68e" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+			<designed target="X" value="20" ver="3"/>
+			<designed target="Y" value="10" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="300" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Приточная система П1" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="132" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Run_DI" display-name="Run_DI" uuid="30387eee-82ec-4f87-b2ee-525a83286ac1" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="40" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="3e1ada7d-e826-4a0d-99ee-0d37fb7665f6" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Работа" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Alarm_DI" display-name="Alarm_DI" uuid="26cdf968-bbb8-49db-93f6-91b13b8e90de" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+			<designed target="X" value="170" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="fe4e351d-3db7-4a17-a1ef-08895500b7a3" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Авария" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Fan1_Control" display-name="Fan1_Control" uuid="a67cb325-0269-4a11-9360-804b81ca865d" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="320" ver="4"/>
+			<designed target="Y" value="5" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="120" ver="4"/>
+			<designed target="Height" value="124" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="4278190080" ver="4"/>
+			<designed target="BrushStyle" value="0" ver="4"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="c2877a90-c1b2-4dce-9113-552915de7665" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="10" ver="3"/>
+				<designed target="Y" value="10" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="100" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Система" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="132" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Button_Open" display-name="Button_Open" uuid="b1ddaafe-56a5-4117-b1be-a694ef979ffb" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="42" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Пуск" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Приточная система П1 (ЗдравПункт). Команда Пуск [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Приточная система П1 (ЗдравПункт). Команда Пуск [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			P1_Start = true;
+			P1_Stop  = false;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+			<object access-modifier="private" name="Button_Close" display-name="Button_Close" uuid="561a9269-4d31-49be-95ae-6855b65d009d" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="82" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Стоп" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Приточная система П1 (ЗдравПункт). Команда Стоп [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Приточная система П1 (ЗдравПункт). Команда Стоп [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			P1_Start = false;
+			P1_Stop  = true;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Control_DO_1" display-name="Control_DO_1" uuid="5842646a-f756-4f0b-aed4-fdcb6eda4611" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="355.25" ver="2"/>
+			<designed target="Y" value="135" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		</object>
+	</object>
+	<object access-modifier="private" name="Rectangle_P2" display-name="Rectangle_P2" uuid="a443acb2-cc04-497d-b88a-a852f2f9601f" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="480" ver="4"/>
+		<designed target="Y" value="20" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="450" ver="4"/>
+		<designed target="Height" value="170" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Text_Sklad1" display-name="Text_Sklad1" uuid="0be32cf7-1f3e-469a-a19b-403df8d4159d" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+			<designed target="X" value="20" ver="3"/>
+			<designed target="Y" value="10" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="300" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Приточная система П2" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="132" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Run_DI" display-name="Run_DI" uuid="71e527a1-dde3-4ae1-83a3-a13a12877af7" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="40" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="e83f4684-2c8d-46ef-a138-c09e1b64b74a" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Работа" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Alarm_DI" display-name="Alarm_DI" uuid="e36e4b97-e620-4df4-a20d-bca9c0cc5bb5" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+			<designed target="X" value="170" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="96253724-1103-4488-b346-de9dca4b1cc3" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Авария" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Fan1_Control" display-name="Fan1_Control" uuid="841b1c67-afa2-48b6-a792-847e8c162ecd" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="320" ver="4"/>
+			<designed target="Y" value="5" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="120" ver="4"/>
+			<designed target="Height" value="124" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="4278190080" ver="4"/>
+			<designed target="BrushStyle" value="0" ver="4"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="23507d6e-ba25-45e3-bc82-77afff98df23" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="10" ver="3"/>
+				<designed target="Y" value="10" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="100" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Система" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="132" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Button_Open" display-name="Button_Open" uuid="67b341ed-203b-46c0-98e7-b048cbb4f797" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="42" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Пуск" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Приточная система П2 (ЗдравПункт). Команда Пуск [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Приточная система П2 (ЗдравПункт). Команда Пуск [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			P2_Start = true;
+			P2_Stop  = false;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+			<object access-modifier="private" name="Button_Close" display-name="Button_Close" uuid="510b83ae-2c56-4564-824c-c28f156739d5" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="82" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Стоп" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Приточная система П2 (ЗдравПункт). Команда Стоп [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Приточная система П2 (ЗдравПункт). Команда Стоп [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			P2_Start = false;
+			P2_Stop  = true;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Control_DO_1" display-name="Control_DO_1" uuid="99c1da5f-660a-4f8f-be3b-00d45a39fa36" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="355.25" ver="2"/>
+			<designed target="Y" value="135" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		</object>
+	</object>
+	<object access-modifier="private" name="Rectangle_VD1" display-name="Rectangle_VD1" uuid="093e1627-96f8-4895-ab70-ff559ea5c6b3" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="20" ver="4"/>
+		<designed target="Y" value="200" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="450" ver="4"/>
+		<designed target="Height" value="170" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Text_Sklad1" display-name="Text_Sklad1" uuid="507466fd-90d3-4d4b-be6e-b92378ce2b22" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+			<designed target="X" value="20" ver="3"/>
+			<designed target="Y" value="10" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="300" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Система ВД1" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="132" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Run_DI" display-name="Run_DI" uuid="2cfcca39-8822-4149-b941-b0ca15ae88f7" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="40" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="0d912b7c-77a1-482c-b34b-ba6f070d889f" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Работа" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Alarm_DI" display-name="Alarm_DI" uuid="b18e93f3-7003-45ca-a5d3-1a82ce65c97d" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+			<designed target="X" value="170" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="c0651cc4-dd30-4e5a-825f-69a9edab524c" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Авария" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Fan1_Control" display-name="Fan1_Control" uuid="89a7faa7-e37e-4ed3-9739-b24a8819fe33" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="320" ver="4"/>
+			<designed target="Y" value="5" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="120" ver="4"/>
+			<designed target="Height" value="124" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="4278190080" ver="4"/>
+			<designed target="BrushStyle" value="0" ver="4"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="ed34f3db-c6c9-405e-bc90-a536786f6141" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="10" ver="3"/>
+				<designed target="Y" value="10" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="100" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Система" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="132" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Button_Open" display-name="Button_Open" uuid="637f2e00-cc55-4e01-b28d-8129d13fc0f5" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="42" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Пуск" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Система ВД1 (ЗдравПункт). Команда Пуск [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Система ВД1 (ЗдравПункт). Команда Пуск [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			VD1_Start = true;
+			VD1_Stop  = false;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+			<object access-modifier="private" name="Button_Close" display-name="Button_Close" uuid="b64ee24e-4068-4236-95dd-8f04218b1853" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="82" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Стоп" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Система ПД1 (ЗдравПункт). Команда Стоп [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Система ПД1 (ЗдравПункт). Команда Стоп [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			VD1_Start = false;
+			VD1_Stop  = true;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Control_DO_1" display-name="Control_DO_1" uuid="e5e84f0f-9fae-4056-892f-cadb567543b0" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="355.25" ver="2"/>
+			<designed target="Y" value="135" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		</object>
+	</object>
+	<object access-modifier="private" name="Rectangle_PD1" display-name="Rectangle_PD1" uuid="950b4204-f5f6-4017-b4bd-2805f4b67294" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="480" ver="4"/>
+		<designed target="Y" value="200" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="450" ver="4"/>
+		<designed target="Height" value="170" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Text_Sklad1" display-name="Text_Sklad1" uuid="3e56d4d7-3d4c-4583-b09c-27bd644ad905" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+			<designed target="X" value="20" ver="3"/>
+			<designed target="Y" value="10" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="300" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Система ПД1" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="132" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Run_DI" display-name="Run_DI" uuid="566cb9e2-0752-45af-b957-7ef7324625ff" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="40" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="8bf40747-57b9-4950-b5ac-8038fdecfd5d" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Работа" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Alarm_DI" display-name="Alarm_DI" uuid="6cbb98b0-e00a-484e-aec2-917004025ccb" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+			<designed target="X" value="170" ver="2"/>
+			<designed target="Y" value="90" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="f74fa1f8-13cf-4f74-b5e2-4db4a3fbdc7f" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="20" ver="3"/>
+				<designed target="Y" value="-30" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="60" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Авария" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Fan1_Control" display-name="Fan1_Control" uuid="90dbde7e-c129-412f-a330-dafde5d4bb3b" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="320" ver="4"/>
+			<designed target="Y" value="5" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="120" ver="4"/>
+			<designed target="Height" value="124" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="4278190080" ver="4"/>
+			<designed target="BrushStyle" value="0" ver="4"/>
+			<object access-modifier="private" name="Text_Gas" display-name="Text_Gas" uuid="f7cce10e-e9fa-4f18-a8e8-af03c527a94c" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="10" ver="3"/>
+				<designed target="Y" value="10" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="100" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Система" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="132" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Button_Open" display-name="Button_Open" uuid="21102785-076c-4b7f-b96b-3056ff22f2b7" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="42" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Пуск" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Система ПД1 (ЗдравПункт). Команда Пуск [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Система ПД1 (ЗдравПункт). Команда Пуск [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			PD1_Start = true;
+			PD1_Stop  = false;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+			<object access-modifier="private" name="Button_Close" display-name="Button_Close" uuid="641ae5bf-6f15-4329-b2d9-beac1b463e09" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+				<designed target="X" value="10" ver="2"/>
+				<designed target="Y" value="82" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="100" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Стоп" ver="2"/>
+				<designed target="TextAlignment" value="132" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+				<designed target="BrushColor" value="4293980400" ver="2"/>
+				<designed target="BrushStyle" value="1" ver="2"/>
+				<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+				<designed target="OnClickBrushStyle" value="1" ver="2"/>
+				<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+				<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+				<designed target="PenColor" value="4278190080" ver="2"/>
+				<designed target="PenStyle" value="1" ver="2"/>
+				<designed target="PenWidth" value="1" ver="2"/>
+				<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+				<designed target="OnClickPenStyle" value="1" ver="2"/>
+				<designed target="OnClickPenWidth" value="1" ver="2"/>
+				<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+				<designed target="OnHoverPenStyle" value="1" ver="2"/>
+				<designed target="OnHoverPenWidth" value="1" ver="2"/>
+				<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+					<body kind="om">
+						<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value)
+{
+
+// спросить подтверждение, иначе
+
+	Warning_cmd.Invoke();
+}
+
+// выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+					</body>
+				</do-on>
+				<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="FocusChanged">
+					<body kind="om">
+						<![CDATA[// При нажатии на кнопку,
+
+if (me.Focus)
+{
+
+// если уровень доступа "Оператор" и выше, то:
+
+	if (unit.Security.Oper.Value)
+	{
+		if (unit.Global.bool_input.Value)
+		{
+		
+// 1) сформировать сообщение типа "Склад сухих продуктов. Система ПД1 (ЗдравПункт). Команда Стоп [Пользователь: Иванов И.И. АРМ: АРМ-1]"		
+		
+			unit.Global.MessagesOper.Value="<Subcondition Message='"+ "Склад сухих продуктов. Система ПД1 (ЗдравПункт). Команда Стоп [Пользователь: " + unit.Security.SecurityContext.CurrentUser + ". АРМ: " + unit.Global.Network.ComputerName + "] ' Value='' Sound='' Severity='101' Enabled='1' SoundEnabled='0' />";
+
+// 2) установить соответствующие переменные для отправки команд (с ВУ)
+
+			PD1_Start = false;
+			PD1_Stop  = true;
+
+// 3) завершить выполнение кода			
+			
+			unit.Global.bool_input.Value = false; //сброс флага ввода
+		}
+	}
+}]]>
+					</body>
+				</do-on>
+				<designed target="Checkable" value="false" ver="3"/>
+				<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+				<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+				<designed target="DisabledBrushStyle" value="1" ver="3"/>
+				<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+				<designed target="DisabledPenStyle" value="1" ver="3"/>
+				<designed target="DisabledPenWidth" value="1" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Checked" value="false" ver="4"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Control_DO_1" display-name="Control_DO_1" uuid="dd737476-465c-489e-9d6b-a00890825a6d" base-type="di_value" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="355.25" ver="2"/>
+			<designed target="Y" value="135" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMinModbus"/>
+			<init target="Источник" ver="4" ref="unit.Global.SKLAD_SUH"/>
+		</object>
+	</object>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

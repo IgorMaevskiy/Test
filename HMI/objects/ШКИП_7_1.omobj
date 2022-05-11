@@ -1,0 +1,1263 @@
+<type access-modifier="private" name="ШКИП_7_1" display-name="ШКИП_7_1" uuid="c0ff0ee6-1605-45d0-8ad2-a9fe120bd618" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="900" ver="2"/>
+	<designed target="Height" value="460" ver="2"/>
+	<designed target="PenColor" value="0xff000000" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="0xffc7c7c7" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="1605" ver="2"/>
+	<designed target="WindowY" value="670" ver="2"/>
+	<designed target="WindowWidth" value="900" ver="2"/>
+	<designed target="WindowHeight" value="460" ver="2"/>
+	<designed target="WindowCaption" value="ШКИП 7-1. Диагностика Modbus устройств" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="false" ver="2"/>
+	<designed target="ShowWindowMaximize" value="false" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="true" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="3" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="77eeb369-d1db-4e04-b06b-6c85139cd240" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="2"/>
+	<param access-modifier="private" name="Путь" display-name="Путь" uuid="8a98aa81-30ce-4196-9006-75f808dc3a36" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<designed target="ZValue" value="0" ver="4"/>
+	<designed target="Opacity" value="1" ver="4"/>
+	<object access-modifier="private" name="Rectangle_A103" display-name="Rectangle_A103" uuid="97c5c008-eaaf-4412-9a98-7e285a0bb41f" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="30" ver="4"/>
+		<designed target="Y" value="20" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="410" ver="4"/>
+		<designed target="Height" value="420" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="73347a3e-d706-4dcc-b5dd-80448208b4ee" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+			<designed target="X" value="10" ver="3"/>
+			<designed target="Y" value="10" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="210" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Модуль A1.03. Канал 1" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="129" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_1" display-name="Rectangle_SGM_1" uuid="1f515ee0-35f0-412e-bb52-2be3139b597e" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="50" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="7d4399ae-77bf-4c64-a444-e768d284dd43" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-1 (1)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_1.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_1]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_1]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_2" display-name="Rectangle_SGM_2" uuid="b4174227-a1f8-4ba7-8335-716ff0a6d995" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="80.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="3d0f7783-89d1-457c-a7fb-778d2e3f7827" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-2 (2)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_2.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_2]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_2]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_3" display-name="Rectangle_SGM_3" uuid="8a9aa68d-0c57-4d12-b844-6fb641769e51" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="110.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="da79b30c-7510-4d5a-b7b3-26f39ee54c22" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-3 (3)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_3.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_3]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_3]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_4" display-name="Rectangle_SGM_4" uuid="4ce7a76f-5506-4d29-974f-934b505061e4" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="140.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="3062f7ac-b894-4512-806c-2da4d6331360" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-4 (4)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_4.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_4]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_4]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_5" display-name="Rectangle_SGM_5" uuid="4b535a5b-7146-4d4e-8a7d-ba52100cd903" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="170.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="95bd34e7-565a-4e2a-aae6-142fc7530291" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-5 (5)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_5.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_5]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_5]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_6" display-name="Rectangle_SGM_6" uuid="91d5ac9d-f9d4-481f-8721-afaf9b9198ac" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="200.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="9e6bae1a-15ca-4617-8df1-c92d939517da" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-6 (6)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_6.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_6]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_6]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_7" display-name="Rectangle_SGM_7" uuid="5b9c90e0-d122-4936-8c14-b8d8a61a3489" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="230.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="1fad6f97-9fe5-49c5-9b3b-4a877e6650e8" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-7 (7)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_7.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_7]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_7]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_8" display-name="Rectangle_SGM_8" uuid="5f91b51f-dd8b-4462-80f7-0a871be8860d" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="260.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="35150fc5-845a-4c67-8639-4c3001345559" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-8 (8)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_8.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_8]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_8]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_9" display-name="Rectangle_SGM_9" uuid="6ed1892b-523e-4b2c-b6fd-4e89af5c08a7" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="290.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="f84529fc-d7f5-467d-9d02-60812ec2ebc5" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-9 (9)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_9.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_9]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_9]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_10" display-name="Rectangle_SGM_10" uuid="dcf41f8b-85f6-410c-ba3b-82bb7fb6afc4" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="320.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="31f68f49-2b61-4d32-b97b-2402c75f3a5d" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-10 (10)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_10.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_10]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_10]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_11" display-name="Rectangle_SGM_11" uuid="66231e36-83d5-4abc-9bbf-e089af1aafc8" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="350.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="8631d91b-dafe-4972-a96b-c3b03b536900" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-11 (11)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_11.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_11]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_11]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_SGM_12" display-name="Rectangle_SGM_12" uuid="b8a11045-63f8-42a9-97f6-b3e5bb6a5674" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="380.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="b28745cd-ce8b-4a82-87d9-7b2f12c87c4a" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Контроллер СГМ ATIRA 7-12 (12)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_12.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SGM_12]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SGM_12]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+	</object>
+	<object access-modifier="private" name="SGM_1" display-name="SGM_1" uuid="47f8a018-444c-4316-8bbd-c059eae72a6d" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device1"/>
+	</object>
+	<object access-modifier="private" name="SGM_2" display-name="SGM_2" uuid="a632a6ff-1b10-4d64-8cf6-d2901f81ba68" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device2"/>
+	</object>
+	<object access-modifier="private" name="SGM_3" display-name="SGM_3" uuid="2d71952c-bcdd-4af0-899d-966536d9bc1f" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device3"/>
+	</object>
+	<object access-modifier="private" name="SGM_4" display-name="SGM_4" uuid="b372848a-9533-4dfe-8460-0e76f804e47e" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device4"/>
+	</object>
+	<object access-modifier="private" name="SGM_5" display-name="SGM_5" uuid="89b9eb8e-7891-4afa-b56f-b7e63417d0b3" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device5"/>
+	</object>
+	<object access-modifier="private" name="SGM_6" display-name="SGM_6" uuid="c167594f-6d08-42b5-9581-6d36756e00eb" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device6"/>
+	</object>
+	<object access-modifier="private" name="SGM_7" display-name="SGM_7" uuid="e951b6f5-1a83-4c7c-8ac3-104ae258a258" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device7"/>
+	</object>
+	<object access-modifier="private" name="SGM_8" display-name="SGM_8" uuid="b77a77a3-2fb2-4b20-9b5d-b96eda5525a1" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device8"/>
+	</object>
+	<object access-modifier="private" name="SGM_9" display-name="SGM_9" uuid="1ae3270b-5076-409f-a5d2-cc802a5a7a4c" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device9"/>
+	</object>
+	<object access-modifier="private" name="SGM_10" display-name="SGM_10" uuid="8f61e18b-8b8c-456d-87b0-233060661564" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device10"/>
+	</object>
+	<object access-modifier="private" name="SGM_11" display-name="SGM_11" uuid="98cc403e-fcbe-491c-93b3-b03e299cafd8" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device11"/>
+	</object>
+	<object access-modifier="private" name="SGM_12" display-name="SGM_12" uuid="4f182ae1-003e-45a6-8180-c9f1b8071c9a" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port1.State.Device12"/>
+	</object>
+	<object access-modifier="private" name="Rectangle_A104" display-name="Rectangle_A104" uuid="c33a5bb7-c6b2-490c-b559-7bf00054dba3" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="460" ver="4"/>
+		<designed target="Y" value="20" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="410" ver="4"/>
+		<designed target="Height" value="420" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="0dff9b24-d2f6-4cba-bea7-fb42b3073807" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+			<designed target="X" value="10" ver="3"/>
+			<designed target="Y" value="10" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="210" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Модуль A1.04. Канал 1" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="129" ver="3"/>
+		</object>
+		<object access-modifier="private" name="P1_1" display-name="P1_1" uuid="7d6f35e4-e0a5-4d13-b624-f841fd3635ed" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="50" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="ee6388d4-17a8-49ca-bce5-8150c38ee484" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Приточная система П1. ЧП 1 (1)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_1.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_1]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SHKIP7_P1_1]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="P1_2" display-name="P1_2" uuid="cb0065be-60d7-44f6-b0fc-2a7dfd8c677c" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="80.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="44c4e38e-362e-43c9-b50c-9e81821a7c41" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Приточная система П1. ЧП 2 (2)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_2.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_2]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SHKIP7_P1_2]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="P1_3" display-name="P1_3" uuid="966726eb-9656-459f-a2d1-721334b3def5" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="110.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="385f4584-1d02-4862-af96-7a21289d07a0" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Приточная система П1. ЧП 3 (3)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_3.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_3]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SHKIP7_P1_3]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="P1_4" display-name="P1_4" uuid="29b478a6-aeb6-44d7-a8c2-c39040ef3e11" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="340" ver="2"/>
+			<designed target="Y" value="140.5" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="50" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<object access-modifier="private" name="Text_Extra" display-name="Text_Extra" uuid="945cce57-97e9-44ef-9bbe-80dcf60d5780" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+				<designed target="X" value="-320" ver="3"/>
+				<designed target="Y" value="2" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="260" ver="3"/>
+				<designed target="Height" value="20" ver="3"/>
+				<designed target="Text" value="Приточная система П1. ЧП 4 (4)" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="129" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_4.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[SHKIP7_P1_4]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!SHKIP7_P1_4]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff00aa00]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+	</object>
+	<object access-modifier="private" name="SHKIP7_P1_1" display-name="SHKIP7_P1_1" uuid="827db76a-4b47-40c8-b18b-47fbe2a081c2" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port2.State.Device1"/>
+	</object>
+	<object access-modifier="private" name="SHKIP7_P1_2" display-name="SHKIP7_P1_2" uuid="4378aa9f-b292-41c1-8975-9dcb6cb01695" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port2.State.Device2"/>
+	</object>
+	<object access-modifier="private" name="SHKIP7_P1_3" display-name="SHKIP7_P1_3" uuid="dbce27fe-7287-4c57-9c47-c20d76c89e7e" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port2.State.Device3"/>
+	</object>
+	<object access-modifier="private" name="SHKIP7_P1_4" display-name="SHKIP7_P1_4" uuid="ad091fbe-4031-4357-baa3-1d122b20b9a6" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.MAT_SKLAD"/>
+		<init target="Path" ver="4" value="Modbus_Port2.State.Device4"/>
+	</object>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

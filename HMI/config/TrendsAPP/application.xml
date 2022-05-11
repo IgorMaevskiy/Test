@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ApplicationSettings Version="3.25">
+  <WindowPosition>
+    <X>0</X>
+    <Y>0</Y>
+    <Width>0</Width>
+    <Height>0</Height>
+    <WindowState>Normal</WindowState>
+  </WindowPosition>
+  <WindowMode>Persisted</WindowMode>
+  <AlternativeArrangeEnable>false</AlternativeArrangeEnable>
+  <AlternativeArrange>
+    <ControlArrange Position="Top" Id="0" />
+  </AlternativeArrange>
+  <SecuritySettings>
+    <UsingSecurity>false</UsingSecurity>
+    <SaveKnownUsers>true</SaveKnownUsers>
+    <IsScreenKeyboardEnabled>true</IsScreenKeyboardEnabled>
+    <ScreenKeyboardFileName>osk.exe</ScreenKeyboardFileName>
+    <ApplicationName>Alarms</ApplicationName>
+    <UsingUserProfile>false</UsingUserProfile>
+  </SecuritySettings>
+</ApplicationSettings>

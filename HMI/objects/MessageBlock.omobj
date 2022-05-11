@@ -1,0 +1,119 @@
+<type access-modifier="private" name="MessageBlock" display-name="MessageBoxCmd_1" uuid="4dd1435a-5a91-42a6-a7f6-84e11436a8af" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5">
+	<designed target="X" value="0"/>
+	<designed target="Y" value="0"/>
+	<designed target="Rotation" value="0"/>
+	<designed target="Scale" value="1"/>
+	<designed target="Visible" value="true"/>
+	<designed target="Enabled" value="true"/>
+	<designed target="Tooltip" value=""/>
+	<designed target="Width" value="500"/>
+	<designed target="Height" value="150"/>
+	<designed target="PenColor" value="4278190080"/>
+	<designed target="PenStyle" value="0"/>
+	<designed target="PenWidth" value="1"/>
+	<designed target="BrushColor" value="4293980400"/>
+	<designed target="BrushStyle" value="1"/>
+	<designed target="WindowX" value="500"/>
+	<designed target="WindowY" value="250"/>
+	<designed target="WindowWidth" value="500"/>
+	<designed target="WindowHeight" value="150"/>
+	<designed target="WindowCaption" value="Подтверждение"/>
+	<designed target="WindowBorderStyle" value="2"/>
+	<designed target="ShowWindowCaption" value="true"/>
+	<designed target="ShowWindowMinimize" value="false"/>
+	<designed target="ShowWindowMaximize" value="false"/>
+	<designed target="ShowWindowClose" value="true"/>
+	<designed target="AlwaysOnTop" value="true"/>
+	<designed target="WindowSizeMode" value="0"/>
+	<designed target="WindowScalingMode" value="0"/>
+	<designed target="WindowCloseMode" value="0"/>
+	<object access-modifier="private" name="IsAutoClose" display-name="IsAutoClose" uuid="149bafe0-92b5-4b90-8a92-09a7c3b18a0e" base-type="bool" base-type-id="7c9fe1ab-1ee2-42d8-939f-94ce3e89fca8"/>
+	<object access-modifier="private" name="IsOKOnly" display-name="IsOKOnly" uuid="0b057e1c-e9c3-492a-8d36-f029f1290e19" base-type="bool" base-type-id="7c9fe1ab-1ee2-42d8-939f-94ce3e89fca8"/>
+	<init target="IsAutoClose" value="true"/>
+	<designed target="WindowState" value="0" ver="1"/>
+	<designed target="MonitorNumber" value="0" ver="1"/>
+	<designed target="WindowPosition" value="3" ver="1"/>
+	<object access-modifier="private" name="bYes" display-name="bYes" uuid="4fe9e554-6a8e-444c-8a9e-e32284543e2a" base-type="Button" base-type-id="22504b6b-d24c-45e5-a9dd-6fb41e3d49c1">
+		<designed target="X" value="91"/>
+		<designed target="Y" value="85"/>
+		<designed target="Rotation" value="0"/>
+		<designed target="Scale" value="1"/>
+		<designed target="Visible" value="true"/>
+		<designed target="Enabled" value="true"/>
+		<designed target="Tooltip" value=""/>
+		<designed target="Width" value="120"/>
+		<designed target="Height" value="30"/>
+		<designed target="Text" value="Да"/>
+		<designed target="Font" value="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
+		<designed target="FontColor" value="4278190080"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="1" event="ButtonPressed">
+			<body kind="om">
+				<![CDATA[Action.Invoke();]]>
+			</body>
+		</do-on>
+		<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="1" event="ButtonPressed" form-action="close"/>
+	</object>
+	<object access-modifier="private" name="bNo" display-name="bNo" uuid="597e16eb-a077-407d-8046-15f9f12553a0" base-type="Button" base-type-id="22504b6b-d24c-45e5-a9dd-6fb41e3d49c1">
+		<designed target="X" value="288"/>
+		<designed target="Y" value="85"/>
+		<designed target="Rotation" value="0"/>
+		<designed target="Scale" value="1"/>
+		<designed target="Visible" value="true"/>
+		<designed target="Enabled" value="true"/>
+		<designed target="Tooltip" value=""/>
+		<designed target="Width" value="120"/>
+		<designed target="Height" value="30"/>
+		<designed target="Text" value="Отмена"/>
+		<designed target="Font" value="MS Shell Dlg 2,16,-1,5,50,0,0,0,0,0"/>
+		<designed target="FontColor" value="4278190080"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="1" event="ButtonPressed" form-action="close"/>
+	</object>
+	<object access-modifier="private" name="Action" display-name="Action" uuid="dde2f492-7f38-4207-bfb3-f001d48fa4dd" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" base-const="true" base-ref="true" ver="1"/>
+	<init target="IsOKOnly" ver="1" value="false"/>
+	<object access-modifier="private" name="Text_1" display-name="Text_1" uuid="233c8c63-01c5-4684-acb3-0241f8bae827" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+		<designed target="X" value="0.5" ver="2"/>
+		<designed target="Y" value="4.5" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="489" ver="2"/>
+		<designed target="Height" value="65" ver="2"/>
+		<designed target="Text" value="Вы действительно хотите выполнить команду?" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,20,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="TextAlignment" value="132" ver="2"/>
+		<do-trace access-modifier="private" target="Text" ver="3">
+			<conditional-expr>
+				<condition>
+					<![CDATA[opcBool]]>
+				</condition>
+				<expr>
+					<![CDATA["Вы действительно хотите включить блокировку?"]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!opcBool]]>
+				</condition>
+				<expr>
+					<![CDATA["Вы действительно хотите отключить блокировку?"]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="opcBool" display-name="opcBool" uuid="6913780f-0203-4671-95db-78f7ba76f607" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Путь"/>
+	</object>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="fd3aaadc-c247-4f21-a917-1b8e8648f97f" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="2"/>
+	<param access-modifier="private" name="Путь" display-name="Путь" uuid="6b517b74-1197-4eda-8106-35d16ada35e0" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

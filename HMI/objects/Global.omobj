@@ -1,0 +1,459 @@
+<object access-modifier="private" name="Global" display-name="Global" uuid="8c7b6e06-cca4-4f7b-b660-6f69d3b3cf6e" base-type="JustDummy" base-type-id="34bc054d-53be-4c82-873b-bd509d7c7c3b" ver="2">
+	<object access-modifier="private" name="COROS_S1" display-name="COROS_S1" uuid="5befef19-612c-41c4-9cda-942ac56e76c8" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="AP.OPCDAServer"/>
+		<init target="Path" ver="5" value="COROS_S1"/>
+	</object>
+	<object access-modifier="private" name="OBSCH_CENTR" display-name="OBSCH_CENTR" uuid="08ea8140-77c2-4ac3-8d3c-c8f1bd342a29" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="OBSCH_CENTR"/>
+	</object>
+	<object access-modifier="private" name="ENERG" display-name="ENERG" uuid="3f23013c-a186-494b-9361-710c7d1ae798" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="ENERG"/>
+	</object>
+	<object access-modifier="private" name="MAT_SKLAD" display-name="MAT_SKLAD" uuid="b91ab115-e7ad-448a-afc7-98904e4c3d85" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="MAT_SKLAD"/>
+	</object>
+	<object access-modifier="private" name="SKLAD_SUH" display-name="SKLAD_SUH" uuid="98bcfbb3-b4f3-4a21-a5b0-092eaa97f3f8" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="SKLAD_SUH"/>
+	</object>
+	<object access-modifier="private" name="PPNS" display-name="PPNS" uuid="5b273024-ac70-41dc-97cb-5eaf3fa7790f" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="PPNS"/>
+	</object>
+	<object access-modifier="private" name="NSHPV" display-name="NSHPV" uuid="ab637d99-b002-48a1-b2b6-305285423088" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="NSHPV"/>
+	</object>
+	<object access-modifier="private" name="SVP" display-name="SVP" uuid="a1dc8d30-cca1-4df3-8a81-edde140ec3f4" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="SVP"/>
+	</object>
+	<object access-modifier="private" name="OS_PSV" display-name="OS_PSV" uuid="5bf05261-efa7-4e5d-b575-240f57cfff4a" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="OS_PSV"/>
+	</object>
+	<object access-modifier="private" name="OS_HBS" display-name="OS_HBS" uuid="7f828377-676f-4955-80c1-0d4aeb45d8c4" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="OS_HBS"/>
+	</object>
+	<object access-modifier="private" name="Server" display-name="Server" uuid="43b99551-0f8c-4db3-a0f7-e2335511e96d" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Location" ver="2" value="localhost"/>
+		<init target="ProgId" ver="2" value="SUER.OPCDAServer.AccessPoint"/>
+		<init target="Path" ver="4" value="Server"/>
+	</object>
+	<object access-modifier="private" name="MessagesOper" display-name="MessagesOper" uuid="f4de64ee-cdbb-44ad-84bc-9479a703d109" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Path" ver="3" value="GenMsg.GenSource"/>
+		<init target="Source" ver="5" ref="unit.Global.COROS_S1"/>
+	</object>
+	<object access-modifier="private" name="SHKIP2_Link" display-name="SHKIP2_Link" uuid="10ea64b6-f209-42df-a23b-3f0203ccb2d5" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster2.Station 102.ConnectionState.ConnectionState"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 2.1-1. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 2.1-1. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="SHKIP5_Link" display-name="SHKIP5_Link" uuid="0b44aaa5-0d71-4413-931e-692df9636759" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 5-1. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 5-1. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster5.Station 105.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="SHKIP6_Link" display-name="SHKIP6_Link" uuid="0976496a-7baf-4ab6-9148-c5d6af93fefd" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 6.1-1. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 6.1-1. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster6.Station 106.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="SHKIP7_Link" display-name="SHKIP7_Link" uuid="5851b1c5-0269-428b-94b1-e5db9ae0b2be" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 7-1. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 7-1. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster7.Station 107.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="SHKIP11_Link" display-name="SHKIP11_Link" uuid="0a587c47-93fd-4f3b-a7ac-0487cb09d5ed" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 11-1. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 11-1. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster11.Station 111.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="SHKIP12_Link" display-name="SHKIP12_Link" uuid="f7870813-e114-46ce-a223-6a5cbfd27d64" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 12-1. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер ШКИП 12-1. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster12.Station 112.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="PPNS_Link" display-name="PPNS_Link" uuid="6780ca7a-64e3-4daf-acae-a88722a9ec9b" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции ППНС. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции ППНС. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster10.Station 210.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="NSHPV_Link" display-name="NSHPV_Link" uuid="ba3dc2a9-8393-497d-bff8-06450f4c6cf4" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции НСХПВ. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции НСХПВ. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster11.Station 211.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="SVP_Link" display-name="SVP_Link" uuid="0d409091-8c10-48fc-bc41-d44c6e9f8ccb" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции СВП. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции СВП. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster12.Station 212.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="OS_PSV_Link" display-name="OS_PSV_Link" uuid="bb7e17ce-d34b-43ad-bf79-ae6992590c6f" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции ОС ПСВ. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции ОС ПСВ. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster14.Station 214.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="OS_HBS_Link" display-name="OS_HBS_Link" uuid="2685a236-8f25-4faf-ba88-d1e95747b3a0" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.Server"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="4" event="OnValueChanged">
+			<body kind="om">
+				<![CDATA[if (Global_InitTimer) {
+
+// При потере связи с контроллером сформировать соответствующее сообщение
+
+if (!me.Value) 
+
+{
+
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции ОС ХБС. Потеря связи' Value='' Sound='ZDAlert.wav' Severity='701' Enabled='1' SoundEnabled='0' />";	
+
+}
+
+// При восстановлении связи с контроллером сформировать соответствующее сообщение
+
+else
+
+{
+unit.Global.MessagesOper.Value="<Subcondition Message='Контроллер Станции ОС ХБС. Восстановление связи' Value='' Sound='' Severity='1' Enabled='1' SoundEnabled='0' />";	
+
+}
+}]]>
+			</body>
+		</do-on>
+		<init target="Path" ver="4" value="Modules.ModbusTcpMaster13.Station 213.ConnectionState.ConnectionState"/>
+	</object>
+	<object access-modifier="private" name="regen" display-name="regen" uuid="844b7c58-e3d7-482d-b448-194e396b71c5" base-type="bool" base-type-id="7c9fe1ab-1ee2-42d8-939f-94ce3e89fca8" ver="2"/>
+	<object access-modifier="private" name="bool_input" display-name="bool_input" uuid="428ccb57-9a49-437c-a80e-79a2450c3b73" base-type="notifying_bool" base-type-id="f8797810-1baa-4a1f-af36-cf839bf252e8" ver="2"/>
+	<init target="bool_input" ver="2" value="false"/>
+	<object access-modifier="private" name="CurrentMonitor" display-name="CurrentMonitor" uuid="0ae98046-6f11-4f68-afb8-4860e0ce4d49" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<do access-modifier="private" name="SetCurrentMonitor" display-name="SetCurrentMonitor" ver="2" type="" type-id="">
+		<param access-modifier="private" name="cMouseX" display-name="" uuid="a5b55cda-de2f-4fc0-9e80-3706d7ed4de7" base-type="float8" base-type-id="7ad62ecf-96dd-4751-9b96-e77954b44409" ver="2"/>
+		<body kind="om">
+			<![CDATA[if (cMouseX<1920)
+{
+	if (cMouseY<1080) {CurrentMonitor = 1;}
+	else {CurrentMonitor = 4;}
+}
+else
+{
+	if (cMouseY<1080) {CurrentMonitor = 2;}
+	else {CurrentMonitor = 3;}
+}
+]]>
+		</body>
+		<param access-modifier="private" name="cMouseY" display-name="" uuid="c8107757-0712-440e-a00b-a14fcddd4e15" base-type="float8" base-type-id="7ad62ecf-96dd-4751-9b96-e77954b44409" ver="2"/>
+	</do>
+	<init target="CurrentMonitor" ver="2" value="0"/>
+	<object access-modifier="private" name="Network" display-name="Network" uuid="04c3b8f1-09ba-41e3-8575-d120eec2228e" base-type="Network" base-type-id="aa841b9c-0610-4150-8495-3bfad7484a73" ver="2"/>
+	<object access-modifier="private" name="GlobalClean" display-name="GlobalClean" uuid="d6645d98-db0a-4dd2-a870-bf9639202e26" base-type="notifying_bool" base-type-id="f8797810-1baa-4a1f-af36-cf839bf252e8" ver="3"/>
+	<object access-modifier="private" name="Timer_1" display-name="Timer_1" uuid="bf475c85-aa7e-4359-b39e-c2ae664dedef" base-type="Timer" base-type-id="72ba7cd4-549e-41f2-923c-2431b91f349a" ver="3">
+		<designed target="Period" value="1000" ver="3"/>
+		<designed target="Active" value="false" ver="3"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="3" event="OnTimer">
+			<body kind="om">
+				<![CDATA[Global_InitTimer = true;]]>
+			</body>
+		</do-on>
+		<init target="Active" ver="4" value="true"/>
+	</object>
+	<object access-modifier="private" name="Global_InitTimer" display-name="Global_InitTimer" uuid="53db6439-0c4b-4e95-80be-e4dcbc58af8d" base-type="notifying_bool" base-type-id="f8797810-1baa-4a1f-af36-cf839bf252e8" ver="3"/>
+	<object access-modifier="private" name="CurrentScreen0" display-name="CurrentScreen0" uuid="91202d87-1826-4e8c-b433-d515260bcfba" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="CurrentScreen1" display-name="CurrentScreen1" uuid="67604dc3-a0cb-4c3a-b45e-a7328aa8b87b" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="CurrentScreen2" display-name="CurrentScreen2" uuid="fe99feae-ed6f-40c3-8ba4-96a1905fc033" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="CurrentScreen3" display-name="CurrentScreen3" uuid="cd73bcc7-3806-48e2-a2a9-b272bb4e7bcb" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="CurrentScreen4" display-name="CurrentScreen4" uuid="4587c46c-b50b-460f-8974-15b2b844fd65" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="OpenScreen0" display-name="OpenScreen0" uuid="52d194df-cf9f-420f-8db5-140418001855" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="OpenScreen1" display-name="OpenScreen1" uuid="75bd7314-5a73-4dac-a2b8-97b397e79fa0" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="OpenScreen2" display-name="OpenScreen2" uuid="9c04fab2-ba27-4e0d-921a-33ee6df05f63" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="OpenScreen3" display-name="OpenScreen3" uuid="bf44bae2-85ff-4222-ade2-cf420237efa7" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="OpenScreen4" display-name="OpenScreen4" uuid="3c93a837-ba14-42e3-8ef9-cafc12e04dd3" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+</object>
+

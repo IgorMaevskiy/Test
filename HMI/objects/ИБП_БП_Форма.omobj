@@ -1,0 +1,290 @@
+<type access-modifier="private" name="ИБП_БП_Форма" display-name="ИБП_БП_Форма" uuid="2c821206-f7f7-4bb1-b7a6-18afaedcde6a" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="370" ver="2"/>
+	<designed target="Height" value="250" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="0xffc7c7c7" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="1650" ver="2"/>
+	<designed target="WindowY" value="830" ver="2"/>
+	<designed target="WindowWidth" value="370" ver="2"/>
+	<designed target="WindowHeight" value="250" ver="2"/>
+	<designed target="WindowCaption" value="Управление системой питания" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="false" ver="2"/>
+	<designed target="ShowWindowMaximize" value="false" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="true" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="3" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<object access-modifier="private" name="OpcSource" display-name="OpcSource" uuid="10c947c2-ef7f-4034-9912-c1c45f29d57c" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+	</object>
+	<object access-modifier="private" name="Warning" display-name="Warning" uuid="ad07ab15-5ef4-47e0-b748-077aa1385663" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-action="open-new" form-by-id="false">
+			<object access-modifier="private" uuid="b73007af-9ce0-42e1-8a18-6afba879e17c" base-type="Warning" base-type-id="4fabacbe-190e-45d8-82df-6f4bf28f007e" ver="2"/>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Warning_cmd" display-name="Warning_cmd" uuid="c797cffd-8fe5-499e-9bae-b26fb0f5dff8" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-by-id="false" form-action="open-new">
+			<object access-modifier="private" uuid="266c97cf-dbec-471a-981a-efa98efa3ab0" base-type="Warning_cmd" base-type-id="f651adcf-10e2-4741-81d5-1c6b72349b4b" ver="2"/>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Messages" display-name="Messages" uuid="a47c2f7a-ddb7-4a76-8de6-d92f3fe09528" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+		<designed target="X" value="10" ver="2"/>
+		<designed target="Y" value="10" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="120" ver="2"/>
+		<designed target="Height" value="30" ver="2"/>
+		<designed target="Text" value="Сообщения" ver="2"/>
+		<designed target="TextAlignment" value="132" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+		<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+		<designed target="BrushColor" value="4293980400" ver="2"/>
+		<designed target="BrushStyle" value="1" ver="2"/>
+		<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+		<designed target="OnClickBrushStyle" value="1" ver="2"/>
+		<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+		<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="1" ver="2"/>
+		<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+		<designed target="OnClickPenStyle" value="1" ver="2"/>
+		<designed target="OnClickPenWidth" value="1" ver="2"/>
+		<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+		<designed target="OnHoverPenStyle" value="1" ver="2"/>
+		<designed target="OnHoverPenWidth" value="1" ver="2"/>
+		<designed target="Checkable" value="false" ver="3"/>
+		<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+		<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+		<designed target="DisabledBrushStyle" value="1" ver="3"/>
+		<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+		<designed target="DisabledPenStyle" value="1" ver="3"/>
+		<designed target="DisabledPenWidth" value="1" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+			<app path="C:\Program Files\SUER\SUER.Alarms\SUER.Alarms.App.exe" command-line="{x1} {x2}{x3}{x4} {x6} {x7} {x8}">
+				<alias name="x1" ver="4">
+					<value>
+						<![CDATA[mode historical]]>
+					</value>
+				</alias>
+				<alias name="x2" ver="4">
+					<value>
+						<![CDATA[setadvancedfilter "Message like '*]]>
+					</value>
+				</alias>
+				<alias name="x3" ver="4">
+					<expr>
+						<![CDATA[Description.Value]]>
+					</expr>
+				</alias>
+				<alias name="x4" ver="4">
+					<value>
+						<![CDATA[*'"]]>
+					</value>
+				</alias>
+				<alias name="x5" ver="4">
+					<value>
+						<![CDATA[WindowsFixed]]>
+					</value>
+				</alias>
+				<alias name="x6" ver="4">
+					<value>
+						<![CDATA[LoadConfiguration]]>
+					</value>
+				</alias>
+				<alias name="x7" ver="4">
+					<value>
+						<![CDATA["C:\PROJ\config\AlarmsAPP"]]>
+					</value>
+				</alias>
+				<alias name="x8" ver="4">
+					<value>
+						<![CDATA[AlwaysOnTop]]>
+					</value>
+				</alias>
+			</app>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Rectangle_BAT_DI" display-name="Rectangle_BAT_DI" uuid="c4608187-282f-41ee-9c21-a808c39efea7" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="20" ver="4"/>
+		<designed target="Y" value="50" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="330" ver="4"/>
+		<designed target="Height" value="179" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Power_Mode_Text" display-name="Power_Mode_Text" uuid="514d4b00-f463-4f22-b4bd-fb7b402f0b92" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+			<designed target="X" value="20" ver="3"/>
+			<designed target="Y" value="20" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="160" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Режим питания" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="129" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Power_Mode_TextDin" display-name="Power_Mode_TextDin" uuid="5af7815e-5e30-4198-b05e-38ecfbd5a333" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+			<designed target="X" value="160" ver="3"/>
+			<designed target="Y" value="20" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="160" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="От Батареи" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="130" ver="3"/>
+			<do-trace access-modifier="private" target="Text" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[Power_Mode.Quality < 192]]>
+					</condition>
+					<expr>
+						<![CDATA[""]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[Power_Mode]]>
+					</condition>
+					<expr>
+						<![CDATA["От сети"]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[!Power_Mode]]>
+					</condition>
+					<expr>
+						<![CDATA["От батареи"]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[""]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="DC_State_Text" display-name="DC_State_Text" uuid="8e3c02b5-fab0-4c9d-b11a-cfb89af766b0" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+			<designed target="X" value="20" ver="3"/>
+			<designed target="Y" value="70" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="200" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Питание DC 24 В в норме" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="129" ver="3"/>
+		</object>
+		<object access-modifier="private" name="DC_State_DI" display-name="DC_State_DI" uuid="2eeaa2c8-24aa-4bd6-bda7-5780dae12fb1" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+			<designed target="X" value="230" ver="2"/>
+			<designed target="Y" value="70" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMaxModbus"/>
+			<init target="Источник" ver="4" ref="here.OpcSource"/>
+		</object>
+		<object access-modifier="private" name="QF_State_Text" display-name="QF_State_Text" uuid="c3f8b771-6939-4f71-96a2-aa4088440eef" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+			<designed target="X" value="20" ver="3"/>
+			<designed target="Y" value="120" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="200" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Цепи питания в норме" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="129" ver="3"/>
+		</object>
+		<object access-modifier="private" name="QF_State_DI" display-name="QF_State_DI" uuid="9157605f-459f-468c-9671-55d8a655c6c2" base-type="DI" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="2">
+			<designed target="X" value="230" ver="2"/>
+			<designed target="Y" value="120" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<init target="Путь" ver="2" value="LevelMaxModbus"/>
+			<init target="Источник" ver="4" ref="here.OpcSource"/>
+		</object>
+	</object>
+	<object access-modifier="private" name="Description" display-name="Description" uuid="e34a5d5f-f550-49d7-96f4-92bab5e2b7f5" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Path" ver="4" value="POWER.Description"/>
+		<init target="Source" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Power_Mode" display-name="Power_Mode" uuid="529b4804-5a78-4975-81b1-eac93bfd2ffe" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="72fd8329-af05-44b3-b8da-caec80764228" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Режим питания"/>
+		<init target="Source" ver="4" ref="here.OpcSource"/>
+		<init target="Path" ver="4" value="POWER.Power_Mode.Value"/>
+	</object>
+	<do-trace access-modifier="private" target="WindowCaption" ver="4">
+		<body>
+			<![CDATA[Description]]>
+		</body>
+	</do-trace>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="610b4dee-c394-4a12-8bb5-61b6d00f4bba" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="4"/>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

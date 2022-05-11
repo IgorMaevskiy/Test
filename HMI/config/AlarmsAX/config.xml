@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Configuration Version="3.26">
+  <Common>
+    <ShowMilliseconds>true</ShowMilliseconds>
+    <OperativeVisibleRowCount>500</OperativeVisibleRowCount>
+    <ResetAdvancedFilter>true</ResetAdvancedFilter>
+    <OperativeEventDisplayOrder>NewFirst</OperativeEventDisplayOrder>
+    <AckOnSecondClick>true</AckOnSecondClick>
+    <AckWithComment>false</AckWithComment>
+    <RefreshOnConnect>false</RefreshOnConnect>
+    <ProgramViewMode>Journal</ProgramViewMode>
+    <Log>
+      <Error>true</Error>
+      <Warning>true</Warning>
+      <Information>true</Information>
+      <Debug>false</Debug>
+    </Log>
+    <SoundsEnable>true</SoundsEnable>
+    <HistoricalRangeOfTimeOnStart>24</HistoricalRangeOfTimeOnStart>
+    <HistoricalConfigTimeMode>User</HistoricalConfigTimeMode>
+    <OperativeConfigTimeMode>Time</OperativeConfigTimeMode>
+    <OperativeCustomSort />
+    <UseConfirmationWithTimer>false</UseConfirmationWithTimer>
+    <WriteArmInComment>false</WriteArmInComment>
+    <EnableSourceAction>false</EnableSourceAction>
+    <DropInactiveAcked>false</DropInactiveAcked>
+    <ArrangeEventHistoryIntoPages>false</ArrangeEventHistoryIntoPages>
+    <HistoryRowCount>500</HistoryRowCount>
+    <AckSequence>false</AckSequence>
+  </Common>
+  <PrintingSettings>
+    <realTimePrintingPrinter />
+    <isRealTimePrintingEnabled>false</isRealTimePrintingEnabled>
+    <defaultPrinter>ECOSYS M2035dn</defaultPrinter>
+    <showPrinterSelectionDlg>true</showPrinterSelectionDlg>
+    <colorPrinting>true</colorPrinting>
+    <printDate>true</printDate>
+    <printPageNumber>true</printPageNumber>
+    <printUserName>true</printUserName>
+    <printHeader>false</printHeader>
+    <headerText />
+    <Columns>
+      <Column>
+        <EventAttributeName>LocalTime</EventAttributeName>
+        <Printable>true</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>LocalActiveTime</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>LocalInactiveTime</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>Message</EventAttributeName>
+        <Printable>true</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>SourceComposite</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>SeverityGroup</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>Severity</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>AckedAsString</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>AckedComposite</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>LocalAckTime</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>ActorID</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>AckComment</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>ServerDescription</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>ValueAsString</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+      <Column>
+        <EventAttributeName>Quality</EventAttributeName>
+        <Printable>false</Printable>
+      </Column>
+    </Columns>
+    <Landscape>true</Landscape>
+    <Bind>none</Bind>
+    <Duplex>Simplex</Duplex>
+    <BrochureBook>false</BrochureBook>
+    <AllowChangeContent>true</AllowChangeContent>
+  </PrintingSettings>
+  <ToolbarSettings>
+    <ShowHistOperBtns>true</ShowHistOperBtns>
+    <ShowSettingsBtn>true</ShowSettingsBtn>
+    <ShowFilterBtn>true</ShowFilterBtn>
+    <ShowExcelBtn>true</ShowExcelBtn>
+    <ShowPrintBtn>true</ShowPrintBtn>
+    <ShowAckBtn>true</ShowAckBtn>
+    <ShowAckAllBtn>true</ShowAckAllBtn>
+    <ShowClearBtn>true</ShowClearBtn>
+    <ShowSnapshotBtn>true</ShowSnapshotBtn>
+    <ShowClearSoundQueueBtn>true</ShowClearSoundQueueBtn>
+    <ShowSkipCurrentSoundBtn>true</ShowSkipCurrentSoundBtn>
+    <ShowMuteBtn>true</ShowMuteBtn>
+    <ShowRequestDataBtn>true</ShowRequestDataBtn>
+    <ShowHelpBtn>true</ShowHelpBtn>
+    <ShowAreaBrowserBtn>false</ShowAreaBrowserBtn>
+    <ShowSuppressedBtn>false</ShowSuppressedBtn>
+    <ShowLoginBtn>true</ShowLoginBtn>
+  </ToolbarSettings>
+  <ExportSettings>
+    <TablesFolder>C:\Users\Public\Documents</TablesFolder>
+    <PresetFiltersFolder>C:\Users\Public\Documents</PresetFiltersFolder>
+    <AllowChangeContent>false</AllowChangeContent>
+  </ExportSettings>
+  <Columns>
+    <ColumnProperties>
+      <EventAttributeName>LocalTime</EventAttributeName>
+      <EventAttributeDisplayName>Время генерации</EventAttributeDisplayName>
+      <Caption>Время генерации</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>LocalActiveTime</EventAttributeName>
+      <EventAttributeDisplayName>Время срабатывания</EventAttributeDisplayName>
+      <Caption>Время срабатывания</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>LocalInactiveTime</EventAttributeName>
+      <EventAttributeDisplayName>Время деактивации</EventAttributeDisplayName>
+      <Caption>Время деактивации</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>Message</EventAttributeName>
+      <EventAttributeDisplayName>Сообщение</EventAttributeDisplayName>
+      <Caption>Сообщение</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>SeverityGroup</EventAttributeName>
+      <EventAttributeDisplayName>Группа важности</EventAttributeDisplayName>
+      <Caption>Группа важности</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>Severity</EventAttributeName>
+      <EventAttributeDisplayName>Важность</EventAttributeDisplayName>
+      <Caption>Важность</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>AckedAsString</EventAttributeName>
+      <EventAttributeDisplayName>Квитировано</EventAttributeDisplayName>
+      <Caption>Квитировано</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>SourceComposite</EventAttributeName>
+      <EventAttributeDisplayName>Источник события</EventAttributeDisplayName>
+      <Caption>Источник события</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>AckedComposite</EventAttributeName>
+      <EventAttributeDisplayName>Квитировать</EventAttributeDisplayName>
+      <Caption>Квитировать</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>LocalAckTime</EventAttributeName>
+      <EventAttributeDisplayName>Время квитирования</EventAttributeDisplayName>
+      <Caption>Время квитирования</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>ActorID</EventAttributeName>
+      <EventAttributeDisplayName>Пользователь</EventAttributeDisplayName>
+      <Caption>Пользователь</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>AckComment</EventAttributeName>
+      <EventAttributeDisplayName>Комментарий квитирования</EventAttributeDisplayName>
+      <Caption>Комментарий квитирования</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>ServerDescription</EventAttributeName>
+      <EventAttributeDisplayName>Источник данных</EventAttributeDisplayName>
+      <Caption>Источник данных</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>ValueAsString</EventAttributeName>
+      <EventAttributeDisplayName>Значение сигнала</EventAttributeDisplayName>
+      <Caption>Значение сигнала</Caption>
+    </ColumnProperties>
+    <ColumnProperties>
+      <EventAttributeName>Quality</EventAttributeName>
+      <EventAttributeDisplayName>Качество сигнала</EventAttributeDisplayName>
+      <Caption>Качество сигнала</Caption>
+    </ColumnProperties>
+  </Columns>
+  <AETree>
+    <DoColorNodes>false</DoColorNodes>
+    <AlarmNodeColor>Black</AlarmNodeColor>
+    <EventNodeColor>Black</EventNodeColor>
+    <IndicateSuppressions>false</IndicateSuppressions>
+  </AETree>
+  <UsingLastFilter>true</UsingLastFilter>
+  <UsingLastSort>false</UsingLastSort>
+  <StartFilterName>Исключить системные сообщения</StartFilterName>
+  <ExternalTools>
+    <AllowOpenTrends>false</AllowOpenTrends>
+    <AllowOpenForm>false</AllowOpenForm>
+    <AllowDragByRow>false</AllowDragByRow>
+  </ExternalTools>
+  <SoundsUseWinapi>false</SoundsUseWinapi>
+  <ForceFollowLatestEvent>false</ForceFollowLatestEvent>
+  <ShowVerticalScroll>true</ShowVerticalScroll>
+</Configuration>

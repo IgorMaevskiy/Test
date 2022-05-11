@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorSettings Version="3.16">
+  <DefaultStyle>
+    <Foreground>Black</Foreground>
+    <Background>White</Background>
+  </DefaultStyle>
+  <SelectedRowStyle>
+    <Foreground>Black</Foreground>
+    <Background>highlight</Background>
+  </SelectedRowStyle>
+  <AcknowledgedStyle>
+    <Foreground>Black</Foreground>
+    <Background>White</Background>
+  </AcknowledgedStyle>
+  <AcknowledgedStyleForAllColumns>false</AcknowledgedStyleForAllColumns>
+  <FlashStyleFields>
+    <Field>LocalActiveTime</Field>
+  </FlashStyleFields>
+  <FlashStyleToAllFields>true</FlashStyleToAllFields>
+  <InactiveEventStylePeriod>0</InactiveEventStylePeriod>
+  <InactiveEventStyleEnabled>false</InactiveEventStyleEnabled>
+  <Styles />
+</ColorSettings>

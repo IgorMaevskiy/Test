@@ -1,0 +1,221 @@
+<type access-modifier="private" name="Энергокомплекс" display-name="Энергокомплекс" uuid="d27f58b2-bb2b-4b7c-b55e-75ca15f53a09" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="1919" ver="2"/>
+	<designed target="Height" value="960" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="0xffc7c7c7" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="0" ver="2"/>
+	<designed target="WindowY" value="0" ver="2"/>
+	<designed target="WindowWidth" value="1920" ver="2"/>
+	<designed target="WindowHeight" value="960" ver="2"/>
+	<designed target="WindowCaption" value="Энергокомплекс" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="true" ver="2"/>
+	<designed target="ShowWindowMaximize" value="true" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="false" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="1" ver="2"/>
+	<designed target="WindowState" value="2" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="0" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<object access-modifier="private" name="Заголовок экрана_3" display-name="Заголовок экрана_3" uuid="d68b9d5d-09eb-41a3-ac4b-ce97f8483758" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+		<designed target="X" value="20" ver="2"/>
+		<designed target="Y" value="20" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="300" ver="2"/>
+		<designed target="Height" value="40" ver="2"/>
+		<designed target="Text" value="ЭНЕРГОКОМПЛЕКС" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,20,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="TextAlignment" value="129" ver="2"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="AV1_State" display-name="AV1_State" uuid="6889fade-7851-48df-87eb-c6dad04b9cf5" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="AB1.Run.Value"/>
+	</object>
+	<object access-modifier="private" name="DES12_Alarm" display-name="DES12_Alarm" uuid="cb491e00-c234-4a3e-806e-bfc3e0611b8a" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="DES_1_2.Alarm.Value"/>
+	</object>
+	<object access-modifier="private" name="DES34_Alarm" display-name="DES34_Alarm" uuid="0b51fe40-de3c-4f3d-accd-4f50e3eb6a5d" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="DES_3_4.Alarm.Value"/>
+	</object>
+	<object access-modifier="private" name="DES56_Alarm" display-name="DES56_Alarm" uuid="a35b090f-5e41-420b-a4fa-fd7758e0aa7c" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="DES_5_6.Alarm.Value"/>
+	</object>
+	<object access-modifier="private" name="DC_State" display-name="DC_State" uuid="bcaadb1b-3ce7-4399-87b3-edac19ff4cb0" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Path" ver="4" value="POWER.DC_State.Value"/>
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+	</object>
+	<object access-modifier="private" name="QF_State" display-name="QF_State" uuid="26696943-7dae-4eda-98e4-ae1c46ca7376" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Path" ver="4" value="POWER.QF_State.Value"/>
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+	</object>
+	<object access-modifier="private" name="ConnectionError_ASN" display-name="ConnectionError_ASN" uuid="d90915fb-03f6-47e6-b29c-1189c83a069f" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="Modbus_Port2.State.Device1"/>
+	</object>
+	<object access-modifier="private" name="ConnectionError_RU" display-name="ConnectionError_RU" uuid="8e8cb981-824f-4cb9-b63e-b7512492ee89" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="Modbus_Port3.State.Device1"/>
+	</object>
+	<designed target="WindowIconPath" value="arrow.png" ver="5"/>
+	<object access-modifier="private" name="AI_1" display-name="AI_1" uuid="cb5cbb36-3de8-4d04-87b0-a8964e7f749f" base-type="AI_1" base-type-id="abc38d27-608b-41cb-b709-15e921196b43" ver="5" description="" cardinal="1">
+		<designed target="X" value="126" ver="5"/>
+		<designed target="Y" value="144" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="QI7E2"/>
+	</object>
+	<object access-modifier="private" name="Насос_1_1" display-name="Насос_1_1" uuid="f651e77a-a937-4207-b01c-dec5af08b647" base-type="Насос_1" base-type-id="0dbff622-a104-43a8-98ae-d6f9393906dd" ver="5" description="" cardinal="1">
+		<designed target="X" value="310" ver="5"/>
+		<designed target="Y" value="290" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="H_61"/>
+	</object>
+	<object access-modifier="private" name="РВС_4900_1" display-name="РВС_4900_1" uuid="85f41bed-f412-42ad-aa7d-41e8c973f051" base-type="РВС_4900" base-type-id="7e16c21a-5690-4378-a1a6-439633256ed0" ver="5" description="" cardinal="1">
+		<designed target="X" value="1584.5" ver="5"/>
+		<designed target="Y" value="285" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<designed target="Scale" value="0.5" ver="5"/>
+	</object>
+	<object access-modifier="private" name="РВС_1000_1" display-name="РВС_1000_1" uuid="ff687f17-e0cb-4bd2-8b12-6bb4a0b2eabb" base-type="РВС_1000" base-type-id="def1ef11-0b11-418e-995d-fb4c68ff0a73" ver="5" description="" cardinal="1">
+		<designed target="X" value="1877" ver="5"/>
+		<designed target="Y" value="137" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<designed target="Scale" value="0.5" ver="5"/>
+	</object>
+	<object access-modifier="private" name="Резервуар_1" display-name="Резервуар_1" uuid="13767e64-97de-49bd-bc3e-19c1681033c7" base-type="Резервуар" base-type-id="8ad17bf2-3b2c-4da1-8513-eb369bff3a53" ver="5" description="" cardinal="1">
+		<designed target="X" value="1860" ver="5"/>
+		<designed target="Y" value="-276" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<designed target="Scale" value="0.5" ver="5"/>
+	</object>
+	<object access-modifier="private" name="cistern_large_1" display-name="cistern_large_1" uuid="efb2547f-f62c-44a0-b847-5f3b1946ae94" base-type="cistern_large" base-type-id="e242770a-90f7-4a2a-9aee-01eceb8c5d70" ver="5" description="" cardinal="1">
+		<designed target="X" value="1381.5" ver="5"/>
+		<designed target="Y" value="279" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<designed target="Scale" value="0.5" ver="5"/>
+	</object>
+	<object access-modifier="private" name="Bunker_1" display-name="Bunker_1" uuid="3b26ffeb-2c48-41f6-9a6e-9beaf9775cfa" base-type="Bunker" base-type-id="a37c2810-7cb6-4ab3-a234-8c8623f89335" ver="5" description="" cardinal="1">
+		<designed target="X" value="230.5" ver="5"/>
+		<designed target="Y" value="707" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="B_11"/>
+	</object>
+	<object access-modifier="private" name="valve_adj_1" display-name="valve_adj_1" uuid="730dc058-5b68-4f82-b57e-e15aa3e6aa11" base-type="valve_adj" base-type-id="6db62913-4729-4e42-97b7-3f295d3db424" ver="5" description="" cardinal="1">
+		<designed target="X" value="309" ver="5"/>
+		<designed target="Y" value="523" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+	</object>
+	<object access-modifier="private" name="Клапан_1_1" display-name="Клапан_1_1" uuid="5b8104b4-0356-4bd0-9cde-2c1a2b9932d9" base-type="Клапан_1" base-type-id="395eb0b7-29c5-4046-99db-399853833dfa" ver="5" description="" cardinal="1">
+		<designed target="X" value="608.25" ver="5"/>
+		<designed target="Y" value="594.9083592135" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="SV_61"/>
+	</object>
+	<object access-modifier="private" name="txtPosition" display-name="txtPosition" uuid="e4602fa9-82f5-4ec9-90db-6225e0849e12" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+		<designed target="X" value="746" ver="2"/>
+		<designed target="Y" value="534" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="510" ver="2"/>
+		<designed target="Height" value="90" ver="2"/>
+		<designed target="Text" value="NAME" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,18,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="TextAlignment" value="132" ver="2"/>
+		<do-trace access-modifier="private" target="Text" ver="2">
+			<body>
+				<![CDATA[Name1]]>
+			</body>
+		</do-trace>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Name1" display-name="Name1" uuid="159c4ff6-2a9b-49f9-8417-c81866b3e998" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Source" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Path" ver="5" value="QI7E2.OutDesc"/>
+	</object>
+	<object access-modifier="private" name="Name1_1" display-name="Name1_1" uuid="fc91b29b-d20f-429e-9e27-037ad1c90c12" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Source" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Path" ver="5" value="QI7E2.OutPos"/>
+	</object>
+	<object access-modifier="private" name="Name1_2" display-name="Name1_2" uuid="119c6f77-bb47-4260-bccb-e3de4a0ab62b" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Source" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Path" ver="5" value="QI7E2.OutUn"/>
+	</object>
+	<object access-modifier="private" name="txtPosition_1" display-name="txtPosition_1" uuid="a7176b18-011e-4b97-922d-a374e658a38a" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+		<designed target="X" value="756" ver="2"/>
+		<designed target="Y" value="636" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="510" ver="2"/>
+		<designed target="Height" value="90" ver="2"/>
+		<designed target="Text" value="NAME" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,18,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="TextAlignment" value="132" ver="2"/>
+		<do-trace access-modifier="private" target="Text" ver="2">
+			<body>
+				<![CDATA[Name1_1]]>
+			</body>
+		</do-trace>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="txtPosition_2" display-name="txtPosition_2" uuid="3d8fad5d-e565-47b3-bee7-1d644f19aa02" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+		<designed target="X" value="764" ver="2"/>
+		<designed target="Y" value="750" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="510" ver="2"/>
+		<designed target="Height" value="90" ver="2"/>
+		<designed target="Text" value="NAME" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,18,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="TextAlignment" value="132" ver="2"/>
+		<do-trace access-modifier="private" target="Text" ver="2">
+			<body>
+				<![CDATA[Name1_2]]>
+			</body>
+		</do-trace>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+	</object>
+</type>
+

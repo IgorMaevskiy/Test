@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CompositeSourcesSettings>
+  <SetDuo>
+    <OneCompositeSourceSettings>
+      <RequestObjectTag>false</RequestObjectTag>
+      <RequestObjectURL>false</RequestObjectURL>
+      <ObjectUrlSignalName>FormURL</ObjectUrlSignalName>
+      <RequestHistoryServerTime>false</RequestHistoryServerTime>
+      <HistoryAddingMode>SourceTime</HistoryAddingMode>
+      <RequestBoundsSpecial>false</RequestBoundsSpecial>
+      <Name>Тренды</Name>
+      <UserSignalTreeFileName>C:\PROJ\config\Settings.xml</UserSignalTreeFileName>
+      <OperativeSources>
+        <SourceConnectionParam>
+          <HostName>localhost</HostName>
+          <ServerName>SUER.OPCDAServer.AccessPoint</ServerName>
+          <Url>opcda://localhost/SUER.OPCDAServer.AccessPoint/{c39f226e-c568-48f3-a191-2f983d612b52}</Url>
+        </SourceConnectionParam>
+      </OperativeSources>
+      <HistorySources>
+        <SourceConnectionParam>
+          <HostName>localhost</HostName>
+          <ServerName>SUER.HDAServer.AccessPoint</ServerName>
+          <Url>opchda://localhost/SUER.HDAServer.AccessPoint/{8eaeba97-c8b2-440a-9d98-b52f87d3b10e}</Url>
+        </SourceConnectionParam>
+      </HistorySources>
+      <IFixSources />
+    </OneCompositeSourceSettings>
+  </SetDuo>
+</CompositeSourcesSettings>

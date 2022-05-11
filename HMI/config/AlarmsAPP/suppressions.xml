@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SuppressionsSettings Version="3.27.5">
+  <AllowBlockIndefinite>false</AllowBlockIndefinite>
+  <AllowSuppressIndefinite>false</AllowSuppressIndefinite>
+  <AllowSuppressInterval>true</AllowSuppressInterval>
+  <AllowSuppressCalendar>false</AllowSuppressCalendar>
+  <Intervals>
+    <Interval>
+      <Name>бессрочно</Name>
+      <Size d4p1:nil="true" xmlns:d4p1="http://www.w3.org/2001/XMLSchema-instance" />
+    </Interval>
+    <Interval>
+      <Name>5 минут</Name>
+      <Size>5</Size>
+    </Interval>
+    <Interval>
+      <Name>10 минут</Name>
+      <Size>10</Size>
+    </Interval>
+    <Interval>
+      <Name>15 минут</Name>
+      <Size>15</Size>
+    </Interval>
+    <Interval>
+      <Name>20 минут</Name>
+      <Size>20</Size>
+    </Interval>
+    <Interval>
+      <Name>30 минут</Name>
+      <Size>30</Size>
+    </Interval>
+    <Interval>
+      <Name>1 час</Name>
+      <Size>60</Size>
+    </Interval>
+    <Interval>
+      <Name>2 часа</Name>
+      <Size>120</Size>
+    </Interval>
+  </Intervals>
+</SuppressionsSettings>

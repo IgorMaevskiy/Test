@@ -1,0 +1,376 @@
+<type access-modifier="private" name="Бензовоз_СУЭР" display-name="Бензовоз_СУЭР" uuid="2778bc47-5b78-4d50-8bf3-b7f4cd5feea6" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14" ver="3">
+	<designed target="X" value="0" ver="3"/>
+	<designed target="Y" value="0" ver="3"/>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Rotation" value="0" ver="3"/>
+	<designed target="Scale" value="1" ver="3"/>
+	<designed target="Visible" value="true" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<designed target="Enabled" value="true" ver="3"/>
+	<designed target="Tooltip" value="" ver="3"/>
+	<object access-modifier="private" name="Верхняя_часть_на_кабине" display-name="Верхняя_часть_на_кабине" uuid="79992be1-c438-4c34-920e-66fab0b7cbf0" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-560" ver="3"/>
+		<designed target="Y" value="395" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="40" ver="3"/>
+		<designed target="Height" value="20" ver="3"/>
+		<designed target="RoundingRadius" value="0" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffffed00" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Поручни_для_зеркал" display-name="Поручни_для_зеркал" uuid="c6d6fc41-5a7c-41ad-b6ca-8a9501e3452a" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-585" ver="3"/>
+		<designed target="Y" value="430" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="266.333" ver="3"/>
+		<designed target="Height" value="70" ver="3"/>
+		<designed target="RoundingRadius" value="5" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="4278190080" ver="3"/>
+		<designed target="BrushStyle" value="0" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Колесо_1" display-name="Колесо_1" uuid="9c57f610-6b13-4c12-bfb0-8fea85af49d4" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-566" ver="3"/>
+		<designed target="Y" value="672" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="22" ver="3"/>
+		<designed target="Height" value="35" ver="3"/>
+		<designed target="RoundingRadius" value="4" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="5" ver="3"/>
+		<designed target="BrushColor" value="0xff161616" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Колесо_2" display-name="Колесо_2" uuid="e6391681-4949-4e08-8927-566d995bfcad" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-545" ver="3"/>
+		<designed target="Y" value="672" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="22" ver="3"/>
+		<designed target="Height" value="35" ver="3"/>
+		<designed target="RoundingRadius" value="4" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="5" ver="3"/>
+		<designed target="BrushColor" value="0xff161616" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Колесо_3" display-name="Колесо_3" uuid="73c3118b-5bd5-425e-8569-0c63f3459bb2" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-379" ver="3"/>
+		<designed target="Y" value="672" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="22" ver="3"/>
+		<designed target="Height" value="35" ver="3"/>
+		<designed target="RoundingRadius" value="4" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="5" ver="3"/>
+		<designed target="BrushColor" value="0xff161616" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Колесо_4" display-name="Колесо_4" uuid="bb75c3c7-0c80-4ffb-befb-1de17de68731" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-358" ver="3"/>
+		<designed target="Y" value="672" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="22" ver="3"/>
+		<designed target="Height" value="35" ver="3"/>
+		<designed target="RoundingRadius" value="4" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="5" ver="3"/>
+		<designed target="BrushColor" value="0xff161616" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Кабина_верх" display-name="Кабина_верх" uuid="37d28170-d742-4d98-be94-0404798e4a05" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-571" ver="3"/>
+		<designed target="Y" value="411" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="239" ver="3"/>
+		<designed target="Height" value="198" ver="3"/>
+		<designed target="RoundingRadius" value="5" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xff244082" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Люк_цистерны1" display-name="Люк_цистерны1" uuid="52103927-6ef1-49e2-8bc0-387b87016dbf" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-490" ver="3"/>
+		<designed target="Y" value="401" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="77" ver="3"/>
+		<designed target="Height" value="29" ver="3"/>
+		<designed target="RoundingRadius" value="0" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffadadad" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Цистерна" display-name="Цистерна" uuid="7ab2dcb6-8166-4b8d-bfa8-2dfa58cbd516" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-571" ver="3"/>
+		<designed target="Y" value="423" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="239" ver="3"/>
+		<designed target="Height" value="165" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffadadad" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Кабина_средняя" display-name="Кабина_средняя" uuid="a9549017-d702-4a24-bdd7-81c6d47f7dd9" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-573" ver="3"/>
+		<designed target="Y" value="602" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="243" ver="3"/>
+		<designed target="Height" value="29" ver="3"/>
+		<designed target="RoundingRadius" value="1" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffadadad" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Кабина_низ" display-name="Кабина_низ" uuid="584df9f2-174d-4523-8120-2f6e5d7f4502" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-573" ver="3"/>
+		<designed target="Y" value="630" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="243" ver="3"/>
+		<designed target="Height" value="44" ver="3"/>
+		<designed target="RoundingRadius" value="1" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xff244082" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Слив_цистерны1" display-name="Слив_цистерны1" uuid="835c5a19-7b84-41e8-8fd5-8bf7f5a21476" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-472" ver="3"/>
+		<designed target="Y" value="555" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="41" ver="3"/>
+		<designed target="Height" value="20" ver="3"/>
+		<designed target="RoundingRadius" value="0" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffadadad" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Фара_левая" display-name="Фара_левая" uuid="006d8ce0-d1be-495a-81fd-c7bcbba35bb5" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-513" ver="3"/>
+		<designed target="Y" value="610" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="17" ver="3"/>
+		<designed target="Height" value="17" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffffffff" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Фара_правая" display-name="Фара_правая" uuid="b9e51e67-a2b5-4f83-9429-dcb3ff98423c" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-407" ver="3"/>
+		<designed target="Y" value="610" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="17" ver="3"/>
+		<designed target="Height" value="17" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffffffff" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Зеркало_левое" display-name="Зеркало_левое" uuid="4d7d72fd-d03d-480d-a333-d86d26090a66" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-595" ver="3"/>
+		<designed target="Y" value="445" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="18" ver="3"/>
+		<designed target="Height" value="33.5" ver="3"/>
+		<designed target="RoundingRadius" value="3" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffffffff" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Зеркало_правое" display-name="Зеркало_правое" uuid="841b28e4-ad18-4a18-a6d2-19ab4730ad24" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-325" ver="3"/>
+		<designed target="Y" value="445" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="18" ver="3"/>
+		<designed target="Height" value="33.5" ver="3"/>
+		<designed target="RoundingRadius" value="3" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffffffff" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Люк_цистерны2" display-name="Люк_цистерны2" uuid="6eb150fa-82b0-473e-803e-ef719938cc53" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-478" ver="3"/>
+		<designed target="Y" value="393" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="55" ver="3"/>
+		<designed target="Height" value="27" ver="3"/>
+		<designed target="RoundingRadius" value="0" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xffadadad" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Слив_цистерны2" display-name="Слив_цистерны2" uuid="b6ae5d22-460a-48be-bac5-e5ceb28d8720" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-459" ver="3"/>
+		<designed target="Y" value="553" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="15" ver="3"/>
+		<designed target="Height" value="6" ver="3"/>
+		<designed target="RoundingRadius" value="0" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="4278190080" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Низ" display-name="Низ" uuid="696f0957-59e9-462a-9bf5-840bf4675f80" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-553" ver="3"/>
+		<designed target="Y" value="658" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="203" ver="3"/>
+		<designed target="Height" value="15" ver="3"/>
+		<designed target="RoundingRadius" value="0" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xffadadad" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+	</object>
+</type>
+

@@ -1,0 +1,272 @@
+<type access-modifier="private" name="AI_НСХПВ" display-name="AI_НСХПВ" uuid="8523a02e-7fa1-4c50-aff0-b285ebca309c" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="01f98d2f-eea0-406e-8bb6-2f5d288a139e" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+		<designed target="X" value="0" ver="2"/>
+		<designed target="Y" value="0" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="100" ver="2"/>
+		<designed target="Height" value="40" ver="2"/>
+		<designed target="RoundingRadius" value="0" ver="2"/>
+		<designed target="PenColor" value="0xff000000" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="1" ver="2"/>
+		<designed target="BrushColor" value="0xffd4d4d4" ver="2"/>
+		<designed target="BrushStyle" value="1" ver="2"/>
+		<object access-modifier="private" name="Rectangle_2" display-name="Rectangle_2" uuid="9e1b10ce-5a5c-4447-b34e-a304e62c54cd" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="15" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="100" ver="2"/>
+			<designed target="Height" value="25" ver="2"/>
+			<designed target="RoundingRadius" value="0" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<object access-modifier="private" name="txtValue" display-name="txtValue" uuid="62b50457-aa70-45ea-ad88-4919465c9f71" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2" cardinal="1">
+				<designed target="X" value="5" ver="2"/>
+				<designed target="Y" value="5" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="52" ver="2"/>
+				<designed target="Height" value="15" ver="2"/>
+				<designed target="Text" value="0.0" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="TextAlignment" value="130" ver="2"/>
+				<object access-modifier="private" name="FormatFloat_1" display-name="FormatFloat_1" uuid="c361a141-f5e4-4e12-8ee7-1820b4acf053" base-type="FormatFloat" base-type-id="0b9dd5b4-9b68-4bbe-92b2-eb6fb5617d8e" ver="2">
+					<designed target="DigitsCount" value="1" ver="2"/>
+					<init target="DigitsCount" ver="2" ref="Формат"/>
+				</object>
+				<object access-modifier="private" name="OutputFormatter_1" display-name="OutputFormatter_1" uuid="0c766fd4-e2ab-4b71-8576-287631a09a68" base-type="OutputFormatter" base-type-id="9095fd20-4489-4cca-bd27-49ff94391a32" ver="2">
+					<designed target="InValue" value="" ver="2"/>
+					<init target="Format" ver="2" ref="FormatFloat_1"/>
+					<do-trace access-modifier="private" target="InValue" ver="4">
+						<body>
+							<![CDATA[Value]]>
+						</body>
+					</do-trace>
+				</object>
+				<do-trace access-modifier="private" target="Text" ver="2">
+					<conditional-expr>
+						<condition>
+							<![CDATA[OutputFormatter_1.OutValue == ""]]>
+						</condition>
+						<expr>
+							<![CDATA["NaN"
+]]>
+						</expr>
+					</conditional-expr>
+					<default-expr>
+						<expr>
+							<![CDATA[OutputFormatter_1.OutValue]]>
+						</expr>
+					</default-expr>
+				</do-trace>
+				<designed target="ZValue" value="0" ver="4"/>
+				<designed target="Opacity" value="1" ver="4"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[Value.Quality<192]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffa8a8a8]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[StateErrorHH.Value || StateErrorLL.Value]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffffaaff]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[StateLL || StateHH || Errors]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[StateL || StateH || Warnings]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffffff00]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[(!StateL.Value && !StateH.Value && !StateLL.Value && !StateHH.Value)]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</conditional-expr>
+			</do-trace>
+			<init target="Focus" ver="2" value="false"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+		</object>
+		<object access-modifier="private" name="txtName" display-name="txtName" uuid="bc955625-ec02-4aa8-a5ab-c2f9cac8dd88" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="100" ver="2"/>
+			<designed target="Height" value="15" ver="2"/>
+			<designed target="Text" value="NAME" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,7,-1,5,75,0,0,0,0,0,Bold" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="132" ver="2"/>
+			<do-trace access-modifier="private" target="Text" ver="2">
+				<body>
+					<![CDATA[Position]]>
+				</body>
+			</do-trace>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+		</object>
+		<object access-modifier="private" name="txtUnit" display-name="txtUnit" uuid="b0ae0071-2e97-49c1-a039-1b656dc2a199" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="60" ver="2"/>
+			<designed target="Y" value="21" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="40" ver="2"/>
+			<designed target="Height" value="15" ver="2"/>
+			<designed target="Text" value="Unit" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,8,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="65" ver="2"/>
+			<do-trace access-modifier="private" target="Text" ver="2">
+				<body>
+					<![CDATA[Units]]>
+				</body>
+			</do-trace>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+		</object>
+		<do-on access-modifier="private" name="Handler_5" display-name="Handler_5" ver="2" event="MouseRightClick" form-action="open-new" form-by-id="false">
+			<object access-modifier="private" uuid="3ebc21ff-0d29-41a2-a9fc-9e457ae525e2" base-type="AP_Trends" base-type-id="88e6a93e-f7fd-4daa-8580-be01f8f67349" ver="2">
+				<init target="Source" ver="2" ref="here.OpcSource"/>
+			</object>
+		</do-on>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-on access-modifier="private" name="Handler_6" display-name="Handler_6" ver="4" event="MouseEnter">
+			<body kind="om">
+				<![CDATA[me.PenWidth = 2;
+Rectangle_2.PenWidth = 2;]]>
+			</body>
+		</do-on>
+		<do-on access-modifier="private" name="Handler_7" display-name="Handler_7" ver="4" event="MouseLeave">
+			<body kind="om">
+				<![CDATA[me.PenWidth = 1;
+Rectangle_2.PenWidth = 1;]]>
+			</body>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="OpcSource" display-name="OpcSource" uuid="c6bdb4cd-6d3a-4c64-8b08-05c48559e767" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="Path" ver="3" ref="Путь"/>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+	</object>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="4f7dcb17-eb97-40d1-9c06-0434aad1f69c" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="2"/>
+	<param access-modifier="private" name="Путь" display-name="Путь" uuid="e9dd9f60-4683-4ec5-90c3-c323668123d7" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<object access-modifier="private" name="Description" display-name="Description" uuid="3656799d-ca05-4c23-a4e6-92c71bf1d0aa" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Description"/>
+	</object>
+	<object access-modifier="private" name="Position" display-name="Position" uuid="20aff410-6faf-403f-96d5-a6f17c442dbb" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="3" value="Position"/>
+	</object>
+	<object access-modifier="private" name="Units" display-name="Units" uuid="7e78da8b-3860-4fdc-9f9e-e1422d7d292c" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="3" value="Units"/>
+	</object>
+	<object access-modifier="private" name="Value" display-name="Value" uuid="314f9deb-9b30-439f-8421-adf3d41f3ac6" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="2" value="Value"/>
+	</object>
+	<object access-modifier="private" name="StateHH" display-name="StateHH" uuid="84bba38a-c865-44d7-b237-a8f5c98d682e" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.AlarmValueHH"/>
+	</object>
+	<object access-modifier="private" name="StateH" display-name="StateH" uuid="5f44e964-0af6-46ff-a8ec-477ff4725d6b" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.AlarmValueH"/>
+	</object>
+	<object access-modifier="private" name="StateL" display-name="StateL" uuid="3f3a5124-06ec-470e-a4e8-3ffa536a9047" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.AlarmValueL"/>
+	</object>
+	<object access-modifier="private" name="StateLL" display-name="StateLL" uuid="92eaad50-40bc-4c44-a42b-8355e4fa477d" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.AlarmValueLL"/>
+	</object>
+	<object access-modifier="private" name="StateErrorHH" display-name="StateErrorHH" uuid="732b4b06-6e53-4484-a936-a455ae24e092" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.ErrorHH"/>
+	</object>
+	<object access-modifier="private" name="StateErrorLL" display-name="StateErrorLL" uuid="9bc5da7b-ce0d-4bfe-932a-4b2d60713cd2" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.ErrorLL"/>
+	</object>
+	<param access-modifier="private" name="Формат" display-name="Формат" uuid="52c1d043-2034-4a86-9b67-c5a9f2f8e9ff" base-type="uint1" base-type-id="f73099bc-ee13-42cf-82bb-87368b826707" ver="2"/>
+	<init target="Формат" ver="2" value="1"/>
+	<do-trace access-modifier="private" target="Tooltip" ver="2">
+		<body>
+			<![CDATA[Description]]>
+		</body>
+	</do-trace>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<object access-modifier="private" name="Warnings" display-name="Warnings" uuid="85b69501-df99-4000-a58d-79414ccdb91c" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.Warnings"/>
+	</object>
+	<object access-modifier="private" name="Errors" display-name="Errors" uuid="76c6432c-9a98-43a4-bc48-043f76bf68ae" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Value" ver="2" value="false"/>
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Status.Errors"/>
+	</object>
+</type>
+

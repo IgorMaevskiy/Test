@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ColorSettings Version="3.16">
+  <DefaultStyle>
+    <Foreground>Black</Foreground>
+    <Background>White</Background>
+  </DefaultStyle>
+  <SelectedRowStyle>
+    <Foreground>Black</Foreground>
+    <Background>highlight</Background>
+  </SelectedRowStyle>
+  <AcknowledgedStyle>
+    <Foreground>Black</Foreground>
+    <Background>White</Background>
+  </AcknowledgedStyle>
+  <AcknowledgedStyleForAllColumns>false</AcknowledgedStyleForAllColumns>
+  <FlashStyleFields>
+    <Field>LocalActiveTime</Field>
+  </FlashStyleFields>
+  <FlashStyleToAllFields>true</FlashStyleToAllFields>
+  <InactiveEventStylePeriod>0</InactiveEventStylePeriod>
+  <InactiveEventStyleEnabled>false</InactiveEventStyleEnabled>
+  <Styles>
+    <EventStyle>
+      <SubconditionName />
+      <Severity>1-100</Severity>
+      <SeverityGroup />
+      <DefaultStyle>
+        <Foreground>Black</Foreground>
+        <Background>Silver</Background>
+      </DefaultStyle>
+      <FlashStyle>
+        <Foreground>Black</Foreground>
+        <Background>White</Background>
+      </FlashStyle>
+      <FlashPeriod>0</FlashPeriod>
+    </EventStyle>
+    <EventStyle>
+      <SubconditionName />
+      <Severity>101-300</Severity>
+      <SeverityGroup />
+      <DefaultStyle>
+        <Foreground>Black</Foreground>
+        <Background>Aqua</Background>
+      </DefaultStyle>
+      <FlashStyle>
+        <Foreground>Black</Foreground>
+        <Background>White</Background>
+      </FlashStyle>
+      <FlashPeriod>0</FlashPeriod>
+    </EventStyle>
+    <EventStyle>
+      <SubconditionName />
+      <Severity>301-500</Severity>
+      <SeverityGroup />
+      <DefaultStyle>
+        <Foreground>Black</Foreground>
+        <Background>Yellow</Background>
+      </DefaultStyle>
+      <FlashStyle>
+        <Foreground>Black</Foreground>
+        <Background>White</Background>
+      </FlashStyle>
+      <FlashPeriod>0</FlashPeriod>
+    </EventStyle>
+    <EventStyle>
+      <SubconditionName />
+      <Severity>501-700</Severity>
+      <SeverityGroup />
+      <DefaultStyle>
+        <Foreground>Black</Foreground>
+        <Background>#FF8080</Background>
+      </DefaultStyle>
+      <FlashStyle>
+        <Foreground>#004080</Foreground>
+        <Background>White</Background>
+      </FlashStyle>
+      <FlashPeriod>1</FlashPeriod>
+    </EventStyle>
+    <EventStyle>
+      <SubconditionName />
+      <Severity>701-999</Severity>
+      <SeverityGroup />
+      <DefaultStyle>
+        <Foreground>White</Foreground>
+        <Background>Red</Background>
+      </DefaultStyle>
+      <FlashStyle>
+        <Foreground>#FF8040</Foreground>
+        <Background>White</Background>
+      </FlashStyle>
+      <FlashPeriod>0.5</FlashPeriod>
+    </EventStyle>
+  </Styles>
+</ColorSettings>

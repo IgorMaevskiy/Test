@@ -1,0 +1,29 @@
+<object access-modifier="private" name="Security" display-name="Security" uuid="e5dd3e76-c0d9-4035-8d3b-2d07e172b321" base-type="JustDummy" base-type-id="34bc054d-53be-4c82-873b-bd509d7c7c3b" ver="2">
+	<object access-modifier="private" name="SecurityContext" display-name="SecurityContext" uuid="f2e387e6-4c6b-4508-bbad-02c698f84fbe" base-type="SecurityContext" base-type-id="d9cb0fff-b70a-4e2d-833d-3f73cf74e0dd" ver="2"/>
+	<object access-modifier="private" name="BoolToken_1" display-name="BoolToken_1" uuid="73353f09-c87c-4271-a710-1cd2a8dec588" base-type="BoolToken" base-type-id="9cc1c61e-9310-406a-8f93-18028f747d59" ver="2">
+		<init target="SecurityContext" ver="2" ref="unit.Security.SecurityContext"/>
+		<init target="Application" ver="2" value="SUER.HMI"/>
+		<init target="Right" ver="2" value="OpenPopup"/>
+	</object>
+	<object access-modifier="private" name="Admin" display-name="Admin" uuid="709bea12-f7f8-42e7-91f4-6d1f4d9cf242" base-type="BoolToken" base-type-id="9cc1c61e-9310-406a-8f93-18028f747d59" ver="2">
+		<init target="SecurityContext" ver="2" ref="unit.Security.SecurityContext"/>
+		<init target="Application" ver="2" value="SUER.HMI"/>
+		<init target="Right" ver="2" value="Admin"/>
+	</object>
+	<object access-modifier="private" name="Engineer" display-name="Engineer" uuid="b71197f6-74ac-4342-987d-09fd6ed28da7" base-type="BoolToken" base-type-id="9cc1c61e-9310-406a-8f93-18028f747d59" ver="2">
+		<init target="SecurityContext" ver="2" ref="unit.Security.SecurityContext"/>
+		<init target="Application" ver="2" value="AP.HMI"/>
+		<init target="Right" ver="2" value="Engineer"/>
+	</object>
+	<object access-modifier="private" name="SeniorOper" display-name="SeniorOper" uuid="dbccc0c2-863c-49a7-9b7c-6dcbabda0c62" base-type="BoolToken" base-type-id="9cc1c61e-9310-406a-8f93-18028f747d59" ver="2">
+		<init target="SecurityContext" ver="2" ref="unit.Security.SecurityContext"/>
+		<init target="Application" ver="2" value="SUER.HMI"/>
+		<init target="Right" ver="2" value="SeniorOper"/>
+	</object>
+	<object access-modifier="private" name="Oper" display-name="Oper" uuid="5d0fd4cb-3c92-4f2a-ab65-69c04617f714" base-type="BoolToken" base-type-id="9cc1c61e-9310-406a-8f93-18028f747d59" ver="2">
+		<init target="SecurityContext" ver="2" ref="unit.Security.SecurityContext"/>
+		<init target="Application" ver="2" value="SUER.HMI"/>
+		<init target="Right" ver="2" value="Oper"/>
+	</object>
+</object>
+

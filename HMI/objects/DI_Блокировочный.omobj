@@ -1,0 +1,122 @@
+<type access-modifier="private" name="DI_Блокировочный" display-name="DI_Блокировочный" uuid="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<object access-modifier="private" name="Rectangle_1" display-name="Rectangle_1" uuid="3618f384-3ad0-4eb0-b601-cc295019754c" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+		<designed target="X" value="0" ver="2"/>
+		<designed target="Y" value="0" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="90" ver="2"/>
+		<designed target="Height" value="30" ver="2"/>
+		<designed target="RoundingRadius" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="1" ver="2"/>
+		<designed target="BrushColor" value="0xff9d9d9d" ver="2"/>
+		<designed target="BrushStyle" value="1" ver="2"/>
+		<object access-modifier="private" name="Text_1" display-name="Text_1" uuid="7854a2aa-9a01-47f4-b926-9b9826955952" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="-1" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="90" ver="2"/>
+			<designed target="Height" value="30" ver="2"/>
+			<designed target="Text" value="NAME" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,8,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="132" ver="2"/>
+			<do-trace access-modifier="private" target="Text" ver="2">
+				<body>
+					<![CDATA[Position]]>
+				</body>
+			</do-trace>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+		</object>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseEnter">
+			<body kind="om">
+				<![CDATA[Rectangle_1.PenWidth=2;]]>
+			</body>
+		</do-on>
+		<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="MouseLeave">
+			<body kind="om">
+				<![CDATA[Rectangle_1.PenWidth=1;]]>
+			</body>
+		</do-on>
+		<do-trace access-modifier="private" target="BrushColor" ver="2">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Value.Quality<192 && Value.Quality !=68]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff9d9d9d]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00ff00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<do-trace access-modifier="private" target="Tooltip" ver="4">
+			<body>
+				<![CDATA[Description]]>
+			</body>
+		</do-trace>
+		<do-on access-modifier="private" name="Handler_4" display-name="Handler_4" ver="2" event="MouseClick" form-by-id="false" form-action="open-new">
+			<object access-modifier="private" uuid="4b91c915-8e92-4b4c-acc1-fd94e75b6edb" base-type="DI_Form" base-type-id="85bc7937-4590-4a6f-915a-2e9ec9d9eb22" ver="4">
+				<init target="Источник" ver="4" ref="here.OpcSource"/>
+			</object>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="OpcSource" display-name="OpcSource" uuid="35a09374-438b-4bbe-bee5-76cddbbf1bb3" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="ParentSource" ver="2" ref="Источник"/>
+		<init target="Path" ver="2" ref="Путь"/>
+	</object>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="bb9584ee-0fcc-42aa-8f3b-7de789c86a06" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="2"/>
+	<param access-modifier="private" name="Путь" display-name="Путь" uuid="b4e95c44-2ecd-42fd-a795-e3ad26034a86" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<object access-modifier="private" name="Description" display-name="Description" uuid="d36bc351-78ab-4c61-ba4e-66289b196ef2" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Description"/>
+	</object>
+	<object access-modifier="private" name="Position" display-name="Position" uuid="99911be8-b08e-4259-992a-245021c108e4" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="3" value="Position"/>
+	</object>
+	<object access-modifier="private" name="Value" display-name="Value" uuid="cd1232f2-348b-4e77-a212-ccd0172718e6" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="2" value="Value"/>
+	</object>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="713de963-c042-4220-bf01-44a0072ce7be" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="4"/>
+	<init target="Комментарий" ver="4" value="False - Зелёный, True - Красный"/>
+</type>
+

@@ -1,0 +1,1229 @@
+<type access-modifier="private" name="РВС_4900" display-name="РВС_4900" uuid="7e16c21a-5690-4378-a1a6-439633256ed0" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14" ver="3">
+	<designed target="X" value="0" ver="3"/>
+	<designed target="Y" value="0" ver="3"/>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Rotation" value="0" ver="3"/>
+	<designed target="Scale" value="1" ver="3"/>
+	<designed target="Visible" value="true" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<designed target="Enabled" value="true" ver="3"/>
+	<designed target="Tooltip" value="" ver="3"/>
+	<object access-modifier="private" name="State_Rectangle" display-name="State_Rectangle" uuid="23dad159-b6c5-49af-89b1-4fef65eec744" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="3">
+		<designed target="X" value="-950" ver="3"/>
+		<designed target="Y" value="-100" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="false" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="300" ver="3"/>
+		<designed target="Height" value="270" ver="3"/>
+		<designed target="RoundingRadius" value="0" ver="3"/>
+		<designed target="PenColor" value="0xffff0000" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="3" ver="3"/>
+		<designed target="BrushColor" value="4278190080" ver="3"/>
+		<designed target="BrushStyle" value="0" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="be93660f-3c2a-401b-9205-9eaaacafccae" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Прямоугольник статуса"/>
+		<do-trace access-modifier="private" target="Visible" ver="3">
+			<body>
+				<![CDATA[LSA1 || LSA2]]>
+			</body>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Body" display-name="Body" uuid="849ac7eb-b515-4d96-8cbf-b1673cbaa615" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+		<designed target="X" value="-949.784" ver="3"/>
+		<designed target="Y" value="-36.3923" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="289.85405" ver="3"/>
+		<designed target="Height" value="141.83481" ver="3"/>
+		<designed target="PenColor" value="0xff000000" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff7f7f7f" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="57ecffe2-6d78-415b-80ba-fa386b7ef2c2" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="3.51095" ver="3"/>
+			<designed target="Y" value="-1.34381" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="dbc1bdcf-3783-4e6e-82d1-f8a4bdf6a6c7" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="14.0758" ver="3"/>
+			<designed target="Y" value="130.75" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="1a1e7c80-0eb1-4087-abca-acba8222656a" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="271.934" ver="3"/>
+			<designed target="Y" value="140.491" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="4eb10af3-871a-4e72-bf7c-cd92f011f6bb" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="293.365" ver="3"/>
+			<designed target="Y" value="8.14034" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="57ad5004-5c3e-4447-9045-5570c2ec4004" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="3.51095" ver="3"/>
+			<designed target="Y" value="-1.34381" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="0ba336c9-edf3-4e06-8a26-a0f64411ecbd" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Передняя стенка резервуара"/>
+	</object>
+	<object access-modifier="private" name="High_Ellipse" display-name="High_Ellipse" uuid="95e294c9-0dd1-41a7-9ef6-88c5b36204cc" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-946.333" ver="3"/>
+		<designed target="Y" value="-78.1667" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="2" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="290" ver="3"/>
+		<designed target="Height" value="90" ver="3"/>
+		<designed target="PenColor" value="0xff000000" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff969696" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="5f0e29d4-26a7-4241-b0e2-3255b7bd74e3" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Крыша резервуара"/>
+		<designed target="HoleSize" value="0" ver="5"/>
+	</object>
+	<object access-modifier="private" name="Low_Ellipse" display-name="Low_Ellipse" uuid="84c5f8ad-f939-4396-be88-33d772b5496b" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-935.963" ver="3"/>
+		<designed target="Y" value="33.7993" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="3" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="258.002" ver="3"/>
+		<designed target="Height" value="129.442" ver="3"/>
+		<designed target="PenColor" value="0xff000000" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff7f7f7f" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="0d86eea4-5ca9-482a-8000-da86fdc679ca" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Дно резервуара"/>
+		<designed target="HoleSize" value="0" ver="5"/>
+	</object>
+	<object access-modifier="private" name="Back" display-name="Back" uuid="4779c3b7-fb5e-44dd-9941-0de0d34a2b20" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+		<designed target="X" value="-419" ver="3"/>
+		<designed target="Y" value="-10.5" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="259.7" ver="3"/>
+		<designed target="Height" value="87.3" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="0" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff7f7f7f" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="15df5ac9-9f8a-45dc-8e73-3d0e85c5347d" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-515.884" ver="3"/>
+			<designed target="Y" value="105.066" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="89071016-20e7-451e-b935-9f7b98ad0ca1" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-518.39" ver="3"/>
+			<designed target="Y" value="59.6902" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="bc8f300f-97fe-4a98-9003-94992a116491" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-376.61" ver="3"/>
+			<designed target="Y" value="33.2966" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="a8f062ec-94a8-4710-8f9b-ff52a762daad" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-258.894" ver="3"/>
+			<designed target="Y" value="76.3384" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_6" display-name="Point_6" uuid="7c8eea51-00c6-40cf-ab74-e23627615ea6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-258.69" ver="3"/>
+			<designed target="Y" value="110.032" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_7" display-name="Point_7" uuid="633e8d52-0b51-4254-ada0-1c4f5df4ffb9" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-260.494" ver="3"/>
+			<designed target="Y" value="120.597" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_8" display-name="Point_8" uuid="86829130-6a08-4238-ab8d-359cee065ee3" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-515.382" ver="3"/>
+			<designed target="Y" value="104.559" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_9" display-name="Point_9" uuid="7c87382d-ef5b-499f-b3c6-54d211c2ab5e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-260.769" ver="3"/>
+			<designed target="Y" value="119.539" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="724c3a67-793b-4787-8f07-609083011c4c" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Задняя стенка резервуара"/>
+	</object>
+	<object access-modifier="private" name="Cistern_Name" display-name="Cistern_Name" uuid="ecdfe651-422e-4008-8b90-d29f5c60687a" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+		<designed target="X" value="-882.432" ver="3"/>
+		<designed target="Y" value="48.6854" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="170" ver="3"/>
+		<designed target="Height" value="58.5095" ver="3"/>
+		<designed target="Text" value="Р-x.x" ver="3"/>
+		<designed target="Font" value="Rockwell Extra Bold,36,-1,5,81,0,0,0,0,0,Обычный" ver="3"/>
+		<designed target="FontColor" value="0xff244082" ver="3"/>
+		<designed target="TextAlignment" value="132" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="fdade9e7-e40e-48db-9a0a-979bb49b0880" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Наименование резервуара"/>
+		<do-trace access-modifier="private" target="Text" ver="3">
+			<body>
+				<![CDATA[Position]]>
+			</body>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Fence_Low" display-name="Fence_Low" uuid="8d21efc5-c18d-4e21-8583-64a1784a7810" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-946.081" ver="3"/>
+		<designed target="Y" value="-86.1611" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="2" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="291.079" ver="3"/>
+		<designed target="Height" value="81.3257" ver="3"/>
+		<designed target="PenColor" value="0xff244082" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xff7f7f7f" ver="3"/>
+		<designed target="BrushStyle" value="0" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="d9dcaa8a-6ed8-4adb-b9f1-e567ece43440" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Верхний эллипс ограждений"/>
+	</object>
+	<object access-modifier="private" name="Fence_High" display-name="Fence_High" uuid="499727ac-323a-4bb9-a0e7-1758c4a8614a" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-946.562" ver="3"/>
+		<designed target="Y" value="-94.5056" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="1" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="294.23" ver="3"/>
+		<designed target="Height" value="76.4388" ver="3"/>
+		<designed target="PenColor" value="0xff244082" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="2" ver="3"/>
+		<designed target="BrushColor" value="0xff7f7f7f" ver="3"/>
+		<designed target="BrushStyle" value="0" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Line_1" display-name="Line_1" uuid="0cf80fca-1c74-471a-b920-6374f771933a" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="4.68088" ver="3"/>
+			<designed target="Y" value="29.4227" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.31552" ver="3"/>
+			<designed target="Height" value="17.077" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="6709c84a-d72d-4baa-b2a1-eb249b2ab857" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="36ded22a-2be6-4295-bf42-72331b9c862a" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.31552" ver="3"/>
+				<designed target="Y" value="17.077" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_2" display-name="Line_2" uuid="26439106-9991-407a-b0a2-ed8336bb700b" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="13.513" ver="3"/>
+			<designed target="Y" value="22.5399" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.00509" ver="3"/>
+			<designed target="Height" value="17.0788" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="e0e93178-baac-4d33-b419-4f0c6d111b8c" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="c9a521e3-02d9-4968-b33f-c136c80bfe42" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.00509" ver="3"/>
+				<designed target="Y" value="17.0788" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_3" display-name="Line_3" uuid="9fe74d42-29d3-4fec-ba21-63792416381a" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="25.4376" ver="3"/>
+			<designed target="Y" value="17.4001" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.812106" ver="3"/>
+			<designed target="Height" value="15.6877" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="3ef07a44-346d-4240-aec1-bce24867f768" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="713ec120-3618-4a63-b7e0-375afd323281" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.812106" ver="3"/>
+				<designed target="Y" value="15.6877" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_4" display-name="Line_4" uuid="51048d95-57d5-4afd-80fb-f075f0898e2b" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="6.88026" ver="3"/>
+			<designed target="Y" value="49.9789" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.58787" ver="3"/>
+			<designed target="Height" value="23.1439" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="541da60a-b9bb-49c9-b55c-ffa8fd2e7d11" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="335a4805-a000-44af-ba42-7f79595f5924" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.58787" ver="3"/>
+				<designed target="Y" value="23.1439" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_5" display-name="Line_5" uuid="2060037d-813a-4681-a973-79db285ac49c" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="21.062" ver="3"/>
+			<designed target="Y" value="58.1923" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.362288" ver="3"/>
+			<designed target="Height" value="24.2968" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="00a73e9c-3186-4bc5-8016-4ce85e05a258" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="705fa85e-b9ee-4385-bd5a-5d52af71d1c7" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.362288" ver="3"/>
+				<designed target="Y" value="24.2968" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_6" display-name="Line_6" uuid="fd268fe4-0ffe-4c3a-a219-2455cf9f3cb0" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="40.0752" ver="3"/>
+			<designed target="Y" value="64.6324" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.990119" ver="3"/>
+			<designed target="Height" value="25.8861" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="977ba623-7cfd-4c8c-a1df-2d313f0fd339" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="ee444dce-2466-4bf1-987c-f39c690ee9fd" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.990119" ver="3"/>
+				<designed target="Y" value="25.8861" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_7" display-name="Line_7" uuid="6a0b3082-dcc9-4eae-935f-492ac00605d5" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="66.7191" ver="3"/>
+			<designed target="Y" value="70.9467" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.13599" ver="3"/>
+			<designed target="Height" value="26.986" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="5cf57dab-8320-406a-97f1-bb1bd2271d28" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="48450099-5b0b-461b-ae16-ae18fa687f57" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.13599" ver="3"/>
+				<designed target="Y" value="26.986" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_8" display-name="Line_8" uuid="640710da-fda7-4771-8175-20b60c50cd46" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="98.8617" ver="3"/>
+			<designed target="Y" value="74.464" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.1" ver="3"/>
+			<designed target="Height" value="28.4446" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="ddb297ea-1314-4f3c-9ec9-92237423dad0" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="665c3621-ed10-4218-9e96-17e2b61131ab" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.1" ver="3"/>
+				<designed target="Y" value="28.4446" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_9" display-name="Line_9" uuid="2aeb0e51-e3ae-4d6c-bccb-1650b110423c" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="133.688" ver="3"/>
+			<designed target="Y" value="76.2024" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.147851" ver="3"/>
+			<designed target="Height" value="29.2013" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="2138c16b-8bff-4a0d-b7f5-3737a70d3479" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="81551832-a003-4870-96c4-3fba0cf6c74c" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.147851" ver="3"/>
+				<designed target="Y" value="29.2013" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_10" display-name="Line_10" uuid="7ee144a4-2f82-4a7c-b499-4cbf1a0123d6" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="169.938" ver="3"/>
+			<designed target="Y" value="76.6303" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.1" ver="3"/>
+			<designed target="Height" value="29.017" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="971a8c34-bcd3-4be7-ad9e-077c8f087c7a" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="6607e83e-1ca3-4c7c-b4db-933ec6a96b17" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.1" ver="3"/>
+				<designed target="Y" value="29.017" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_11" display-name="Line_11" uuid="29bc3bed-3ea4-4b9d-ad9b-e64b8ab064d1" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="204.523" ver="3"/>
+			<designed target="Y" value="73.5239" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.1" ver="3"/>
+			<designed target="Height" value="29.3153" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="20373821-b712-4f7b-ae75-8f578389dcfd" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="cfd8c8eb-cc81-4fc8-8551-403e3e650582" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.1" ver="3"/>
+				<designed target="Y" value="29.3153" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_12" display-name="Line_12" uuid="eadee0a5-6925-4115-bf31-6e8827877774" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="234.62" ver="3"/>
+			<designed target="Y" value="69.2977" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.18213" ver="3"/>
+			<designed target="Height" value="28.4954" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="7f47d283-ace9-4234-a7c6-147016a7511e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.19407" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="515001fb-86b3-429d-8cb0-5f908ab3833e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.0119407" ver="3"/>
+				<designed target="Y" value="28.4954" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_13" display-name="Line_13" uuid="74bd8a4c-3978-4d3d-8c85-09a946161237" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="259.114" ver="3"/>
+			<designed target="Y" value="62.9694" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.35371" ver="3"/>
+			<designed target="Height" value="27.6032" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="740fac95-9220-4911-a56a-c8a41db93ed5" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.35371" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="57bfd406-17da-4c1c-b616-bfb3c9e600df" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="27.6032" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_14" display-name="Line_14" uuid="51e2b5d7-1568-45c0-9af7-eab8ecebb69f" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="277.901" ver="3"/>
+			<designed target="Y" value="55.4932" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.29982" ver="3"/>
+			<designed target="Height" value="26.1604" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="680c7fda-ccf5-4236-8842-9159f9d5a976" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.49672" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="220fb6df-095e-4fc8-97f8-c51cb206abcf" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.196897" ver="3"/>
+				<designed target="Y" value="26.1604" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_15" display-name="Line_15" uuid="6c1ab68f-c69a-4a1a-b64a-537c62205fde" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="57.5683" ver="3"/>
+			<designed target="Y" value="8.26991" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.510406" ver="3"/>
+			<designed target="Height" value="15.5929" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="6f7ba17f-212b-40ea-a3da-1ec6b26c2acf" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="55d3e1c0-301a-4b87-ad3b-f5ce17f9c499" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.510406" ver="3"/>
+				<designed target="Y" value="15.5929" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_16" display-name="Line_16" uuid="87db53b3-5df3-4fa9-89f3-665991cf7bdd" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="75.2847" ver="3"/>
+			<designed target="Y" value="5.49201" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.50168" ver="3"/>
+			<designed target="Height" value="15.093" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="f96c18c2-f6bf-4e78-bbd2-c71fd50dff74" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="60ef6499-fcbe-420a-8916-8917e27c8b24" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.50168" ver="3"/>
+				<designed target="Y" value="15.093" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_17" display-name="Line_17" uuid="2d6cb8b4-11eb-4059-a9e1-24c05fa3dde3" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="40.3644" ver="3"/>
+			<designed target="Y" value="12.2925" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.815596" ver="3"/>
+			<designed target="Height" value="15.8876" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="40348895-a383-49f7-9d50-cdfcb7e81690" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="c2857544-4796-477d-b431-7592420c5b68" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.815596" ver="3"/>
+				<designed target="Y" value="15.8876" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_18" display-name="Line_18" uuid="954edf97-b2be-4e51-b8d9-35b567b1dd38" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="95.4065" ver="3"/>
+			<designed target="Y" value="3.29083" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.798144" ver="3"/>
+			<designed target="Height" value="14.8878" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="9cf7c6b4-171a-49c1-ba7e-a5090117cfb1" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="892c762f-a98b-418c-8b76-57b8ccfd5757" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.798144" ver="3"/>
+				<designed target="Y" value="14.8878" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_19" display-name="Line_19" uuid="254c5ffd-d763-49c6-b078-ecd8274e761f" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="115.496" ver="3"/>
+			<designed target="Y" value="1.2432" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.608646" ver="3"/>
+			<designed target="Height" value="15.4912" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="bb4ce02b-77e2-4297-8923-4cead0e266a3" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="185cdc27-119e-424a-9956-d4eabe628d56" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.608646" ver="3"/>
+				<designed target="Y" value="15.4912" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_20" display-name="Line_20" uuid="d618b9c1-70ec-40e0-9980-a41dfd84c51e" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="136.418" ver="3"/>
+			<designed target="Y" value="0.384251" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.312182" ver="3"/>
+			<designed target="Height" value="15.6964" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="18e48cb2-8b8a-4d17-be9f-4e07827b6d9b" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="b9e32cef-7007-4ed7-9020-416d7206e3a9" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.312182" ver="3"/>
+				<designed target="Y" value="15.6964" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_21" display-name="Line_21" uuid="04b784e3-3746-4d88-b7f3-58b021e02f67" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="158.265" ver="3"/>
+			<designed target="Y" value="0.0668048" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.517387" ver="3"/>
+			<designed target="Height" value="15.9928" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="803596ff-0b1d-48b6-afe9-22170dd95acb" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="9e402fa7-0894-460e-8bc7-86304de931b5" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.517387" ver="3"/>
+				<designed target="Y" value="15.9928" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_22" display-name="Line_22" uuid="34fb9ee9-a630-45e4-9297-cf92d5667331" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="179.462" ver="3"/>
+			<designed target="Y" value="1.53667" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.1" ver="3"/>
+			<designed target="Height" value="15.8535" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="648f4e0f-ccc9-4efa-8136-32c4f9c1717a" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="93e83337-485f-40bb-af3f-b9ab8706ff1b" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.1" ver="3"/>
+				<designed target="Y" value="15.8535" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_23" display-name="Line_23" uuid="2f36d023-e74b-44ae-86fe-efbc2bd81218" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="200.404" ver="3"/>
+			<designed target="Y" value="2.71719" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.1" ver="3"/>
+			<designed target="Height" value="17.7231" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="4d355833-31ff-438a-8432-c519af757e36" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="465bde2a-f923-453b-aae7-ce867219bd77" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.1" ver="3"/>
+				<designed target="Y" value="17.7231" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_24" display-name="Line_24" uuid="15ee91c6-4cfe-48b2-a616-62a0a1e65fea" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="220.251" ver="3"/>
+			<designed target="Y" value="5.02709" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="0.115866" ver="3"/>
+			<designed target="Height" value="18.5941" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="9e0da25a-845a-4cc4-8aa2-22155e576430" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="14d5265e-b5a1-4995-bf48-4c973935a7c4" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.115866" ver="3"/>
+				<designed target="Y" value="18.5941" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_25" display-name="Line_25" uuid="6bf5f105-06b5-4007-80db-bc04daf3bdb6" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="238.401" ver="3"/>
+			<designed target="Y" value="8.82454" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="1.30131" ver="3"/>
+			<designed target="Height" value="19.1375" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="b8f3e437-5bfc-4d5d-badf-34c7a0fe7577" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.37746" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="b73c792a-ce93-490b-b7ec-9b97de306684" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.0761459" ver="3"/>
+				<designed target="Y" value="19.1375" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_26" display-name="Line_26" uuid="08474ebc-b9ed-4cc9-adfd-59b1ceacb1d9" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="254.929" ver="3"/>
+			<designed target="Y" value="13.2327" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="2.67317" ver="3"/>
+			<designed target="Height" value="19.981" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="13ff6e85-380c-4fea-92c4-54c726c549e9" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="2.70017" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="e76af113-983e-453e-919e-9e6a114ae1c8" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0.0270017" ver="3"/>
+				<designed target="Y" value="19.981" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_27" display-name="Line_27" uuid="ed0d8ade-1130-4694-bf35-16b65d237f27" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="268.031" ver="3"/>
+			<designed target="Y" value="18.6361" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="3.10253" ver="3"/>
+			<designed target="Height" value="20.5695" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="1c1d1dc7-43b5-4d4f-a38e-a07b2c1c1e8b" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="4.21027" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="12a74138-1fc7-4ec0-902f-37266943681c" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.10774" ver="3"/>
+				<designed target="Y" value="20.5695" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_28" display-name="Line_28" uuid="f11ff1af-af00-447f-a7cb-c6bac667132d" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="279.499" ver="3"/>
+			<designed target="Y" value="24.5796" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="3.37631" ver="3"/>
+			<designed target="Height" value="22.0745" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="68751011-c0bd-45e9-831a-b059af626976" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="4.5818" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="992e2453-6659-4017-a50d-5f455fde4b0f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.20549" ver="3"/>
+				<designed target="Y" value="22.0745" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Line_29" display-name="Line_29" uuid="a273b3ce-f4ac-43e6-8558-35bc1bbf059d" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="286.717" ver="3"/>
+			<designed target="Y" value="34.5652" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="4.89877" ver="3"/>
+			<designed target="Height" value="20.8008" ver="3"/>
+			<designed target="PenColor" value="0xff244082" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="1492c38c-ef24-4f58-8412-9d80283de02e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="6.64784" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="8daa09ae-9387-4fad-b269-63ddc12a7c87" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="1.74907" ver="3"/>
+				<designed target="Y" value="20.8008" ver="3"/>
+			</object>
+		</object>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="fec9e826-8d76-49de-b798-82eedc5d2784" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Нижний эллипс ограждений"/>
+		<designed target="HoleSize" value="0" ver="5"/>
+	</object>
+	<object access-modifier="private" name="Back_Luke1" display-name="Back_Luke1" uuid="d410b8f3-3117-4457-8999-e1c7b7685a05" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-745.5" ver="3"/>
+		<designed target="Y" value="-58" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="5" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="16" ver="3"/>
+		<designed target="Height" value="10" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff000000" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="231f885d-908f-4c47-bb70-bb0225a223fb" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Нижний эллипс люка 1"/>
+	</object>
+	<object access-modifier="private" name="Back_Luke2" display-name="Back_Luke2" uuid="26ea3ad3-b997-4324-b977-9e57b3e396b2" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-730.5" ver="3"/>
+		<designed target="Y" value="-48" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="5" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="16" ver="3"/>
+		<designed target="Height" value="10" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff000000" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="ca4a46e5-f23d-4ada-8fc9-88ddc057c610" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Нижний эллипс люка 2"/>
+	</object>
+	<object access-modifier="private" name="Back_Luke3" display-name="Back_Luke3" uuid="b3527952-23dd-4ad8-b805-ce51414d5c48" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-715.5" ver="3"/>
+		<designed target="Y" value="-38" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="5" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="16" ver="3"/>
+		<designed target="Height" value="10" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff000000" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="03563edb-00f1-4329-b14d-350ac4367cfb" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Нижний эллипс люка 3"/>
+	</object>
+	<object access-modifier="private" name="Front_Luke1" display-name="Front_Luke1" uuid="492b5fad-e8e0-48ae-b5cd-5eb9da4ac96c" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-745" ver="3"/>
+		<designed target="Y" value="-60" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="5" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="15" ver="3"/>
+		<designed target="Height" value="10" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff244082" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="616be848-bb6a-4d09-b826-ca77656e68ca" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Верхний эллипс люка 1"/>
+	</object>
+	<object access-modifier="private" name="Front_Luke2" display-name="Front_Luke2" uuid="58c8866d-653e-4a92-bbb2-ba64d6f9d055" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-730" ver="3"/>
+		<designed target="Y" value="-50" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="5" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="15" ver="3"/>
+		<designed target="Height" value="10" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff244082" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="c4ced159-ceaa-486a-b4cc-4d5da14b220b" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Верхний эллипс люка 2"/>
+	</object>
+	<object access-modifier="private" name="Front_Luke3" display-name="Front_Luke3" uuid="9fdd16b1-246b-4290-b447-e5028b304a76" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="3">
+		<designed target="X" value="-715" ver="3"/>
+		<designed target="Y" value="-40" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="5" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="15" ver="3"/>
+		<designed target="Height" value="10" ver="3"/>
+		<designed target="PenColor" value="4278190080" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="1" ver="3"/>
+		<designed target="BrushColor" value="0xff244082" ver="3"/>
+		<designed target="BrushStyle" value="1" ver="3"/>
+		<designed target="PieAngle" value="360" ver="3"/>
+		<designed target="PieAngleStart" value="360" ver="3"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="800f9779-b8c5-47e9-92d9-a816065badb7" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Верхний эллипс люка 3"/>
+	</object>
+	<do-on access-modifier="private" name="Highlight" display-name="Highlight" ver="3" event="MouseEnter">
+		<body kind="om">
+			<![CDATA[// При наведении на объект выделить его
+
+High_Ellipse.PenWidth = 3;
+Low_Ellipse.PenWidth = 3;
+Body.PenWidth = 3;]]>
+		</body>
+	</do-on>
+	<do-on access-modifier="private" name="Highlight" display-name="Highlight" ver="3" event="MouseLeave">
+		<body kind="om">
+			<![CDATA[// При отведении курсора от объекта снять выделение
+
+High_Ellipse.PenWidth = 1;
+Low_Ellipse.PenWidth = 1;
+Body.PenWidth = 1;]]>
+		</body>
+	</do-on>
+	<object access-modifier="private" name="Control_Mode" display-name="Control_Mode" uuid="7d9e5966-df2b-47d9-ae28-fe4178d97990" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+		<designed target="X" value="-640" ver="2"/>
+		<designed target="Y" value="-100" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="30" ver="2"/>
+		<designed target="Height" value="30" ver="2"/>
+		<designed target="RoundingRadius" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="1" ver="2"/>
+		<designed target="BrushColor" value="0xffffff00" ver="2"/>
+		<designed target="BrushStyle" value="1" ver="2"/>
+		<object access-modifier="private" name="txtControl" display-name="txtControl" uuid="e065e3ed-15e9-4410-91d4-97436f947770" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="30" ver="2"/>
+			<designed target="Height" value="30" ver="2"/>
+			<designed target="Text" value="Р" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,16,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+			<designed target="FontColor" value="0xff000000" ver="2"/>
+			<designed target="TextAlignment" value="132" ver="2"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+		</object>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<init target="Visible" ver="3" value="false"/>
+	</object>
+	<object access-modifier="private" name="ApSource" display-name="ApSource" uuid="517e428c-9f35-4a42-ae9e-7f92eb300636" base-type="ApSource" base-type-id="966603da-f05e-4b4d-8ef0-919efbf8ab2c" ver="3">
+		<designed target="Active" value="true" ver="3"/>
+		<designed target="ReAdvise" value="0" ver="3"/>
+		<init target="ParentSource" ver="3" ref="Источник"/>
+		<init target="Path" ver="3" ref="Путь"/>
+	</object>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="61ee3c6b-b41d-44f2-81bf-0c47852d966f" base-type="ApSource" base-type-id="966603da-f05e-4b4d-8ef0-919efbf8ab2c" base-const="true" base-ref="true" ver="3"/>
+	<param access-modifier="private" name="Путь" display-name="Путь" uuid="15deede5-ce83-4a8c-a94b-c20178ae12ad" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<object access-modifier="private" name="Description" display-name="Description" uuid="b6bef8cd-61f0-48ed-a528-d6d8217a14db" base-type="ApItemString" base-type-id="11bc436c-015a-4db9-b901-0cc5c75e1239" ver="3">
+		<init target="Source" ver="3" ref="ApSource"/>
+		<init target="Path" ver="3" value="Description"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="39dda0e1-0f48-4b08-ba58-aef1011ca20f" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Описание резервуара"/>
+	</object>
+	<object access-modifier="private" name="Position" display-name="Position" uuid="3b7862e4-84ae-496b-aced-ebe0d525d14b" base-type="ApItemString" base-type-id="11bc436c-015a-4db9-b901-0cc5c75e1239" ver="3">
+		<init target="Source" ver="3" ref="ApSource"/>
+		<init target="Path" ver="3" value="Position"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="7469be27-ed81-4ce8-b687-fb01d9f65b65" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Позиционное обозначение резервуара"/>
+	</object>
+	<object access-modifier="private" name="Level" display-name="Level" uuid="a2489777-42ef-4254-bbc8-1c80ce370a09" base-type="ApItemFloat4" base-type-id="7acf87ec-1784-4671-926e-9a41ea8d8692" ver="3">
+		<init target="Source" ver="3" ref="ApSource"/>
+		<init target="Path" ver="3" value="LE.Value"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="338141fe-db42-4a0f-af52-78c394a361fc" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Уровень в резервуаре"/>
+	</object>
+	<object access-modifier="private" name="LSA1" display-name="LSA1" uuid="498f1aee-2e27-45c9-84a3-16d9341bfa4e" base-type="ApItemBool" base-type-id="e3f11724-0f76-4497-8d01-38fbb82fb844" ver="3">
+		<init target="Source" ver="3" ref="ApSource"/>
+		<init target="Path" ver="3" value="LSA1.Value"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="af8301b9-d5bc-4a28-81e2-ba651866a747" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Срабатывание первого дискретного аварийного сигнала"/>
+	</object>
+	<object access-modifier="private" name="LSA2" display-name="LSA2" uuid="526e042f-0394-4434-8138-cca9b1cc272c" base-type="ApItemBool" base-type-id="e3f11724-0f76-4497-8d01-38fbb82fb844" ver="3">
+		<init target="Source" ver="3" ref="ApSource"/>
+		<init target="Path" ver="3" value="LSA2.Value"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="0c2da4c0-1913-40b5-8c14-853ed6eab023" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Срабатывание первого дискретного аварийного сигнала"/>
+	</object>
+	<do-trace access-modifier="private" target="Tooltip" ver="3">
+		<body>
+			<![CDATA[Description]]>
+		</body>
+	</do-trace>
+</type>
+

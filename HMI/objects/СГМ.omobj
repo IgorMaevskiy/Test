@@ -1,0 +1,484 @@
+<type access-modifier="private" name="СГМ" display-name="СГМ" uuid="e44deda3-e7cc-4846-a319-1c31089c720b" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<object access-modifier="private" name="OpcSource" display-name="OpcSource" uuid="1e76418d-e972-47ae-8c02-8b61c983e395" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Путь"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_Error" display-name="OpcSource_Error" uuid="c922bee8-6d87-4887-90d9-a5f50537d1ac" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+	</object>
+	<object access-modifier="private" name="Description" display-name="Description" uuid="a6be9a0a-17f7-47ea-96b2-9f964d82f543" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Path" ver="3" value="Description"/>
+		<init target="Source" ver="4" ref="OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Position" display-name="Position" uuid="addedc0b-9516-42f9-88dc-0806cc973419" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Path" ver="3" value="Position"/>
+		<init target="Source" ver="4" ref="OpcSource"/>
+	</object>
+	<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseEnter">
+		<body kind="om">
+			<![CDATA[Rectangle_Gen.PenWidth = 2;]]>
+		</body>
+	</do-on>
+	<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="MouseLeave">
+		<body kind="om">
+			<![CDATA[Rectangle_Gen.PenWidth = 1;]]>
+		</body>
+	</do-on>
+	<do-on access-modifier="private" name="Handler_3" display-name="Handler_3" ver="2" event="MouseClick" form-by-id="false" form-action="open-new">
+		<object access-modifier="private" uuid="571046ce-358b-450c-8292-11903e5086e8" base-type="СГМ_Форма" base-type-id="acd87645-2b48-4bf3-afcd-916b86d9da29" ver="4">
+			<init target="Источник" ver="4" ref="here.OpcSource"/>
+		</object>
+	</do-on>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="690ce5e2-d223-4e92-9bdc-d3c16b2dadea" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="4"/>
+	<param access-modifier="private" name="Путь" display-name="Путь" uuid="82303b86-0ef1-4afa-9e9e-967b5d05cdfe" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<do-trace access-modifier="private" target="Tooltip" ver="3">
+		<body>
+			<![CDATA[Description]]>
+		</body>
+	</do-trace>
+	<object access-modifier="private" name="Rectangle_Gen" display-name="Rectangle_Gen" uuid="ba56b0be-8511-4ef0-be36-db35ad18a960" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="0" ver="4"/>
+		<designed target="Y" value="0" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="180" ver="4"/>
+		<designed target="Height" value="120" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Rectangle_Name" display-name="Rectangle_Name" uuid="3615b94b-d9dc-4ab0-a01b-b64bf30d3912" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="1" ver="4"/>
+			<designed target="Y" value="1" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="178" ver="4"/>
+			<designed target="Height" value="40" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="0xffd4d4d4" ver="4"/>
+			<designed target="BrushStyle" value="1" ver="4"/>
+			<object access-modifier="private" name="Text_Name" display-name="Text_Name" uuid="aa468908-1032-4004-97d1-31856104520d" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="5" ver="3"/>
+				<designed target="Y" value="5" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="170" ver="3"/>
+				<designed target="Height" value="30" ver="3"/>
+				<designed target="Text" value="ATIRA 7-xx" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="132" ver="3"/>
+				<do-trace access-modifier="private" target="Text" ver="4">
+					<body>
+						<![CDATA[Position]]>
+					</body>
+				</do-trace>
+			</object>
+		</object>
+		<object access-modifier="private" name="Rectangle_Value" display-name="Rectangle_Value" uuid="ca1318a0-9ffb-464c-b910-886f29281eaa" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="1" ver="4"/>
+			<designed target="Y" value="40" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="178" ver="4"/>
+			<designed target="Height" value="40" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="0xffffffff" ver="4"/>
+			<designed target="BrushStyle" value="1" ver="4"/>
+			<object access-modifier="private" name="txtValue" display-name="txtValue" uuid="cf85955a-2b21-4316-a973-5896c5698b7b" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2" cardinal="1">
+				<designed target="X" value="5" ver="2"/>
+				<designed target="Y" value="5" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="85" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="0.0" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="TextAlignment" value="130" ver="2"/>
+				<object access-modifier="private" name="FormatFloat_1" display-name="FormatFloat_1" uuid="9c85d4a2-9538-4222-83f3-a0780da56026" base-type="FormatFloat" base-type-id="0b9dd5b4-9b68-4bbe-92b2-eb6fb5617d8e" ver="2">
+					<designed target="DigitsCount" value="1" ver="2"/>
+				</object>
+				<object access-modifier="private" name="OutputFormatter_1" display-name="OutputFormatter_1" uuid="a1063bea-7f73-4c2c-bbc2-c6ae95bc3d58" base-type="OutputFormatter" base-type-id="9095fd20-4489-4cca-bd27-49ff94391a32" ver="2">
+					<designed target="InValue" value="" ver="2"/>
+					<init target="Format" ver="2" ref="FormatFloat_1"/>
+					<do-trace access-modifier="private" target="InValue" ver="4">
+						<body>
+							<![CDATA[Value]]>
+						</body>
+					</do-trace>
+				</object>
+				<do-trace access-modifier="private" target="Text" ver="2">
+					<conditional-expr>
+						<condition>
+							<![CDATA[OutputFormatter_1.OutValue == ""]]>
+						</condition>
+						<expr>
+							<![CDATA["NaN"
+]]>
+						</expr>
+					</conditional-expr>
+					<default-expr>
+						<expr>
+							<![CDATA[OutputFormatter_1.OutValue]]>
+						</expr>
+					</default-expr>
+				</do-trace>
+				<designed target="ZValue" value="0" ver="4"/>
+				<designed target="Opacity" value="1" ver="4"/>
+			</object>
+			<object access-modifier="private" name="txtUnit" display-name="txtUnit" uuid="8183735b-1d24-4cbf-8e94-a421a6438157" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+				<designed target="X" value="95" ver="2"/>
+				<designed target="Y" value="5" ver="2"/>
+				<designed target="Rotation" value="0" ver="2"/>
+				<designed target="Scale" value="1" ver="2"/>
+				<designed target="Visible" value="true" ver="2"/>
+				<designed target="Enabled" value="true" ver="2"/>
+				<designed target="Tooltip" value="" ver="2"/>
+				<designed target="Width" value="85" ver="2"/>
+				<designed target="Height" value="30" ver="2"/>
+				<designed target="Text" value="Unit" ver="2"/>
+				<designed target="Font" value="MS Shell Dlg 2,14,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+				<designed target="FontColor" value="4278190080" ver="2"/>
+				<designed target="TextAlignment" value="129" ver="2"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<do-trace access-modifier="private" target="Text" ver="4">
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 0]]>
+						</condition>
+						<expr>
+							<![CDATA["мг/м3"]]>
+						</expr>
+					</conditional-expr>
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 1]]>
+						</condition>
+						<expr>
+							<![CDATA["% об.д."]]>
+						</expr>
+					</conditional-expr>
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 2]]>
+						</condition>
+						<expr>
+							<![CDATA["ppm"]]>
+						</expr>
+					</conditional-expr>
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 3]]>
+						</condition>
+						<expr>
+							<![CDATA["ppb"]]>
+						</expr>
+					</conditional-expr>
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 4]]>
+						</condition>
+						<expr>
+							<![CDATA["млн -1"]]>
+						</expr>
+					</conditional-expr>
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 5]]>
+						</condition>
+						<expr>
+							<![CDATA["% НКПР"]]>
+						</expr>
+					</conditional-expr>
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 6]]>
+						</condition>
+						<expr>
+							<![CDATA["% НПВ"]]>
+						</expr>
+					</conditional-expr>
+					<conditional-expr>
+						<condition>
+							<![CDATA[Settings.Quality > 191 && UnitsType.Value == 7]]>
+						</condition>
+						<expr>
+							<![CDATA["% LEL"]]>
+						</expr>
+					</conditional-expr>
+					<default-expr>
+						<expr>
+							<![CDATA[""]]>
+						</expr>
+					</default-expr>
+				</do-trace>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[Value.Quality < 192 || ConnectionError]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[Failure]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_Limit1" display-name="Rectangle_Limit1" uuid="da600523-7132-48a2-b71c-3270636520c7" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="1" ver="4"/>
+			<designed target="Y" value="79" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="89" ver="4"/>
+			<designed target="Height" value="40" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="0xffffffff" ver="4"/>
+			<designed target="BrushStyle" value="1" ver="4"/>
+			<object access-modifier="private" name="Text_Limit1" display-name="Text_Limit1" uuid="66e7a409-d1c9-4401-b5db-e86570b33dff" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="5" ver="3"/>
+				<designed target="Y" value="5" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="80" ver="3"/>
+				<designed target="Height" value="30" ver="3"/>
+				<designed target="Text" value="Порог 1" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="132" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[Limit1.Quality < 192 || ConnectionError]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[Limit1]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffffff00]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[Failure]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+		<object access-modifier="private" name="Rectangle_Limit2" display-name="Rectangle_Limit2" uuid="a5d9598f-11e3-4a19-af7b-73227792eeb3" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+			<designed target="X" value="90" ver="4"/>
+			<designed target="Y" value="79" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="89" ver="4"/>
+			<designed target="Height" value="40" ver="4"/>
+			<designed target="RoundingRadius" value="0" ver="4"/>
+			<designed target="PenColor" value="4278190080" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="1" ver="4"/>
+			<designed target="BrushColor" value="0xffffffff" ver="4"/>
+			<designed target="BrushStyle" value="1" ver="4"/>
+			<object access-modifier="private" name="Text_Limit2" display-name="Text_Limit2" uuid="b9cd02e9-d30f-4b9a-9907-b55f03c8f118" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3">
+				<designed target="X" value="5" ver="3"/>
+				<designed target="Y" value="5" ver="3"/>
+				<designed target="ZValue" value="0" ver="3"/>
+				<designed target="Rotation" value="0" ver="3"/>
+				<designed target="Scale" value="1" ver="3"/>
+				<designed target="Visible" value="true" ver="3"/>
+				<designed target="Opacity" value="1" ver="3"/>
+				<designed target="Enabled" value="true" ver="3"/>
+				<designed target="Tooltip" value="" ver="3"/>
+				<designed target="Width" value="80" ver="3"/>
+				<designed target="Height" value="30" ver="3"/>
+				<designed target="Text" value="Порог 2" ver="3"/>
+				<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+				<designed target="FontColor" value="4278190080" ver="3"/>
+				<designed target="TextAlignment" value="132" ver="3"/>
+			</object>
+			<do-trace access-modifier="private" target="BrushColor" ver="4">
+				<conditional-expr>
+					<condition>
+						<![CDATA[Limit2.Quality < 192 || ConnectionError]]>
+					</condition>
+					<expr>
+						<![CDATA[0xff9d9d9d]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[Limit2]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<conditional-expr>
+					<condition>
+						<![CDATA[Failure]]>
+					</condition>
+					<expr>
+						<![CDATA[0xffff0000]]>
+					</expr>
+				</conditional-expr>
+				<default-expr>
+					<expr>
+						<![CDATA[0xffffffff]]>
+					</expr>
+				</default-expr>
+			</do-trace>
+		</object>
+	</object>
+	<object access-modifier="private" name="Value" display-name="Value" uuid="e7d624d3-4aab-4d9c-be3b-fff845f537d6" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="2" value="Value"/>
+	</object>
+	<object access-modifier="private" name="Units" display-name="Units" uuid="34fc82f2-9e3c-43fe-91d0-9dcf25ecc449" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="2">
+		<init target="Source" ver="2" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Settings.wUnits"/>
+	</object>
+	<object access-modifier="private" name="Limit1" display-name="Limit1" uuid="bd43bcba-340f-40bd-a9d2-1910d26ea471" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="4">
+		<init target="Source" ver="4" ref="OpcSource"/>
+		<init target="Path" ver="4" value="State.Limit1"/>
+	</object>
+	<object access-modifier="private" name="Limit2" display-name="Limit2" uuid="64ff2f64-8f27-46cc-87ea-8d17bd7ac7cd" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="4">
+		<init target="Source" ver="4" ref="OpcSource"/>
+		<init target="Path" ver="4" value="State.Limit2"/>
+	</object>
+	<object access-modifier="private" name="Failure" display-name="Failure" uuid="c048a26e-1845-4208-9f77-6960ed3b6d90" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="4">
+		<init target="Source" ver="4" ref="OpcSource"/>
+		<init target="Path" ver="4" value="State.Failure"/>
+	</object>
+	<object access-modifier="private" name="UnitsType" display-name="UnitsType" uuid="050274f3-b2a9-4fb6-af7b-71dd8de6a611" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="3">
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="1985ac07-eaf5-419d-8ffe-be688c6c5b81" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Тип ед измерения"/>
+		<init target="Source" ver="4" ref="here.OpcSource"/>
+		<init target="Path" ver="4" value="Settings.wUnits"/>
+	</object>
+	<object access-modifier="private" name="Settings" display-name="Settings" uuid="23374a81-7c75-4fe3-b99c-6b3e097f7464" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="3">
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="a434737b-0c89-4541-8d3e-d4101815bb27" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Настройки СГМ"/>
+		<init target="Source" ver="4" ref="here.OpcSource"/>
+		<init target="Path" ver="4" value="Settings"/>
+	</object>
+	<object access-modifier="private" name="ConnectionError" display-name="ConnectionError" uuid="577f0f7d-03d8-4144-ae84-99ab6ab28324" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="here.OpcSource_Error"/>
+		<init target="Path" ver="4" ref="Статус_Соединения"/>
+	</object>
+	<param access-modifier="private" name="Статус_Соединения" display-name="Статус_Соединения" uuid="5490bc06-b9e3-44a1-8483-f0d7136f05a2" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<object access-modifier="private" name="Text_ConnectionError" display-name="Text_ConnectionError" uuid="5cd7e9a7-725d-4c04-bbbf-8851f15193f3" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="4">
+		<designed target="X" value="-10" ver="4"/>
+		<designed target="Y" value="5" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="false" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="205" ver="4"/>
+		<designed target="Height" value="110" ver="4"/>
+		<designed target="Text" value="НЕТ СВЯЗИ С УСТРОЙСТВОМ
+ (MODBUS RTU)" ver="4"/>
+		<designed target="Font" value="MS Shell Dlg 2,20,-1,5,50,0,0,0,0,0,Обычный" ver="4"/>
+		<designed target="FontColor" value="0xffff0000" ver="4"/>
+		<designed target="TextAlignment" value="132" ver="4"/>
+		<do-trace access-modifier="private" target="Visible" ver="4">
+			<body>
+				<![CDATA[ConnectionError]]>
+			</body>
+		</do-trace>
+	</object>
+</type>
+

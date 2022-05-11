@@ -1,0 +1,129 @@
+<type access-modifier="private" name="Valve_Trends" display-name="Valve_Trends" uuid="4708e543-9a43-4c47-8fae-1e17a9326064" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="960" ver="2"/>
+	<designed target="Height" value="510" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="4293980400" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="0" ver="2"/>
+	<designed target="WindowY" value="0" ver="2"/>
+	<designed target="WindowWidth" value="960" ver="2"/>
+	<designed target="WindowHeight" value="510" ver="2"/>
+	<designed target="WindowCaption" value="MainForm" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="false" ver="2"/>
+	<designed target="ShowWindowMaximize" value="false" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="true" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="2" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<object access-modifier="private" name="TrendsAxControl_1" display-name="TrendsAxControl_1" uuid="e216cbfa-96ae-4040-962e-a3e57804124c" base-type="TrendsAxControl" base-type-id="f6fdc6e3-5677-49b3-9540-ed718f10a8c3" ver="2">
+		<designed target="X" value="0" ver="2"/>
+		<designed target="Y" value="0" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Width" value="959" ver="2"/>
+		<designed target="Height" value="509" ver="2"/>
+		<designed target="ConfigurationFolder" value="C:\PROJ\config\TrendsAX" ver="2"/>
+		<designed target="ActiveMode" value="0" ver="2"/>
+		<designed target="Item" value="" ver="2"/>
+		<designed target="ShowDataPoints" value="false" ver="2"/>
+		<designed target="ShowMarkerPoints" value="true" ver="2"/>
+		<designed target="ShowMarkerLabels" value="true" ver="2"/>
+		<designed target="ShowSources" value="false" ver="2"/>
+		<designed target="ShowLegend" value="true" ver="2"/>
+		<designed target="GlobalRanges" value="true" ver="2"/>
+		<designed target="LowRange" value="0" ver="2"/>
+		<designed target="HighRange" value="100" ver="2"/>
+		<designed target="AutoRange" value="false" ver="2"/>
+		<designed target="AlwaysOnTop" value="false" ver="2"/>
+		<designed target="YAxisPrecision" value="2" ver="2"/>
+		<designed target="ShowToolbar" value="true" ver="2"/>
+		<designed target="WindowsFixed" value="true" ver="2"/>
+		<designed target="IsFullAccessAllowed" value="false" ver="2"/>
+		<designed target="FileSystemSafeMode" value="true" ver="2"/>
+		<designed target="GUIModificationAvailable" value="false" ver="2"/>
+		<designed target="SignalsModificationAvailable" value="false" ver="2"/>
+		<designed target="SurfaceModificationAvailable" value="false" ver="2"/>
+		<do-trace access-modifier="private" target="GUIModificationAvailable" ver="2">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="FileSystemSafeMode" ver="2">
+			<body>
+				<![CDATA[!unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="IsFullAccessAllowed" ver="2">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+	</object>
+	<param access-modifier="private" name="Source" display-name="Source" uuid="efe65954-b0d7-4cd3-bced-d758f37dca1a" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="2"/>
+	<object access-modifier="private" name="opcValueMax" display-name="opcValueMax" uuid="b0a036e5-1efc-4768-bc15-04db12df397e" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="2">
+		<init target="Path" ver="2" value="ValueMax"/>
+		<init target="Source" ver="2" ref="OpcSource_1"/>
+	</object>
+	<object access-modifier="private" name="opcValueMin" display-name="opcValueMin" uuid="af4b6f39-a679-44d5-b7c0-a6196b313d2d" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="2">
+		<init target="Path" ver="2" value="ValueMin"/>
+		<init target="Source" ver="2" ref="OpcSource_1"/>
+	</object>
+	<object access-modifier="private" name="opcName" display-name="opcName" uuid="155e1be4-a79f-4ebb-b754-0648ce8036bb" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Path" ver="2" value="NAME"/>
+		<init target="Source" ver="2" ref="OpcSource_1"/>
+	</object>
+	<object access-modifier="private" name="opcEU" display-name="opcEU" uuid="167d50eb-ff8e-43db-9b25-aba5c7680976" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Path" ver="2" value="Value.Unit"/>
+		<init target="Source" ver="2" ref="OpcSource_1"/>
+	</object>
+	<object access-modifier="private" name="opcValue" display-name="opcValue" uuid="50ba2194-5c63-49db-9bf7-5597ccd41429" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="2">
+		<init target="Source" ver="2" ref="OpcSource_1"/>
+		<init target="Path" ver="2" value="OP.Value"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_1" display-name="OpcSource_1" uuid="ed24373a-c799-41fe-99f6-1af9f5455ee4" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="2">
+		<designed target="Active" value="true" ver="2"/>
+		<designed target="UpdateRate" value="0" ver="2"/>
+		<designed target="ReAdvise" value="0" ver="2"/>
+		<init target="ParentSource" ver="2" ref="Source"/>
+	</object>
+	<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Opened">
+		<body kind="om">
+			<![CDATA[TrendsAxControl_1.ShowLegend = true;
+TrendsAxControl_1.ShowSources = false;
+TrendsAxControl_1.ForcedAddItem(opcValue.Tag,opcValue.Units,opcValue.Description);
+TrendsAxControl_1.AutoRange = false;
+TrendsAxControl_1.LowRange = 0;
+TrendsAxControl_1.HighRange = 100;
+TrendsAxControl_1.SetOperativeInterval(30,1000);]]>
+		</body>
+	</do-on>
+	<object access-modifier="private" name="DebugTool_1" display-name="DebugTool_1" uuid="59880f8e-1863-4a53-9f49-fc96dbfc08bf" base-type="DebugTool" base-type-id="43946044-139a-43f4-a7b8-19a6074ffc56" ver="2"/>
+	<param access-modifier="private" name="obj_Path" display-name="obj_Path" uuid="da55fda6-c462-444b-96b8-dc1223b835a5" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<object access-modifier="private" name="opcDesc" display-name="opcDesc" uuid="4cbe588e-794e-4b40-b557-a95fb78b5d76" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="2">
+		<init target="Source" ver="2" ref="OpcSource_1"/>
+	</object>
+	<do-trace access-modifier="private" target="WindowCaption" ver="2">
+		<body>
+			<![CDATA[opcDesc.Description]]>
+		</body>
+	</do-trace>
+	<designed target="ZValue" value="0" ver="5"/>
+	<designed target="Opacity" value="1" ver="5"/>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

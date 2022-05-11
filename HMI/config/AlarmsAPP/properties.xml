@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ControlProperties Version="3.25">
+  <Columns>
+    <Column>
+      <EventAttributeName>LocalTime</EventAttributeName>
+      <Width>198</Width>
+      <Visible>true</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>LocalActiveTime</EventAttributeName>
+      <Width>145</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>LocalInactiveTime</EventAttributeName>
+      <Width>145</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>Message</EventAttributeName>
+      <Width>1167</Width>
+      <Visible>true</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>SeverityGroup</EventAttributeName>
+      <Width>100</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>Severity</EventAttributeName>
+      <Width>83</Width>
+      <Visible>true</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>AckedAsString</EventAttributeName>
+      <Width>101</Width>
+      <Visible>true</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>SourceComposite</EventAttributeName>
+      <Width>313</Width>
+      <Visible>true</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>AckedComposite</EventAttributeName>
+      <Width>100</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>LocalAckTime</EventAttributeName>
+      <Width>130</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>ActorID</EventAttributeName>
+      <Width>100</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>AckComment</EventAttributeName>
+      <Width>100</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>ServerDescription</EventAttributeName>
+      <Width>100</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>ValueAsString</EventAttributeName>
+      <Width>100</Width>
+      <Visible>false</Visible>
+    </Column>
+    <Column>
+      <EventAttributeName>Quality</EventAttributeName>
+      <Width>100</Width>
+      <Visible>false</Visible>
+    </Column>
+  </Columns>
+  <PlaySounds>true</PlaySounds>
+  <HistoricalUserTimeMode>ActiveTime</HistoricalUserTimeMode>
+  <KnownUsers />
+  <ShowAETree>false</ShowAETree>
+  <LastUsedFilter>
+    <Name>Без фильтра</Name>
+    <Description>Пустой фильтр. Пропускает все события.</Description>
+    <MessageCondition />
+    <SeverityCondition />
+    <SourceCondition />
+    <ServerCondition />
+    <EventTimeCondition />
+    <ActivationTimeCondition />
+    <AcknowledgeCondition>All</AcknowledgeCondition>
+    <AckTimeCondition />
+    <ActorCondition />
+    <AckCommentCondition />
+    <SeverityGroup />
+    <Operator>And</Operator>
+  </LastUsedFilter>
+  <LastUsedSort>
+    <SortItem PropertyName="LocalActiveTime" DirectionAscending="false" />
+    <SortItem PropertyName="LocalTime" DirectionAscending="false" />
+  </LastUsedSort>
+  <ViewSettings>
+    <RowHeight>24</RowHeight>
+    <GridVisible>true</GridVisible>
+    <WordWrap>false</WordWrap>
+    <FontName>Microsoft Sans Serif</FontName>
+    <FontSize>11</FontSize>
+    <FontBold>false</FontBold>
+    <FontItalic>false</FontItalic>
+    <FontUnderline>false</FontUnderline>
+    <FontStrikeout>false</FontStrikeout>
+  </ViewSettings>
+  <ShowStatusStrip>false</ShowStatusStrip>
+  <ShowToolbar>true</ShowToolbar>
+  <ShowColumnHeaders>true</ShowColumnHeaders>
+</ControlProperties>

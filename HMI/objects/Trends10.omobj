@@ -1,0 +1,311 @@
+<type access-modifier="private" name="Trends10" display-name="Trends10" uuid="a936a411-a6f2-4164-9c4c-29e120db3848" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="1920" ver="2"/>
+	<designed target="Height" value="900" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="4293980400" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="0" ver="2"/>
+	<designed target="WindowY" value="0" ver="2"/>
+	<designed target="WindowWidth" value="1920" ver="2"/>
+	<designed target="WindowHeight" value="900" ver="2"/>
+	<designed target="WindowCaption" value="Набор трендов" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="false" ver="2"/>
+	<designed target="ShowWindowMaximize" value="false" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="true" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="3" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<object access-modifier="private" name="TrendsAxControl_1" display-name="TrendsAxControl_1" uuid="4e9fb613-28ec-4582-a42c-ab4a403ef2ed" base-type="TrendsAxControl" base-type-id="f6fdc6e3-5677-49b3-9540-ed718f10a8c3" ver="2">
+		<designed target="X" value="0" ver="2"/>
+		<designed target="Y" value="0" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Width" value="1919" ver="2"/>
+		<designed target="Height" value="899" ver="2"/>
+		<designed target="ConfigurationFolder" value="C:\PROJ\config\TrendsAX" ver="2"/>
+		<designed target="ActiveMode" value="0" ver="2"/>
+		<designed target="Item" value="" ver="2"/>
+		<designed target="ShowDataPoints" value="false" ver="2"/>
+		<designed target="ShowMarkerPoints" value="true" ver="2"/>
+		<designed target="ShowMarkerLabels" value="false" ver="2"/>
+		<designed target="ShowSources" value="true" ver="2"/>
+		<designed target="ShowLegend" value="true" ver="2"/>
+		<designed target="GlobalRanges" value="true" ver="2"/>
+		<designed target="LowRange" value="0" ver="2"/>
+		<designed target="HighRange" value="100" ver="2"/>
+		<designed target="AutoRange" value="true" ver="2"/>
+		<designed target="AlwaysOnTop" value="false" ver="2"/>
+		<designed target="YAxisPrecision" value="2" ver="2"/>
+		<designed target="ShowToolbar" value="true" ver="2"/>
+		<designed target="WindowsFixed" value="true" ver="2"/>
+		<designed target="IsFullAccessAllowed" value="false" ver="2"/>
+		<designed target="FileSystemSafeMode" value="true" ver="2"/>
+		<designed target="GUIModificationAvailable" value="false" ver="2"/>
+		<designed target="SignalsModificationAvailable" value="true" ver="2"/>
+		<designed target="SurfaceModificationAvailable" value="false" ver="2"/>
+		<do-trace access-modifier="private" target="FileSystemSafeMode" ver="2">
+			<body>
+				<![CDATA[!unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="GUIModificationAvailable" ver="2">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="IsFullAccessAllowed" ver="2">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+	</object>
+	<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Opened">
+		<body kind="om">
+			<![CDATA[TrendsAxControl_1.ShowLegend = true;
+TrendsAxControl_1.ShowSources = false;
+if (Trends_Number > 0 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_1.Value.Tag,OpcSource_1.Units.Value,OpcSource_1.Description.Value);}
+if (Trends_Number > 1 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_2.Value.Tag,OpcSource_2.Units.Value,OpcSource_2.Description.Value);}
+if (Trends_Number > 2 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_3.Value.Tag,OpcSource_3.Units.Value,OpcSource_3.Description.Value);}
+if (Trends_Number > 3 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_4.Value.Tag,OpcSource_4.Units.Value,OpcSource_4.Description.Value);}
+if (Trends_Number > 4 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_5.Value.Tag,OpcSource_5.Units.Value,OpcSource_5.Description.Value);}
+if (Trends_Number > 5 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_6.Value.Tag,OpcSource_6.Units.Value,OpcSource_6.Description.Value);}
+if (Trends_Number > 6 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_7.Value.Tag,OpcSource_7.Units.Value,OpcSource_7.Description.Value);}
+if (Trends_Number > 7 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_8.Value.Tag,OpcSource_8.Units.Value,OpcSource_8.Description.Value);}
+if (Trends_Number > 8 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_9.Value.Tag,OpcSource_9.Units.Value,OpcSource_9.Description.Value);}
+if (Trends_Number > 9 ) {TrendsAxControl_1.ForcedAddItem(OpcSource_10.Value.Tag,OpcSource_10.Units.Value,OpcSource_10.Description.Value);}
+TrendsAxControl_1.AutoRange = true;
+//TrendsAxControl_1.LowRange = 0;
+//TrendsAxControl_1.HighRange = 100;
+TrendsAxControl_1.SetOperativeInterval(30,1000);]]>
+		</body>
+	</do-on>
+	<object access-modifier="private" name="Trends_Number" display-name="Trends_Number" uuid="d7cb79ce-4a03-4c2c-b8a1-7442dc1374e0" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2">
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="b1b45e89-3082-4dbd-9f7a-84e4e21b3fc9" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Количество трендов"/>
+	</object>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="7cffd8c1-b723-493e-ab42-3f2d49aa0b1d" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="4"/>
+	<param access-modifier="private" name="Тренд_1" display-name="Тренд_1" uuid="9c1953bd-5c1b-403f-9d16-53a693e91baf" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_2" display-name="Тренд_2" uuid="3ea4c815-4237-4036-a9f0-bb965dfea163" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_3" display-name="Тренд_3" uuid="78b9650e-aa60-4fdf-a4e5-b409eb93cb66" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_4" display-name="Тренд_4" uuid="e27623e9-9f01-44e9-a9a3-cc10789137a7" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_5" display-name="Тренд_5" uuid="c0854d8a-1486-415e-a391-235ddd4358a2" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_6" display-name="Тренд_6" uuid="fa0ff88f-fb00-4826-a46f-ff2cf79cf479" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_7" display-name="Тренд_7" uuid="ecb39ee4-40fe-4345-8b1b-3b8d54ba9ac0" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_8" display-name="Тренд_8" uuid="878c0663-ba15-47db-91c2-f3f7470cdc0b" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_9" display-name="Тренд_9" uuid="9f1d829d-ab1a-4b1f-b1da-c456107c7244" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_10" display-name="Тренд_10" uuid="8b721283-5287-4fc5-aef1-9a947619449d" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_11" display-name="Тренд_11" uuid="e1912b15-0a4a-4031-a71b-57b688db9c6e" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_12" display-name="Тренд_12" uuid="07ad7abc-b2f4-4739-b9b1-0b2f0cf03e4d" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_13" display-name="Тренд_13" uuid="dd37616b-27e5-4094-afc7-5c7ee79f5956" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_14" display-name="Тренд_14" uuid="4343a8fb-9f76-47cc-b76c-7e585fe38abc" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<param access-modifier="private" name="Тренд_15" display-name="Тренд_15" uuid="4a79cbd7-50c6-4a0e-892d-63545e92e329" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="2"/>
+	<object access-modifier="private" name="OpcSource_1" display-name="OpcSource_1" uuid="9e71ba4a-773a-4688-835c-59b25da43582" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="78215827-5e89-4533-a2dd-70e87de7cf0b" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Source" ver="4" ref="OpcSource_1"/>
+			<init target="Path" ver="4" value="Value"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="9eebc606-9d46-431f-8e60-eb4986389b07" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Source" ver="4" ref="OpcSource_1"/>
+			<init target="Path" ver="4" value="Units"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="481ed164-f356-42b1-a7fc-4c64b34886e9" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Source" ver="4" ref="OpcSource_1"/>
+			<init target="Path" ver="4" value="Description"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_1"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_2" display-name="OpcSource_2" uuid="f12771ae-7f03-4e9f-8902-35e2ca04a7fa" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="1fc60587-f4ef-4730-b678-8fed6deb4a33" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_2"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="28168de8-daef-4c39-b4ed-d4fc9e14c451" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_2"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="8c3b32f4-72bb-495e-8f75-80904d15e5f8" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_2"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_2"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_3" display-name="OpcSource_3" uuid="a07db615-cc1a-4b88-8634-33bb048f949d" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="fb4748fa-777d-4ba9-98b9-0ef83b70bce4" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_3"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="cef9ea35-b167-46db-9255-d39e1bbc15c9" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_3"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="637b4ba4-ff1c-4f50-bc4d-6ad684264724" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_3"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_3"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_4" display-name="OpcSource_4" uuid="20442363-2636-40d0-aa0a-4022e056df78" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="11a8f0db-05bf-409e-8374-dbbd25bd8979" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_4"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="74f2bd18-0f2b-45c6-a01a-837c2b270444" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_4"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="615f3942-2a90-4f5b-b5b2-e1b3c2956d86" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_4"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_4"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_5" display-name="OpcSource_5" uuid="fcefafb5-bd2b-4275-949e-af882834305f" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="a53e6e73-1bb8-4418-bee2-ef36a292f7e5" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_5"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="db819f5a-59af-4e11-9aea-2f2a501539f5" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_5"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="374ade00-f549-435c-a784-e65831e106bd" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_5"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_5"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_6" display-name="OpcSource_6" uuid="5d2e1a07-416e-4f00-82ae-9538178bd82b" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="2e8c8503-2e98-4792-a636-2fd558dfa531" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_6"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="11e5853f-7c33-428e-afc8-30539ba65fc5" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_6"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="07877cf4-f0e6-4146-8976-ba92629601f7" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_6"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_6"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_7" display-name="OpcSource_7" uuid="47179a71-a09d-4f60-9a18-067b482212d8" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="839dfdf6-5a88-4eb8-8732-bce1c6a196a7" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_7"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="132a861f-c867-45c4-9101-f4f448f60ec5" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_7"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="2d838d99-840c-4ceb-a65e-d0f334886435" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_7"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_7"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_8" display-name="OpcSource_8" uuid="42ab8008-99d8-428e-a5ed-a593a30f2880" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="8646eb6e-918b-45b1-a461-4ee505b16e1b" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_8"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="2bd36cea-2f3e-4d46-94a4-7426f8a3eeca" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_8"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="2c751d18-fd43-401f-86b7-1bb4405f0442" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_8"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_8"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_9" display-name="OpcSource_9" uuid="d6f08735-9188-4170-8f96-40c2c7e103df" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="5c2124ee-c7e9-4db9-9c94-1a2bc5e8e4c6" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_9"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="4b491279-5719-4e9b-a765-880fa2e041ab" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_9"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="1b017b24-015c-4702-a0c7-4725e6dc17ad" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_9"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_9"/>
+	</object>
+	<object access-modifier="private" name="OpcSource_10" display-name="OpcSource_10" uuid="5a3d2046-8edc-469d-9172-cdce600acfb4" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<object access-modifier="private" name="Value" display-name="Value" uuid="116b28de-9eea-40af-b4a7-2364680f210f" base-type="OpcItemFloat4" base-type-id="8c6c503b-9447-48cd-a5af-304a7f9b2dcd" ver="4">
+			<init target="Path" ver="4" value="Value"/>
+			<init target="Source" ver="4" ref="OpcSource_10"/>
+		</object>
+		<object access-modifier="private" name="Units" display-name="Units" uuid="ffdd5778-924c-4233-b088-0f0aa838a007" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Units"/>
+			<init target="Source" ver="4" ref="OpcSource_10"/>
+		</object>
+		<object access-modifier="private" name="Description" display-name="Description" uuid="a1fe15e7-0029-4f71-ba97-56c43debb044" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="4">
+			<init target="Path" ver="4" value="Description"/>
+			<init target="Source" ver="4" ref="OpcSource_10"/>
+		</object>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" ref="Тренд_10"/>
+	</object>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

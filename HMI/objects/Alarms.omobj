@@ -1,0 +1,98 @@
+<type access-modifier="private" name="Alarms" display-name="Алармы" uuid="2270078d-c360-4f86-8662-ab01137e5ddb" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="1920" ver="2"/>
+	<designed target="Height" value="973" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="4293980400" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="0" ver="2"/>
+	<designed target="WindowY" value="0" ver="2"/>
+	<designed target="WindowWidth" value="1920" ver="2"/>
+	<designed target="WindowHeight" value="973" ver="2"/>
+	<designed target="WindowCaption" value="Алармы" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="true" ver="2"/>
+	<designed target="ShowWindowMaximize" value="true" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="false" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="0" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<object access-modifier="private" name="AlarmsAxControl_1" display-name="AlarmsAxControl_1" uuid="ffb7ad71-f0e3-43e5-9d04-1e283457c04d" base-type="AlarmsAxControl" base-type-id="9508eca3-f80d-4232-90e7-7a3607bc56fa" ver="2">
+		<designed target="X" value="2" ver="2"/>
+		<designed target="Y" value="3" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Width" value="1920" ver="2"/>
+		<designed target="Height" value="973" ver="2"/>
+		<designed target="ConfigurationFolder" value="C:\PROJ\config\AlarmsAPP" ver="2"/>
+		<designed target="ActiveMode" value="1" ver="2"/>
+		<designed target="ShowMilliseconds" value="true" ver="2"/>
+		<designed target="RowHeight" value="23" ver="2"/>
+		<designed target="OperativeVisibleRowCount" value="500" ver="2"/>
+		<designed target="GUIModificationAvailable" value="false" ver="2"/>
+		<designed target="ButtonPanelVisible" value="true" ver="2"/>
+		<designed target="Mute" value="false" ver="2"/>
+		<designed target="FilterActive" value="false" ver="2"/>
+		<designed target="IsAdvancedFilterActive" value="false" ver="2"/>
+		<designed target="EventDisplayOrder" value="0" ver="2"/>
+		<designed target="IsFullAccessAllowed" value="true" ver="2"/>
+		<designed target="CurrentEventsAvailable" value="true" ver="2"/>
+		<designed target="EventHistoryAvailable" value="true" ver="2"/>
+		<designed target="FilterAvailable" value="true" ver="2"/>
+		<designed target="SnapshotAvailable" value="true" ver="2"/>
+		<designed target="ClearingCurrentEventsAvailable" value="true" ver="2"/>
+		<designed target="SoundPlaybackManagmentAvailable" value="true" ver="2"/>
+		<designed target="WindowsFixed" value="true" ver="2"/>
+		<designed target="EditingSettingsAvailable" value="true" ver="2"/>
+		<designed target="AcknowledgmentAvailable" value="true" ver="2"/>
+		<designed target="EventHistoryPagedViewingAvailable" value="false" ver="2"/>
+		<designed target="PrintingAvailable" value="true" ver="2"/>
+		<designed target="FollowLatestEvent" value="false" ver="2"/>
+		<designed target="EnableSortingOnGridHeader" value="true" ver="2"/>
+		<designed target="EventTableSortAvailability" value="true" ver="2"/>
+		<designed target="ExportDataAvailability" value="true" ver="2"/>
+		<designed target="FileSystemSafeMode" value="true" ver="2"/>
+		<designed target="AlwaysOnTop" value="true" ver="2"/>
+		<designed target="ActiveViewMode" value="0" ver="2"/>
+		<designed target="AreaTreeVisible" value="false" ver="2"/>
+		<designed target="LookLatestEvent" value="true" ver="2"/>
+		<do-trace access-modifier="private" target="FileSystemSafeMode" ver="2">
+			<body>
+				<![CDATA[!unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="GUIModificationAvailable" ver="2">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="SoundPlaybackManagmentAvailable" ver="3">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+	</object>
+	<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Opened">
+		<body kind="om">
+			<![CDATA[AlarmsAxControl_1.LogOn("Оператор");
+AlarmsAxControl_1.SetFilter("",0,">0");]]>
+		</body>
+	</do-on>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

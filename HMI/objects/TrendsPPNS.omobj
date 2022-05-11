@@ -1,0 +1,156 @@
+<type access-modifier="private" name="TrendsPPNS" display-name="TrendsPPNS" uuid="2be7abc2-ecbf-4b30-a4d1-36b6048e51bf" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="1920" ver="2"/>
+	<designed target="Height" value="900" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="4293980400" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="0" ver="2"/>
+	<designed target="WindowY" value="0" ver="2"/>
+	<designed target="WindowWidth" value="1920" ver="2"/>
+	<designed target="WindowHeight" value="900" ver="2"/>
+	<designed target="WindowCaption" value="Набор трендов" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="false" ver="2"/>
+	<designed target="ShowWindowMaximize" value="false" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="true" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="3" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<object access-modifier="private" name="TrendsAxControl_1" display-name="TrendsAxControl_1" uuid="a654e6b9-61fb-418f-ab20-1879e2299a85" base-type="TrendsAxControl" base-type-id="f6fdc6e3-5677-49b3-9540-ed718f10a8c3" ver="2">
+		<designed target="X" value="0" ver="2"/>
+		<designed target="Y" value="0" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Width" value="1919" ver="2"/>
+		<designed target="Height" value="899" ver="2"/>
+		<designed target="ConfigurationFolder" value="C:\PROJ\config\TrendsAX" ver="2"/>
+		<designed target="ActiveMode" value="0" ver="2"/>
+		<designed target="Item" value="" ver="2"/>
+		<designed target="ShowDataPoints" value="false" ver="2"/>
+		<designed target="ShowMarkerPoints" value="true" ver="2"/>
+		<designed target="ShowMarkerLabels" value="false" ver="2"/>
+		<designed target="ShowSources" value="true" ver="2"/>
+		<designed target="ShowLegend" value="true" ver="2"/>
+		<designed target="GlobalRanges" value="true" ver="2"/>
+		<designed target="LowRange" value="0" ver="2"/>
+		<designed target="HighRange" value="100" ver="2"/>
+		<designed target="AutoRange" value="true" ver="2"/>
+		<designed target="AlwaysOnTop" value="false" ver="2"/>
+		<designed target="YAxisPrecision" value="2" ver="2"/>
+		<designed target="ShowToolbar" value="true" ver="2"/>
+		<designed target="WindowsFixed" value="true" ver="2"/>
+		<designed target="IsFullAccessAllowed" value="false" ver="2"/>
+		<designed target="FileSystemSafeMode" value="true" ver="2"/>
+		<designed target="GUIModificationAvailable" value="false" ver="2"/>
+		<designed target="SignalsModificationAvailable" value="true" ver="2"/>
+		<designed target="SurfaceModificationAvailable" value="false" ver="2"/>
+		<do-trace access-modifier="private" target="FileSystemSafeMode" ver="2">
+			<body>
+				<![CDATA[!unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="GUIModificationAvailable" ver="2">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+		<do-trace access-modifier="private" target="IsFullAccessAllowed" ver="2">
+			<body>
+				<![CDATA[unit.Security.Admin.Value]]>
+			</body>
+		</do-trace>
+	</object>
+	<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Opened">
+		<body kind="om">
+			<![CDATA[TrendsAxControl_1.ShowLegend = true;
+TrendsAxControl_1.ShowSources = false;
+
+TrendsAxControl_1.ForcedAddItem(Current_L1.Tag,"А","Ток. Фаза A");
+TrendsAxControl_1.ForcedAddItem(Current_L2.Tag,"А","Ток. Фаза B");
+TrendsAxControl_1.ForcedAddItem(Current_L3.Tag,"А","Ток. Фаза C");
+TrendsAxControl_1.ForcedAddItem(Voltage_L12.Tag,"В","Напряжение. Фазы A-B");
+TrendsAxControl_1.ForcedAddItem(Voltage_L23.Tag,"В","Напряжение. Фазы B-C");
+TrendsAxControl_1.ForcedAddItem(Voltage_L31.Tag,"В","Напряжение. Фазы A-C");
+TrendsAxControl_1.ForcedAddItem(System_Pressure.Tag,"Па","Системное давление");
+TrendsAxControl_1.ForcedAddItem(Suction_Pressure.Tag,"Па","Давление на всасе");
+TrendsAxControl_1.ForcedAddItem(Start_Count.Tag,"","Число запусков");
+TrendsAxControl_1.ForcedAddItem(Run_Time.Tag,"ч","Время работы (общее)");
+TrendsAxControl_1.ForcedAddItem(Hours_Last_Run.Tag,"ч","Текущее время работы");
+
+TrendsAxControl_1.AutoRange = true;
+//TrendsAxControl_1.LowRange = 0;
+//TrendsAxControl_1.HighRange = 100;
+TrendsAxControl_1.SetOperativeInterval(30,1000);]]>
+		</body>
+	</do-on>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="7109294a-ec68-4b13-b812-a90b723078a1" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="4"/>
+	<object access-modifier="private" name="OpcSource_1" display-name="OpcSource_1" uuid="943e5010-6230-43d5-9f9b-73aa95101249" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="4">
+		<designed target="Active" value="true" ver="4"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<designed target="ReAdvise" value="0" ver="4"/>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+		<init target="Path" ver="4" value="STN"/>
+	</object>
+	<object access-modifier="private" name="Current_L1" display-name="Current_L1" uuid="35d7dd8e-fe65-45f2-9b35-237161c204bd" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Current_L1"/>
+	</object>
+	<object access-modifier="private" name="Current_L2" display-name="Current_L2" uuid="92d35c36-6019-4d17-abaf-360b15f690a6" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Current_L2"/>
+	</object>
+	<object access-modifier="private" name="Current_L3" display-name="Current_L3" uuid="a4847fdb-0c6c-408e-ab99-2657845534bd" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Current_L3"/>
+	</object>
+	<object access-modifier="private" name="Voltage_L12" display-name="Voltage_L12" uuid="a1212c7c-2e34-411e-af54-2b3e74b60dca" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Voltage_L12"/>
+	</object>
+	<object access-modifier="private" name="Voltage_L23" display-name="Voltage_L23" uuid="9e3712fb-fc60-4b2e-a31d-8d04b7d27158" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Voltage_L23"/>
+	</object>
+	<object access-modifier="private" name="Voltage_L31" display-name="Voltage_L31" uuid="991697fc-f79b-4c15-b572-22c45481e953" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Voltage_L31"/>
+	</object>
+	<object access-modifier="private" name="Suction_Pressure" display-name="Suction_Pressure" uuid="e03085b6-3199-47bc-a8e1-a6d52018a679" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Suction_Pressure"/>
+	</object>
+	<object access-modifier="private" name="System_Pressure" display-name="System_Pressure" uuid="b9ef5169-f99f-4cb2-9160-f0ac5993c614" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="System_Pressure"/>
+	</object>
+	<object access-modifier="private" name="Hours_Last_Run" display-name="Hours_Last_Run" uuid="0a798463-e23f-4028-a597-df2c39d1dff3" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Hours_Last_Run"/>
+	</object>
+	<object access-modifier="private" name="Run_Time" display-name="Run_Time" uuid="466b2fa7-065d-475c-9196-7b1b9032bb4b" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Run_Time"/>
+	</object>
+	<object access-modifier="private" name="Start_Count" display-name="Start_Count" uuid="9c3d6b7c-5a18-4d1a-a8b0-6909279434f7" base-type="OpcItemUInt2" base-type-id="7321f6ab-f531-4b38-88a3-abd98aba0a37" ver="4">
+		<init target="Source" ver="4" ref="OpcSource_1"/>
+		<init target="Path" ver="4" value="Start_Count"/>
+	</object>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

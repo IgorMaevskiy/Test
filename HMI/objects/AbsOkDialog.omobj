@@ -1,0 +1,71 @@
+<!--01.06.2018 16:59:33-->
+<type access-modifier="private" name="AbsOkDialog" display-name="AbsOkDialog" uuid="6bb1efcc-1023-48ac-a549-40971dfe4de7" base-type="AutoClosingForm" base-type-id="5a75a302-4263-43a9-8582-df9a299952d4" ver="1">
+	<designed target="X" value="0" ver="1"/>
+	<designed target="Y" value="0" ver="1"/>
+	<designed target="Rotation" value="0" ver="1"/>
+	<designed target="Scale" value="1" ver="1"/>
+	<designed target="Visible" value="true" ver="1"/>
+	<designed target="Enabled" value="true" ver="1"/>
+	<designed target="Tooltip" value="" ver="1"/>
+	<designed target="PenColor" value="0xff000000" ver="1"/>
+	<designed target="PenStyle" value="0" ver="1"/>
+	<designed target="PenWidth" value="1" ver="1"/>
+	<designed target="BrushColor" value="0xfff0f0f0" ver="1"/>
+	<designed target="BrushStyle" value="1" ver="1"/>
+	<designed target="WindowBorderStyle" value="2" ver="1"/>
+	<designed target="ShowWindowCaption" value="true" ver="1"/>
+	<designed target="ShowWindowMinimize" value="false" ver="1"/>
+	<designed target="ShowWindowMaximize" value="false" ver="1"/>
+	<designed target="ShowWindowClose" value="true" ver="1"/>
+	<designed target="AlwaysOnTop" value="false" ver="1"/>
+	<designed target="WindowSizeMode" value="0" ver="1"/>
+	<designed target="WindowScalingMode" value="0" ver="1"/>
+	<designed target="WindowCloseMode" value="0" ver="1"/>
+	<object access-modifier="private" name="bOK" display-name="bOK" uuid="e28db4d6-4236-4ad9-80f7-ba0c6f788d7a" base-type="Button" base-type-id="22504b6b-d24c-45e5-a9dd-6fb41e3d49c1" ver="1">
+		<designed target="X" value="290" ver="1"/>
+		<designed target="Y" value="160" ver="1"/>
+		<designed target="Rotation" value="0" ver="1"/>
+		<designed target="Scale" value="1" ver="1"/>
+		<designed target="Visible" value="true" ver="1"/>
+		<designed target="Enabled" value="true" ver="1"/>
+		<designed target="Tooltip" value="" ver="1"/>
+		<designed target="Width" value="100" ver="1"/>
+		<designed target="Height" value="30" ver="1"/>
+		<designed target="Text" value="OK" ver="1"/>
+		<designed target="Font" value="Arial,12,-1,5,50,0,0,0,0,0" ver="1"/>
+		<designed target="FontColor" value="0xff000000" ver="1"/>
+		<do-on access-modifier="private" name="" display-name="" event="ButtonPressed" form-action="close" ver="1"/>
+	</object>
+	<object access-modifier="private" name="tMessage" display-name="tMessage" uuid="6e3b8eea-32c1-4311-bf15-79bf5873fbff" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="1">
+		<designed target="X" value="120" ver="1"/>
+		<designed target="Y" value="20" ver="1"/>
+		<designed target="Rotation" value="0" ver="1"/>
+		<designed target="Scale" value="1" ver="1"/>
+		<designed target="Visible" value="true" ver="1"/>
+		<designed target="Enabled" value="true" ver="1"/>
+		<designed target="Tooltip" value="" ver="1"/>
+		<designed target="Width" value="260" ver="1"/>
+		<designed target="Height" value="130" ver="1"/>
+		<designed target="Text" value="Text" ver="1"/>
+		<designed target="Font" value="Arial,16,-1,5,50,0,0,0,0,0" ver="1"/>
+		<designed target="FontColor" value="0xff000000" ver="1"/>
+		<designed target="TextAlignment" value="132" ver="1"/>
+		<init target="Text" ref="Message" ver="1"/>
+	</object>
+	<object access-modifier="private" name="_aUpdateView" display-name="_aUpdateView" uuid="c0054598-0270-4cce-af91-98f6a868c9aa" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="1">
+		<designed target="Enabled" value="true" ver="1"/>
+		<designed target="InvokeTrigger" value="false" ver="1"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" event="Invoked" ver="1">
+			<body kind="javascript">
+				<![CDATA[if (IsAutoClose) {
+	bOK.Text = "OK (" + SecondsBeforeClose + ")";
+}]]>
+			</body>
+		</do-on>
+	</object>
+	<init target="aUpdateView" ref="_aUpdateView" ver="1"/>
+	<param access-modifier="private" name="Message" display-name="Message" uuid="76c8699e-a0e9-41dd-9c33-b1550e5a2cae" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="1"/>
+	<designed target="Width" value="400" ver="2"/>
+	<designed target="Height" value="200" ver="2"/>
+</type>
+

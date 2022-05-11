@@ -1,0 +1,95 @@
+<type access-modifier="private" name="Arrow2" display-name="Dummy_1" uuid="5746b094-170b-486f-a424-0acb66459365" base-type="Dummy" base-type-id="e4b644cf-f3a8-4d11-82a0-6acc23748e14" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<object access-modifier="private" name="Arrow" display-name="Arrow" uuid="eb62d92e-8d33-498d-a588-8b7a66e7504c" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="70" ver="2"/>
+		<designed target="Y" value="535" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="40" ver="2"/>
+		<designed target="Height" value="30" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="1" ver="2"/>
+		<designed target="BrushColor" value="0xffffffff" ver="2"/>
+		<designed target="BrushStyle" value="1" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="fe2595ed-dcc2-41a2-8233-6faa78eb7062" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="b82f7753-27bd-4163-a8e8-34aacecff5b4" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="24" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="c9f5e735-68ad-40ef-b1e5-c2ecc30aabb4" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="16" ver="2"/>
+			<designed target="Y" value="-10" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_4" display-name="Point_4" uuid="759c2d7a-cf7b-4323-a01b-8d769f33fb7b" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="24" ver="2"/>
+			<designed target="Y" value="-10" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_5" display-name="Point_5" uuid="e0186d3d-aecc-451f-9570-c37967717f29" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="40" ver="2"/>
+			<designed target="Y" value="5" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_6" display-name="Point_6" uuid="cc9f2df3-cffc-4fc0-ac04-6b0c28d5dfde" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="24" ver="2"/>
+			<designed target="Y" value="20" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_7" display-name="Point_7" uuid="00e42144-dcfe-44df-8b5e-f5599bcb0c0a" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="16" ver="2"/>
+			<designed target="Y" value="20" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_8" display-name="Point_8" uuid="4d26a15e-e35d-4c2f-a550-5ddede38e757" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="24" ver="2"/>
+			<designed target="Y" value="10" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_9" display-name="Point_9" uuid="a26190ab-56ba-4dfd-b6a3-f13fbab4cb86" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="10" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_10" display-name="Point_10" uuid="4a87a3d6-8d1f-4fb6-b806-e216023d0b74" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseEnter">
+			<body kind="javascript">
+				<![CDATA[if (Подсветка == true) {
+Arrow.PenWidth = 2
+}]]>
+			</body>
+		</do-on>
+		<do-on access-modifier="private" name="Handler_2" display-name="Handler_2" ver="2" event="MouseLeave">
+			<body kind="javascript">
+				<![CDATA[Arrow.PenWidth = 1]]>
+			</body>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Подсветка" display-name="Подсветка" uuid="9f30c25c-1d15-40c9-ad37-31723a076bca" base-type="notifying_bool" base-type-id="f8797810-1baa-4a1f-af36-cf839bf252e8" ver="2"/>
+	<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="3" event="MouseClick">
+		<body kind="om">
+			<![CDATA[if (toScreen > 0) 
+{
+	if (MonitorNumber == 0)unit.Global.CurrentScreen0 = toScreen;
+	if (MonitorNumber == 1)unit.Global.CurrentScreen1 = toScreen;
+	if (MonitorNumber == 2)unit.Global.CurrentScreen2 = toScreen;
+	if (MonitorNumber == 3)unit.Global.CurrentScreen3 = toScreen;
+	if (MonitorNumber == 4)unit.Global.CurrentScreen4 = toScreen;
+}]]>
+		</body>
+	</do-on>
+	<object access-modifier="private" name="toScreen" display-name="toScreen" uuid="4b9422ba-892e-4893-80b2-48de1a4eeccf" base-type="notifying_uint1" base-type-id="fed14c54-414c-56bd-549a-8d761c4d6200" ver="2"/>
+	<object access-modifier="private" name="MonitorNumber" display-name="MonitorNumber" uuid="630c20f3-6dfd-45b5-ae6e-def943cdee66" base-type="notifying_int4" base-type-id="5ccca629-a45d-46c8-a56c-83ecde8126f7" ver="2"/>
+	<designed target="ZValue" value="0" ver="5"/>
+	<designed target="Opacity" value="1" ver="5"/>
+</type>
+

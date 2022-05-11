@@ -1,0 +1,2107 @@
+<type access-modifier="private" name="Резервуар_Форма" display-name="Резервуар_Форма" uuid="f54ba91a-69a7-468c-b444-7e6a02464543" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="1120" ver="2"/>
+	<designed target="Height" value="440" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="0xffc7c7c7" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="20" ver="2"/>
+	<designed target="WindowY" value="20" ver="2"/>
+	<designed target="WindowWidth" value="1120" ver="2"/>
+	<designed target="WindowHeight" value="440" ver="2"/>
+	<designed target="WindowCaption" value="Резервуар" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="false" ver="2"/>
+	<designed target="ShowWindowMaximize" value="false" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="true" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="2" ver="2"/>
+	<designed target="WindowState" value="0" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="4" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<do-trace access-modifier="private" target="WindowCaption" ver="3">
+		<body>
+			<![CDATA[Description]]>
+		</body>
+	</do-trace>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<object access-modifier="private" name="Rectangle_Blocks" display-name="Rectangle_Blocks" uuid="6b7d04cf-1d5e-4a27-82b0-3468a118e1bf" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="0" ver="4"/>
+		<designed target="Y" value="440" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="1120" ver="4"/>
+		<designed target="Height" value="680" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+	</object>
+	<object access-modifier="private" name="Rectangle_Gen" display-name="Rectangle_Gen" uuid="96dacb85-0a11-4fdd-8df3-c05d3ea90984" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="0" ver="4"/>
+		<designed target="Y" value="0" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="1120" ver="4"/>
+		<designed target="Height" value="440" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Messages" display-name="Messages" uuid="bcadf9b1-4bd7-41fb-90fa-c55667722018" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+			<designed target="X" value="10" ver="2"/>
+			<designed target="Y" value="45" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="120" ver="2"/>
+			<designed target="Height" value="30" ver="2"/>
+			<designed target="Text" value="Графики" ver="2"/>
+			<designed target="TextAlignment" value="132" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+			<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+			<designed target="BrushColor" value="4293980400" ver="2"/>
+			<designed target="BrushStyle" value="1" ver="2"/>
+			<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+			<designed target="OnClickBrushStyle" value="1" ver="2"/>
+			<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+			<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+			<designed target="PenColor" value="4278190080" ver="2"/>
+			<designed target="PenStyle" value="1" ver="2"/>
+			<designed target="PenWidth" value="1" ver="2"/>
+			<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+			<designed target="OnClickPenStyle" value="1" ver="2"/>
+			<designed target="OnClickPenWidth" value="1" ver="2"/>
+			<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+			<designed target="OnHoverPenStyle" value="1" ver="2"/>
+			<designed target="OnHoverPenWidth" value="1" ver="2"/>
+			<designed target="Checkable" value="false" ver="3"/>
+			<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+			<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+			<designed target="DisabledBrushStyle" value="1" ver="3"/>
+			<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+			<designed target="DisabledPenStyle" value="1" ver="3"/>
+			<designed target="DisabledPenWidth" value="1" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Checked" value="false" ver="4"/>
+			<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="3" event="MouseClick" form-action="open-new" form-by-id="false">
+				<object access-modifier="private" uuid="1aeb388f-d5ea-4796-a7e1-c047a60331f3" base-type="Trends10" base-type-id="a936a411-a6f2-4164-9c4c-29e120db3848" ver="4">
+					<init target="Trends_Number" ver="4" value="6"/>
+					<init target="Тренд_1" ver="4" value="Level"/>
+					<init target="Тренд_2" ver="4" value="Pressure"/>
+					<init target="Тренд_3" ver="4" value="Level2"/>
+					<init target="Тренд_4" ver="4" value="ATE"/>
+					<init target="Тренд_5" ver="4" value="Temperature"/>
+					<init target="Тренд_6" ver="4" value="Density"/>
+					<init target="Источник" ver="4" ref="here.OpcSource"/>
+					<designed target="WindowPosition" value="1" ver="4"/>
+				</object>
+			</do-on>
+		</object>
+	</object>
+	<object access-modifier="private" name="Rectangle_Extra" display-name="Rectangle_Extra" uuid="e5bddcab-24ca-469b-a30e-9147b8320adb" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="4">
+		<designed target="X" value="730" ver="4"/>
+		<designed target="Y" value="10" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="330" ver="4"/>
+		<designed target="Height" value="170" ver="4"/>
+		<designed target="RoundingRadius" value="0" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+	</object>
+	<object access-modifier="private" name="Pipe_Out" display-name="Pipe_Out" uuid="2b7c9992-be56-4f31-8619-487bee4b7bb7" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+		<designed target="X" value="550" ver="3"/>
+		<designed target="Y" value="310" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="330" ver="3"/>
+		<designed target="Height" value="0" ver="3"/>
+		<designed target="PenColor" value="0xff00aa00" ver="3"/>
+		<designed target="PenStyle" value="1" ver="3"/>
+		<designed target="PenWidth" value="3" ver="3"/>
+		<designed target="BrushColor" value="0xff000000" ver="3"/>
+		<designed target="BrushStyle" value="0" ver="3"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="f6256875-f3ed-4636-95ae-68af0675f362" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="-73.3333" ver="3"/>
+			<designed target="Y" value="0" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="cd759395-e7f9-4820-af5e-a8fb2d4ba702" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+			<designed target="X" value="256.667" ver="3"/>
+			<designed target="Y" value="0" ver="3"/>
+		</object>
+		<object access-modifier="private" name="Line_1" display-name="Line_1" uuid="731f261d-2732-427b-9cf8-78d4cff937c8" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="4">
+			<designed target="X" value="-50" ver="4"/>
+			<designed target="Y" value="0" ver="4"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Rotation" value="0" ver="4"/>
+			<designed target="Scale" value="1" ver="4"/>
+			<designed target="Visible" value="true" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+			<designed target="Enabled" value="true" ver="4"/>
+			<designed target="Tooltip" value="" ver="4"/>
+			<designed target="Width" value="307" ver="4"/>
+			<designed target="Height" value="90" ver="4"/>
+			<designed target="PenColor" value="0xff00aa00" ver="4"/>
+			<designed target="PenStyle" value="1" ver="4"/>
+			<designed target="PenWidth" value="3" ver="4"/>
+			<designed target="BrushColor" value="4278190080" ver="4"/>
+			<designed target="BrushStyle" value="0" ver="4"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="c7e44f9a-9c57-4ff4-8968-3841cc11b870" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4">
+				<designed target="X" value="0" ver="4"/>
+				<designed target="Y" value="0" ver="4"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="c9474c4d-0af9-4d2c-8db4-a1fd72179823" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4">
+				<designed target="X" value="0" ver="4"/>
+				<designed target="Y" value="90" ver="4"/>
+			</object>
+			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="69e8b2e0-80b4-49b2-87f3-ba9401c94990" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4">
+				<designed target="X" value="307" ver="4"/>
+				<designed target="Y" value="90" ver="4"/>
+			</object>
+		</object>
+	</object>
+	<object access-modifier="private" name="Р_Icon" display-name="Р_Icon" uuid="ef0bb096-d38f-4ff3-8754-b1c19d5fae6c" base-type="РГСН_30" base-type-id="8ad17bf2-3b2c-4da1-8513-eb369bff3a53" ver="3">
+		<designed target="X" value="870" ver="3"/>
+		<designed target="Y" value="-320" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Enabled" value="false" ver="3"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Level_AI" display-name="Level_AI" uuid="4623be28-0f4b-4a3a-be58-5c048774ed4d" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="460" ver="2"/>
+		<designed target="Y" value="20" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Level"/>
+		<object access-modifier="private" name="Line_Level" display-name="Line_Level" uuid="daad9f4d-83c2-42b0-8605-4ce1bc05090e" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="-0.333333" ver="3"/>
+			<designed target="Y" value="22" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="151.6" ver="3"/>
+			<designed target="Height" value="170" ver="3"/>
+			<designed target="PenColor" value="4278190080" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="912ad049-7fe0-44ae-9482-0e3bb3f11649" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="7fc6529b-c5f4-4e81-84b0-feab03363f59" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="-151.6" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="a22d1eb4-939f-4d63-b149-b7509e8f191d" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="-151.6" ver="3"/>
+				<designed target="Y" value="170" ver="3"/>
+			</object>
+		</object>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<init target="Формат" ver="4" value="1"/>
+	</object>
+	<object access-modifier="private" name="Pressure_AI" display-name="Pressure_AI" uuid="599ab662-a18a-4e7c-935f-dc87e808d871" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="460" ver="2"/>
+		<designed target="Y" value="80" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Pressure"/>
+		<object access-modifier="private" name="Line_Level" display-name="Line_Level" uuid="36c81a08-bf48-4320-aef1-4f0753abc934" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="0" ver="3"/>
+			<designed target="Y" value="22" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="121.2" ver="3"/>
+			<designed target="Height" value="111" ver="3"/>
+			<designed target="PenColor" value="4278190080" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="b7084a7b-6784-4b76-a4bd-cfbd947a22d6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="248c02d9-5790-43aa-94d4-f85a5a2dc434" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="-121.2" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="587b303f-e636-4824-b032-206270be7415" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="-121.2" ver="3"/>
+				<designed target="Y" value="111" ver="3"/>
+			</object>
+		</object>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="LevelMin_DI" display-name="LevelMin_DI" uuid="a179b7d6-835c-4cdd-994e-351bf0b066d1" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+		<designed target="X" value="420" ver="2"/>
+		<designed target="Y" value="140" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="LevelMin"/>
+		<object access-modifier="private" name="Line_DI2" display-name="Line_DI2" uuid="68582049-2bfd-47d6-91dc-18b3d0c09498" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="3">
+			<designed target="X" value="0" ver="3"/>
+			<designed target="Y" value="17" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="51.1" ver="3"/>
+			<designed target="Height" value="54.8857" ver="3"/>
+			<designed target="PenColor" value="4278190080" ver="3"/>
+			<designed target="PenStyle" value="1" ver="3"/>
+			<designed target="PenWidth" value="1" ver="3"/>
+			<designed target="BrushColor" value="4278190080" ver="3"/>
+			<designed target="BrushStyle" value="0" ver="3"/>
+			<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="7fe59127-5e41-4148-a277-44cfba1c8414" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="0" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="840b7eea-befb-46f3-aed9-2f897d0fdc38" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="-51.1" ver="3"/>
+				<designed target="Y" value="0" ver="3"/>
+			</object>
+			<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="3224aca6-c99a-4dc1-90a6-f45eb524de05" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="3">
+				<designed target="X" value="-51.1" ver="3"/>
+				<designed target="Y" value="54.8857" ver="3"/>
+			</object>
+		</object>
+		<init target="Источник" ver="3" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="LevelMax_DI" display-name="LevelMax_DI" uuid="b46db447-1401-4a14-810e-c79b6bce3314" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+		<designed target="X" value="520" ver="2"/>
+		<designed target="Y" value="140" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="LevelMax"/>
+		<init target="Источник" ver="3" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Temperature_AI" display-name="Temperature_AI" uuid="0eed702e-2063-41d4-9d2d-b77779d59aa7" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="930" ver="2"/>
+		<designed target="Y" value="20" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Temperature"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Temperature_Text" display-name="Temperature_Text" uuid="2d64e478-ed7f-414b-952f-bd8e0b27ade9" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+		<designed target="X" value="750" ver="3"/>
+		<designed target="Y" value="25" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="140" ver="3"/>
+		<designed target="Height" value="30" ver="3"/>
+		<designed target="Text" value="Температура, °С" ver="3"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+		<designed target="FontColor" value="4278190080" ver="3"/>
+		<designed target="TextAlignment" value="129" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Density_AI" display-name="Density_AI" uuid="0b29b5dd-1771-4e44-8fed-13f029e36dc8" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="930" ver="2"/>
+		<designed target="Y" value="70" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Density"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Density_Text" display-name="Density_Text" uuid="cbf38785-d91d-43f3-b227-b057cd894b7e" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+		<designed target="X" value="750" ver="3"/>
+		<designed target="Y" value="75" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="140" ver="3"/>
+		<designed target="Height" value="30" ver="3"/>
+		<designed target="Text" value="Плотность, кг∙м3" ver="3"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+		<designed target="FontColor" value="4278190080" ver="3"/>
+		<designed target="TextAlignment" value="129" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Level2_AI" display-name="Level2_AI" uuid="bbc633fb-8149-4caa-9be9-1973aa20a4e7" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="930" ver="2"/>
+		<designed target="Y" value="120" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Level2"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Level2_Text" display-name="Level2_Text" uuid="e2549e53-2f98-4379-9b4b-247113ab1f49" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+		<designed target="X" value="750" ver="3"/>
+		<designed target="Y" value="120" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="170" ver="3"/>
+		<designed target="Height" value="40" ver="3"/>
+		<designed target="Text" value="Уровень подтоварной воды, %" ver="3"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+		<designed target="FontColor" value="4278190080" ver="3"/>
+		<designed target="TextAlignment" value="129" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Cont_AI" display-name="Cont_AI" uuid="52f84569-facf-4841-99e0-fefaf86d64c9" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="56" ver="2"/>
+		<designed target="Y" value="135" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Temperature"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<object access-modifier="private" name="Cont_Text" display-name="Cont_Text" uuid="6f2ff68d-ff98-43d2-bbdc-a9c8f6901a38" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+			<designed target="X" value="-40" ver="3"/>
+			<designed target="Y" value="-40" ver="3"/>
+			<designed target="ZValue" value="0" ver="3"/>
+			<designed target="Rotation" value="0" ver="3"/>
+			<designed target="Scale" value="1" ver="3"/>
+			<designed target="Visible" value="true" ver="3"/>
+			<designed target="Opacity" value="1" ver="3"/>
+			<designed target="Enabled" value="true" ver="3"/>
+			<designed target="Tooltip" value="" ver="3"/>
+			<designed target="Width" value="200" ver="3"/>
+			<designed target="Height" value="30" ver="3"/>
+			<designed target="Text" value="Загазованность, % НКПР" ver="3"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+			<designed target="FontColor" value="4278190080" ver="3"/>
+			<designed target="TextAlignment" value="129" ver="3"/>
+		</object>
+	</object>
+	<object access-modifier="private" name="Man valve1" display-name="Man valve1" uuid="987436ec-4029-4b47-a8e3-1522ddd946f6" base-type="Man valve" base-type-id="eac7ce73-8a7f-4661-b9fa-176db89b468a" ver="2">
+		<designed target="X" value="550" ver="2"/>
+		<designed target="Y" value="300" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+	</object>
+	<object access-modifier="private" name="Man valve2" display-name="Man valve2" uuid="cf6abf14-f099-406c-9f5a-f9b3323cd49f" base-type="Man valve" base-type-id="eac7ce73-8a7f-4661-b9fa-176db89b468a" ver="2">
+		<designed target="X" value="550" ver="2"/>
+		<designed target="Y" value="390" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+	</object>
+	<object access-modifier="private" name="Arrow1" display-name="Arrow1" uuid="67d00bb9-9103-44e1-94cf-dc763b6581d9" base-type="arrowSuer" base-type-id="b39c919b-8e68-4417-ae34-46b438d1c665" ver="3">
+		<designed target="X" value="605" ver="3"/>
+		<designed target="Y" value="323" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<init target="Collor" ver="3" value="0xff00aa00"/>
+	</object>
+	<object access-modifier="private" name="OpcSource" display-name="OpcSource" uuid="7e8c4983-5e16-40e1-96b6-a2805d29a16d" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" ver="3">
+		<designed target="Active" value="true" ver="3"/>
+		<designed target="ReAdvise" value="0" ver="3"/>
+		<designed target="UpdateRate" value="0" ver="4"/>
+		<init target="ParentSource" ver="4" ref="Источник"/>
+	</object>
+	<object access-modifier="private" name="Description" display-name="Description" uuid="a2ea6841-8faf-4bc2-8cae-116c3da0a530" base-type="OpcItemString" base-type-id="19347e85-d46e-416c-96e4-ce7914342e6c" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="3" value="Description"/>
+		<object access-modifier="private" name="Комментарий" display-name="Комментарий" uuid="1c162811-969a-44f5-9720-539dc2856fe9" base-type="string" base-type-id="76403785-f3d5-41a7-9eb6-d19d2aa2d95d" ver="3"/>
+		<init target="Комментарий" ver="3" value="Описание резервуара"/>
+	</object>
+	<object access-modifier="private" name="Arrow2" display-name="Arrow2" uuid="e4215f27-5fb0-4a10-af3b-9931a733a5af" base-type="arrowSuer" base-type-id="b39c919b-8e68-4417-ae34-46b438d1c665" ver="3">
+		<designed target="X" value="605" ver="3"/>
+		<designed target="Y" value="413" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<init target="Collor" ver="3" value="0xff00aa00"/>
+	</object>
+	<object access-modifier="private" name="Warning" display-name="Warning" uuid="cf3de13c-ce5c-42c9-89b0-13cedbb5fed4" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-action="open-new" form-by-id="false">
+			<object access-modifier="private" uuid="bc05be35-b7f2-4f71-9ec6-69dd34c18670" base-type="Warning" base-type-id="4fabacbe-190e-45d8-82df-6f4bf28f007e" ver="2"/>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Warning_cmd" display-name="Warning_cmd" uuid="c7bafc52-7610-43d8-8393-1e4906191495" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-by-id="false" form-action="open-new">
+			<object access-modifier="private" uuid="b73b3c9e-27b1-4aca-898d-f2a6633178b1" base-type="Warning_cmd" base-type-id="f651adcf-10e2-4741-81d5-1c6b72349b4b" ver="2"/>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Valve1" display-name="Valve1" uuid="607250f2-e6a0-4f26-8cad-599eb888a307" base-type="valve_cut_AP" base-type-id="12dc62d5-6ff8-49ba-bb4b-a379edbe9679" ver="4">
+		<designed target="X" value="720" ver="4"/>
+		<designed target="Y" value="300" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<init target="Путь" ver="4" value="KCS_2"/>
+	</object>
+	<object access-modifier="private" name="Valve1_Text" display-name="Valve1_Text" uuid="d84db141-632f-4839-b577-167f9688833d" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+		<designed target="X" value="810" ver="3"/>
+		<designed target="Y" value="280" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="90" ver="3"/>
+		<designed target="Height" value="50" ver="3"/>
+		<designed target="Text" value="к насосам Н1, Н2" ver="3"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+		<designed target="FontColor" value="4278190080" ver="3"/>
+		<designed target="TextAlignment" value="132" ver="3"/>
+	</object>
+	<object access-modifier="private" name="Valve2" display-name="Valve2" uuid="fd172c95-5916-4bfe-9d31-36cb2b3dd31b" base-type="valve_cut_AP" base-type-id="12dc62d5-6ff8-49ba-bb4b-a379edbe9679" ver="4">
+		<designed target="X" value="720" ver="4"/>
+		<designed target="Y" value="390" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<init target="Путь" ver="4" value="KCS_3"/>
+	</object>
+	<object access-modifier="private" name="Valve2_Text" display-name="Valve2_Text" uuid="7ebec69d-969e-43f0-a5ca-b1c7b32565d5" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="3" cardinal="1">
+		<designed target="X" value="815" ver="3"/>
+		<designed target="Y" value="370" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Rotation" value="0" ver="3"/>
+		<designed target="Scale" value="1" ver="3"/>
+		<designed target="Visible" value="true" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<designed target="Enabled" value="true" ver="3"/>
+		<designed target="Tooltip" value="" ver="3"/>
+		<designed target="Width" value="90" ver="3"/>
+		<designed target="Height" value="50" ver="3"/>
+		<designed target="Text" value="к насосу Н3" ver="3"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="3"/>
+		<designed target="FontColor" value="4278190080" ver="3"/>
+		<designed target="TextAlignment" value="132" ver="3"/>
+	</object>
+	<param access-modifier="private" name="Источник" display-name="Источник" uuid="ad9ba218-574e-43af-89f6-7d941aa859a0" base-type="OpcSource" base-type-id="87519c51-54a2-4fbf-9709-be83ebcb2028" base-const="true" base-ref="true" ver="4"/>
+	<object access-modifier="private" name="Messages" display-name="Messages" uuid="61af6c48-6d49-45cd-98b7-6998d85868c6" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+		<designed target="X" value="10" ver="2"/>
+		<designed target="Y" value="10" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="120" ver="2"/>
+		<designed target="Height" value="30" ver="2"/>
+		<designed target="Text" value="Сообщения" ver="2"/>
+		<designed target="TextAlignment" value="132" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+		<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+		<designed target="BrushColor" value="4293980400" ver="2"/>
+		<designed target="BrushStyle" value="1" ver="2"/>
+		<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+		<designed target="OnClickBrushStyle" value="1" ver="2"/>
+		<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+		<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="1" ver="2"/>
+		<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+		<designed target="OnClickPenStyle" value="1" ver="2"/>
+		<designed target="OnClickPenWidth" value="1" ver="2"/>
+		<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+		<designed target="OnHoverPenStyle" value="1" ver="2"/>
+		<designed target="OnHoverPenWidth" value="1" ver="2"/>
+		<designed target="Checkable" value="false" ver="3"/>
+		<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+		<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+		<designed target="DisabledBrushStyle" value="1" ver="3"/>
+		<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+		<designed target="DisabledPenStyle" value="1" ver="3"/>
+		<designed target="DisabledPenWidth" value="1" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+			<app path="C:\Program Files\SUER\SUER.Alarms\SUER.Alarms.App.exe" command-line="{x1} {x2}{x3}{x4} {x6} {x7} {x8}">
+				<alias name="x1" ver="4">
+					<value>
+						<![CDATA[mode historical]]>
+					</value>
+				</alias>
+				<alias name="x2" ver="4">
+					<value>
+						<![CDATA[setadvancedfilter "Message like '*]]>
+					</value>
+				</alias>
+				<alias name="x3" ver="4">
+					<expr>
+						<![CDATA[Description.Value]]>
+					</expr>
+				</alias>
+				<alias name="x4" ver="4">
+					<value>
+						<![CDATA[*'"]]>
+					</value>
+				</alias>
+				<alias name="x5" ver="4">
+					<value>
+						<![CDATA[WindowsFixed]]>
+					</value>
+				</alias>
+				<alias name="x6" ver="4">
+					<value>
+						<![CDATA[LoadConfiguration]]>
+					</value>
+				</alias>
+				<alias name="x7" ver="4">
+					<value>
+						<![CDATA["C:\PROJ\config\AlarmsAPP"]]>
+					</value>
+				</alias>
+				<alias name="x8" ver="4">
+					<value>
+						<![CDATA[AlwaysOnTop]]>
+					</value>
+				</alias>
+			</app>
+		</do-on>
+		<designed target="Checked" value="false" ver="4"/>
+	</object>
+	<object access-modifier="private" name="BlocksButton" display-name="BlocksButton" uuid="8a63263d-2418-463b-9083-42ccb41596c5" base-type="Button" base-type-id="61e46e4a-827f-4dd2-ac8a-b68bcaddf442" ver="2">
+		<designed target="X" value="10" ver="2"/>
+		<designed target="Y" value="400" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="120" ver="2"/>
+		<designed target="Height" value="30" ver="2"/>
+		<designed target="Text" value="Блокировки" ver="2"/>
+		<designed target="TextAlignment" value="132" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,12,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="OnClickFontColor" value="4278190080" ver="2"/>
+		<designed target="OnHoverFontColor" value="4278190080" ver="2"/>
+		<designed target="BrushColor" value="4293980400" ver="2"/>
+		<designed target="BrushStyle" value="1" ver="2"/>
+		<designed target="OnClickBrushColor" value="4288716960" ver="2"/>
+		<designed target="OnClickBrushStyle" value="1" ver="2"/>
+		<designed target="OnHoverBrushColor" value="4294967295" ver="2"/>
+		<designed target="OnHoverBrushStyle" value="1" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="1" ver="2"/>
+		<designed target="OnClickPenColor" value="4278190080" ver="2"/>
+		<designed target="OnClickPenStyle" value="1" ver="2"/>
+		<designed target="OnClickPenWidth" value="1" ver="2"/>
+		<designed target="OnHoverPenColor" value="4278190080" ver="2"/>
+		<designed target="OnHoverPenStyle" value="1" ver="2"/>
+		<designed target="OnHoverPenWidth" value="1" ver="2"/>
+		<designed target="Checkable" value="false" ver="3"/>
+		<designed target="DisabledFontColor" value="4278190080" ver="3"/>
+		<designed target="DisabledBrushColor" value="4288716960" ver="3"/>
+		<designed target="DisabledBrushStyle" value="1" ver="3"/>
+		<designed target="DisabledPenColor" value="4288716960" ver="3"/>
+		<designed target="DisabledPenStyle" value="1" ver="3"/>
+		<designed target="DisabledPenWidth" value="1" ver="3"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="MouseClick">
+			<body kind="om">
+				<![CDATA[// Если уровень доступа "Оператор" и выше, то 
+
+if (unit.Security.Oper.Value){
+
+// Если окно с блокировками свёрнуто, то развернуть его
+
+	if (!ShowBlocks) 
+		{
+
+		here.WindowHeight = 800;	// Увеличить ширину окна до 800 (Показать окно с блокировками)
+		here.Height = 1120;
+		ShowBlocks = true;
+		
+		}
+
+// Если окно с блокировками развёрнуто, то свернуть его		
+		
+	else
+		{	
+		
+		here.WindowHeight = 440;	// Уменьшить ширину окна до 440 (Скрыть окно с блокировками)
+		here.Height = 440;
+		ShowBlocks = false;
+		
+		}	
+}
+
+// иначе выдать ошибку недостаточного уровня доступа
+
+else {Warning.Invoke();}]]>
+			</body>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="OR_Close1" display-name="OR_Close1" uuid="174175b3-c2c8-4ba5-adda-837d0f7a1e9d" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+		<designed target="X" value="375" ver="2"/>
+		<designed target="Y" value="500" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="70" ver="2"/>
+		<designed target="Height" value="270" ver="2"/>
+		<designed target="RoundingRadius" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Text_1" display-name="Text_1" uuid="d8419b24-010a-4881-a1a3-5702feabbbc1" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="70" ver="2"/>
+			<designed target="Height" value="270" ver="2"/>
+			<designed target="Text" value="ИЛИ" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="132" ver="2"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[LevelMax.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMax || Block_PressureMax || Block_ATE_P || Block_ATE_H || Block_FIRE]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!(Block_LevelMax || Block_PressureMax || Block_ATE_P || Block_ATE_H || Block_FIRE)]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Close1" display-name="Line_Close1" uuid="4b363faa-163b-477a-bd9e-480018f02bb1" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="446" ver="2"/>
+		<designed target="Y" value="634" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="120" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="a71ac248-0626-48fc-b7d6-28713ae48cb2" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="9b7c276f-02e3-4c60-9abc-8e13b2e98901" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="120" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<object access-modifier="private" name="Text_80" display-name="Text_80" uuid="46146f3f-d50f-4a9e-aa9f-2dac755d7686" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="10" ver="2"/>
+			<designed target="Y" value="-25" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="120" ver="2"/>
+			<designed target="Height" value="20" ver="2"/>
+			<designed target="Text" value="Закрыть KCSP-1" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="33" ver="2"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+		</object>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[LevelMax.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMax || Block_PressureMax || Block_ATE_P || Block_ATE_H || Block_FIRE]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!(Block_LevelMax || Block_PressureMax || Block_ATE_P || Block_ATE_H || Block_FIRE)]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="OR_Close2" display-name="OR_Close2" uuid="6256ce7e-92ee-48cd-ba0b-2e844772ecbb" base-type="Rectangle" base-type-id="15726dc3-881e-4d8d-b0fa-a8f8237f08ca" ver="2">
+		<designed target="X" value="375" ver="2"/>
+		<designed target="Y" value="800" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="70" ver="2"/>
+		<designed target="Height" value="150" ver="2"/>
+		<designed target="RoundingRadius" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Text_1" display-name="Text_1" uuid="d9b08fd1-3e96-4f16-8faa-3b1925de82f2" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="70" ver="2"/>
+			<designed target="Height" value="150" ver="2"/>
+			<designed target="Text" value="ИЛИ" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,14,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="132" ver="2"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMin.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMin || Block_PressureMin || Block_FIRE]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!(Block_LevelMin || Block_PressureMin || Block_FIRE)]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Close2" display-name="Line_Close2" uuid="0b264017-0160-402a-b6c9-39dd1be6fba7" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="446" ver="2"/>
+		<designed target="Y" value="874" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="120" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="feb41402-6652-4d11-b3a7-1359380b8ca3" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="fc6e4660-eb6d-4e8d-b3de-1946a56e9cc5" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="120" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<object access-modifier="private" name="Text_80" display-name="Text_80" uuid="445faf2a-9545-48b0-90ba-386dc5b052e2" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="10" ver="2"/>
+			<designed target="Y" value="-25" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="120" ver="2"/>
+			<designed target="Height" value="20" ver="2"/>
+			<designed target="Text" value="Закрыть KCSP-2" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="33" ver="2"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+		</object>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMin.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMin || Block_PressureMin || Block_FIRE]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!(Block_LevelMin || Block_PressureMin || Block_FIRE)]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Key_Block1" display-name="Key_Block1" uuid="1ab64a53-fab0-40a1-86d6-7859e3495093" base-type="Key" base-type-id="15238913-381f-49f3-a88c-fe2fc341592a" ver="2">
+		<designed target="X" value="269.75" ver="2"/>
+		<designed target="Y" value="379" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<init target="Путь" ver="4" value="Deblock"/>
+		<init target="DeblockPath" ver="4" value="DeblockLevelMax"/>
+		<do-trace access-modifier="private" target="NameBlock" ver="4">
+			<body>
+				<![CDATA[Description + ". Максимальный уровень"]]>
+			</body>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Key_Block2" display-name="Key_Block2" uuid="a26d7cf1-d8ff-43b4-8bd7-190137fe475a" base-type="Key" base-type-id="15238913-381f-49f3-a88c-fe2fc341592a" ver="2">
+		<designed target="X" value="269.75" ver="2"/>
+		<designed target="Y" value="439" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<init target="Путь" ver="4" value="Deblock"/>
+		<init target="DeblockPath" ver="4" value="DeblockPressureMax"/>
+		<do-trace access-modifier="private" target="NameBlock" ver="4">
+			<body>
+				<![CDATA[Description + ". Максимальное давление"]]>
+			</body>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Key_Block3" display-name="Key_Block3" uuid="4d9bb6af-2fa0-47ec-acc3-80ea2510c33e" base-type="Key" base-type-id="15238913-381f-49f3-a88c-fe2fc341592a" ver="2">
+		<designed target="X" value="269.75" ver="2"/>
+		<designed target="Y" value="499" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Источник" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Путь" ver="4" value="BLOCKS.Deblock"/>
+		<init target="DeblockPath" ver="4" value="Deblock_ATE_P1_P5"/>
+		<init target="NameBlock" ver="4" value="Загазованность у резервуаров"/>
+	</object>
+	<object access-modifier="private" name="Key_Block4" display-name="Key_Block4" uuid="46a78907-4d8f-46f1-8c65-1028c6b2a18c" base-type="Key" base-type-id="15238913-381f-49f3-a88c-fe2fc341592a" ver="2">
+		<designed target="X" value="269.75" ver="2"/>
+		<designed target="Y" value="559" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Источник" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Путь" ver="4" value="BLOCKS.Deblock"/>
+		<init target="NameBlock" ver="4" value="Загазованность в насосной"/>
+		<init target="DeblockPath" ver="4" value="Deblock_ATE_H1_H3"/>
+	</object>
+	<object access-modifier="private" name="Key_Block5" display-name="Key_Block5" uuid="0f52005c-641f-466e-b55f-a67e3860112a" base-type="Key" base-type-id="15238913-381f-49f3-a88c-fe2fc341592a" ver="2">
+		<designed target="X" value="269.75" ver="2"/>
+		<designed target="Y" value="619" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Источник" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Путь" ver="4" value="BLOCKS.Deblock"/>
+		<init target="NameBlock" ver="4" value="Сигнал пожарной сигнализации"/>
+		<init target="DeblockPath" ver="4" value="DeblockFIRE"/>
+	</object>
+	<object access-modifier="private" name="Key_Block6" display-name="Key_Block6" uuid="15bc77d6-e4f6-4802-afe3-e4da6b449e03" base-type="Key" base-type-id="15238913-381f-49f3-a88c-fe2fc341592a" ver="2">
+		<designed target="X" value="269.75" ver="2"/>
+		<designed target="Y" value="679" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<init target="Путь" ver="4" value="Deblock"/>
+		<do-trace access-modifier="private" target="NameBlock" ver="4">
+			<body>
+				<![CDATA[Description + ". Минимальный уровень"]]>
+			</body>
+		</do-trace>
+		<init target="DeblockPath" ver="4" value="DeblockLevelMin"/>
+	</object>
+	<object access-modifier="private" name="Key_Block7" display-name="Key_Block7" uuid="05bae9fe-4d7a-4f2f-811c-fe62a9548e0f" base-type="Key" base-type-id="15238913-381f-49f3-a88c-fe2fc341592a" ver="2">
+		<designed target="X" value="269.75" ver="2"/>
+		<designed target="Y" value="739" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+		<init target="Путь" ver="4" value="Deblock"/>
+		<do-trace access-modifier="private" target="NameBlock" ver="4">
+			<body>
+				<![CDATA[Description + ". Минимальное давление"]]>
+			</body>
+		</do-trace>
+		<init target="DeblockPath" ver="4" value="DeblockPressureMin"/>
+	</object>
+	<object access-modifier="private" name="LevelMax_DI_Block" display-name="LevelMax_DI_Block" uuid="abab4537-2182-43d4-86b8-62070d7f373c" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+		<designed target="X" value="30" ver="2"/>
+		<designed target="Y" value="500" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="LevelMax"/>
+		<init target="Источник" ver="3" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="PressureMax_AI_Block" display-name="PressureMax_AI_Block" uuid="91aa3e9b-5d6f-4b50-b532-fa8d42f3c5e6" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="20" ver="2"/>
+		<designed target="Y" value="550" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Pressure"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="ATE_P_DI_Block" display-name="ATE_P_DI_Block" uuid="900d2ac5-248e-44c7-91a6-ffa9f61be919" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+		<designed target="X" value="30.25" ver="2"/>
+		<designed target="Y" value="620" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="LevelMax"/>
+		<init target="Источник" ver="3" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="ATE_H_DI_Block" display-name="ATE_H_DI_Block" uuid="46e7c0ac-5e38-48af-91f8-177cfe84ce3a" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+		<designed target="X" value="30.25" ver="2"/>
+		<designed target="Y" value="680" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="LevelMax"/>
+		<init target="Источник" ver="3" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="FIRE_DI_Block" display-name="FIRE_DI_Block" uuid="d333c7fe-6514-439e-83be-5d1e31874206" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+		<designed target="X" value="30.25" ver="2"/>
+		<designed target="Y" value="740" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="LevelMax"/>
+		<init target="Источник" ver="3" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="LevelMin_DI_Block" display-name="LevelMin_DI_Block" uuid="df0d9e86-2c3b-462c-b199-eef0cd794bf1" base-type="DI_Блокировочный" base-type-id="1d2c1ff2-726a-437e-bdd1-5f14f6e4b744" ver="2">
+		<designed target="X" value="30.25" ver="2"/>
+		<designed target="Y" value="800" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="LevelMax"/>
+		<init target="Источник" ver="3" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="PressureMin_AI_Block" display-name="PressureMin_AI_Block" uuid="7c9b7244-6d99-4582-8602-3487dd679b48" base-type="ai_value" base-type-id="551095d4-2ebf-4a68-8d8f-040abc9dc3cd" ver="2">
+		<designed target="X" value="20" ver="2"/>
+		<designed target="Y" value="850" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<init target="Путь" ver="2" value="Pressure"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Valve1_Block" display-name="Valve1_Block" uuid="e1ac3a7a-ce79-4f8a-9d38-d89ffb05ecda" base-type="valve_cut_AP" base-type-id="12dc62d5-6ff8-49ba-bb4b-a379edbe9679" ver="4">
+		<designed target="X" value="630" ver="4"/>
+		<designed target="Y" value="640" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<init target="Путь" ver="4" value="KCS_1"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Valve2_Block" display-name="Valve2_Block" uuid="2e648ac1-fbc9-4e38-9a75-a9c6cda58f5e" base-type="valve_cut_AP" base-type-id="12dc62d5-6ff8-49ba-bb4b-a379edbe9679" ver="4">
+		<designed target="X" value="630" ver="4"/>
+		<designed target="Y" value="880" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<init target="Путь" ver="4" value="KCS_2"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Valve3_Block" display-name="Valve3_Block" uuid="57f00c64-c492-4de5-adef-6f00c01fc3f7" base-type="valve_cut_AP" base-type-id="12dc62d5-6ff8-49ba-bb4b-a379edbe9679" ver="4">
+		<designed target="X" value="630" ver="4"/>
+		<designed target="Y" value="1040" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<init target="Путь" ver="4" value="KCS_3"/>
+		<init target="Источник" ver="4" ref="here.OpcSource"/>
+	</object>
+	<object access-modifier="private" name="Line_LevelMax" display-name="Line_LevelMax" uuid="9f7062ab-a114-476b-8024-b778d3495901" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="121" ver="2"/>
+		<designed target="Y" value="514" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="150" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="5bc51e33-8941-46ab-a260-e797c4612767" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="c31cb99e-c656-4756-80c7-47d0b320954c" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="150" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[LevelMax.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[LevelMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!LevelMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_BlockLevelMax" display-name="Line_BlockLevelMax" uuid="24340426-08d9-44f9-93ae-8bb81d0050cd" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="324" ver="2"/>
+		<designed target="Y" value="514" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="50" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="d4b23a39-dc05-47ce-85c8-c14e3e788cee" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="e0961806-9ec2-4132-a680-4428522ef468" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="50" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMax.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_LevelMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_PressureMax" display-name="Line_PressureMax" uuid="7c3039f3-69e4-40c4-a875-e8fb7bdd96e1" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="121" ver="2"/>
+		<designed target="Y" value="574" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="150" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="e7ded28d-08b4-43c8-978d-78f33b91b2a2" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="5ed30290-2828-4604-8466-6a05adf3033c" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="150" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<object access-modifier="private" name="Text_80" display-name="Text_80" uuid="7418efba-8c2e-42b9-93ad-7a0a6584858f" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="20" ver="2"/>
+			<designed target="Y" value="-25" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="120" ver="2"/>
+			<designed target="Height" value="20" ver="2"/>
+			<designed target="Text" value="HH =   2.3 кПа" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="33" ver="2"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+		</object>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[PressureMax.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[PressureMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!PressureMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_BlockPressureMax" display-name="Line_BlockPressureMax" uuid="af93bba7-1894-430f-91b6-9b29cdc4b3d6" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="324" ver="2"/>
+		<designed target="Y" value="574" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="50" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="41cbb718-2c2b-421f-bce1-800aba3249f6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="04c69872-403d-4cb8-b771-ab73f5435c3d" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="50" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_PressureMax.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_PressureMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_PressureMax.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_ATE_P" display-name="Line_ATE_P" uuid="4d8c171e-303e-482d-8c58-8d83a4a3a6d7" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="121" ver="2"/>
+		<designed target="Y" value="634" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="150" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="f3632d69-2da1-43b6-a283-a1db16b4bd94" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="3d36958e-47eb-4ae1-afc7-dda80d6f7c59" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="150" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[ATE_P.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[ATE_P.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!ATE_P.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Block_ATE_P" display-name="Line_Block_ATE_P" uuid="c368f960-de2c-4921-8729-df841afb4ade" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="324" ver="2"/>
+		<designed target="Y" value="634" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="50" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="11d32435-cc2c-4edb-8374-c003a00c4586" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="1b7822de-687d-41cd-841d-9c6cf5d83329" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="50" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_ATE_P.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_ATE_P.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_ATE_P.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_ATE_H" display-name="Line_ATE_H" uuid="c6a433e0-afdd-416b-a413-2ca15ac50232" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="121" ver="2"/>
+		<designed target="Y" value="694" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="150" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="9704433b-5048-432c-893b-0ae1e4242d94" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="24e878f4-b9d4-41fe-9a0f-8528f6514e23" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="150" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[ATE_H.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[ATE_H.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!ATE_H.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Block_ATE_H" display-name="Line_Block_ATE_H" uuid="68e63a06-0767-4e72-b9fb-c740370bd285" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="324" ver="2"/>
+		<designed target="Y" value="694" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="50" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="8217e3c2-1fba-4f12-9e17-041e44d5ce1e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="def328d2-3dde-4472-888f-4e389f58c4a8" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="50" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_ATE_H.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_ATE_H.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_ATE_H.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_FIRE" display-name="Line_FIRE" uuid="01337ff0-f337-4043-aa39-96ea3fe75265" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="121" ver="2"/>
+		<designed target="Y" value="754" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="150" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="c63076f4-d6da-448c-a1fc-c1e1d4b05500" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="a6fcd8da-5b52-4f9b-ad2d-aa99317f5375" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="150" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[FIRE.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Block_FIRE1" display-name="Line_Block_FIRE1" uuid="18162de6-f4d6-4ee6-beef-c272a1dfc52e" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="324" ver="2"/>
+		<designed target="Y" value="754" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="50" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="f5f82822-5b10-4514-9827-90201a17bb37" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="79f78b1f-507d-4338-9da8-efab4c6aa205" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="50" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_FIRE.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Block_FIRE2" display-name="Line_Block_FIRE2" uuid="33d45c8c-595e-4a20-82c2-0ef2ab48813c" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="4">
+		<designed target="X" value="350" ver="4"/>
+		<designed target="Y" value="754" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="25" ver="4"/>
+		<designed target="Height" value="181" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="2" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="9a7ed5fc-5023-4809-835a-239fe313f357" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4">
+			<designed target="X" value="0" ver="4"/>
+			<designed target="Y" value="0" ver="4"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="a4bcff13-938f-4c87-8a73-08339a6bdd34" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4" cardinal="1">
+			<designed target="X" value="0" ver="4"/>
+			<designed target="Y" value="181" ver="4"/>
+		</object>
+		<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="242a77da-f06d-4f7a-b913-097fab64e702" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4">
+			<designed target="X" value="25" ver="4"/>
+			<designed target="Y" value="181" ver="4"/>
+		</object>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_FIRE.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Block_FIRE3" display-name="Line_Block_FIRE3" uuid="7449db8c-b07b-474f-af4f-de0bf80f2cd0" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="4">
+		<designed target="X" value="350" ver="4"/>
+		<designed target="Y" value="935" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="220" ver="4"/>
+		<designed target="Height" value="100" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="2" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="0" ver="4"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="fd56e73f-ae27-4037-a40c-5112863161a9" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4">
+			<designed target="X" value="0" ver="4"/>
+			<designed target="Y" value="0" ver="4"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="03afcef9-2651-4725-acf4-d521229bfbf7" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4" cardinal="1">
+			<designed target="X" value="0" ver="4"/>
+			<designed target="Y" value="100" ver="4"/>
+		</object>
+		<object access-modifier="private" name="Point_3" display-name="Point_3" uuid="8d4253a5-4da7-4aad-a96e-e976dd87570e" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="4">
+			<designed target="X" value="220" ver="4"/>
+			<designed target="Y" value="100" ver="4"/>
+		</object>
+		<object access-modifier="private" name="Text_80" display-name="Text_80" uuid="92354687-d977-4593-8ecd-0bfc1023fee6" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="106" ver="2"/>
+			<designed target="Y" value="74" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="120" ver="2"/>
+			<designed target="Height" value="20" ver="2"/>
+			<designed target="Text" value="Закрыть KCSP-3" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="33" ver="2"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+		</object>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_FIRE.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_FIRE.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_LevelMin" display-name="Line_LevelMin" uuid="6cb4f630-c819-45f6-949c-7bc34a18b5ec" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="121" ver="2"/>
+		<designed target="Y" value="814" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="150" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="c085715f-384f-4524-b45e-459bed258922" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="740ae7dc-c0d9-4570-a3b7-c417d95b9e2f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="150" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[LevelMin.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[LevelMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!LevelMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Block_LevelMin" display-name="Line_Block_LevelMin" uuid="78ba907a-cbef-488f-ad3d-8b9423c176be" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="324" ver="2"/>
+		<designed target="Y" value="814" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="50" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="54fec07b-5b44-4054-971d-cb17b5a020d6" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="4e38ba97-6d59-4da6-b86f-12a6738c6cbe" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="50" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMin.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_LevelMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_LevelMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_PressureMin" display-name="Line_PressureMin" uuid="45e82706-3359-4f6f-b7ac-295d91b20af7" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="121" ver="2"/>
+		<designed target="Y" value="874" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="150" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="a037872c-a89b-4546-90a1-7f76deac7c71" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="e6978efc-14a8-4c17-b6d1-6ab0559f6e3f" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="150" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<object access-modifier="private" name="Text_80" display-name="Text_80" uuid="7a3c59be-9ff7-4829-8fb3-0ace63a98b77" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+			<designed target="X" value="20" ver="2"/>
+			<designed target="Y" value="-25" ver="2"/>
+			<designed target="Rotation" value="0" ver="2"/>
+			<designed target="Scale" value="1" ver="2"/>
+			<designed target="Visible" value="true" ver="2"/>
+			<designed target="Enabled" value="true" ver="2"/>
+			<designed target="Tooltip" value="" ver="2"/>
+			<designed target="Width" value="120" ver="2"/>
+			<designed target="Height" value="20" ver="2"/>
+			<designed target="Text" value="LL =   -0.3 кПа" ver="2"/>
+			<designed target="Font" value="MS Shell Dlg 2,12,-1,5,50,0,0,0,0,0,Обычный" ver="2"/>
+			<designed target="FontColor" value="4278190080" ver="2"/>
+			<designed target="TextAlignment" value="33" ver="2"/>
+			<designed target="ZValue" value="0" ver="4"/>
+			<designed target="Opacity" value="1" ver="4"/>
+		</object>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[PressureMin.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[PressureMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!PressureMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="Line_Block_PressureMin" display-name="Line_Block_PressureMin" uuid="2021ec62-797a-412b-bec8-87eced27997d" base-type="Line" base-type-id="4dd08b15-1502-453f-a174-2c0a5aa850ba" ver="2">
+		<designed target="X" value="324" ver="2"/>
+		<designed target="Y" value="874" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="50" ver="2"/>
+		<designed target="Height" value="0" ver="2"/>
+		<designed target="PenColor" value="4278190080" ver="2"/>
+		<designed target="PenStyle" value="1" ver="2"/>
+		<designed target="PenWidth" value="2" ver="2"/>
+		<designed target="BrushColor" value="4278190080" ver="2"/>
+		<designed target="BrushStyle" value="0" ver="2"/>
+		<object access-modifier="private" name="Point_1" display-name="Point_1" uuid="9b2ee47f-a4bf-4744-8388-23fc47b69548" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="0" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<object access-modifier="private" name="Point_2" display-name="Point_2" uuid="19d803d6-0884-42c9-8ed3-3f6c8ececf14" base-type="Point" base-type-id="467f1af0-7bb4-4a61-b6fb-06e7bfd530d6" ver="2">
+			<designed target="X" value="50" ver="2"/>
+			<designed target="Y" value="0" ver="2"/>
+		</object>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<do-trace access-modifier="private" target="PenColor" ver="4">
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_PressureMin.Quality < 192]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff828282]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[Block_PressureMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xffff0000]]>
+				</expr>
+			</conditional-expr>
+			<conditional-expr>
+				<condition>
+					<![CDATA[!Block_PressureMin.Value]]>
+				</condition>
+				<expr>
+					<![CDATA[0xff00aa00]]>
+				</expr>
+			</conditional-expr>
+		</do-trace>
+	</object>
+	<object access-modifier="private" name="ShowBlocks" display-name="ShowBlocks" uuid="0498ebd4-9bc9-4a62-8b5e-f841c340eb19" base-type="bool" base-type-id="7c9fe1ab-1ee2-42d8-939f-94ce3e89fca8" ver="4"/>
+	<object access-modifier="private" name="LevelMin" display-name="LevelMin" uuid="db75d262-9899-4a6a-b37a-50d3344e5060" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="LevelMin.Value"/>
+	</object>
+	<object access-modifier="private" name="LevelMax" display-name="LevelMax" uuid="8de4323d-1c7d-4a6e-b6be-af69a2784629" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="LevelMax.Value"/>
+	</object>
+	<object access-modifier="private" name="PressureMin" display-name="PressureMin" uuid="2705fd93-2c3b-4849-935b-cf0a50c776bb" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Pressure.State.AlarmValueLL"/>
+	</object>
+	<object access-modifier="private" name="PressureMax" display-name="PressureMax" uuid="9c2b3d28-0890-4987-a665-db4bd285946f" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="Pressure.State.AlarmValueHH"/>
+	</object>
+	<object access-modifier="private" name="ATE_P" display-name="ATE_P" uuid="9dcef518-9ae7-4225-83da-30872d78bf4f" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="ATE_HH_P.Value"/>
+	</object>
+	<object access-modifier="private" name="ATE_H" display-name="ATE_H" uuid="06838426-0d5c-4b7e-9dae-f4d418d29390" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="ATE_HH_H.Value"/>
+	</object>
+	<object access-modifier="private" name="FIRE" display-name="FIRE" uuid="92ac8eca-c817-4862-a9ef-4d4790e8bb9c" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="FIRE.Value"/>
+	</object>
+	<object access-modifier="private" name="DES12_LevelMin" display-name="DES12_LevelMin" uuid="b222c10e-f521-4fcc-abf4-66773815fd48" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="DES_1_2.LevelMin.Value"/>
+	</object>
+	<object access-modifier="private" name="DES34_LevelMin" display-name="DES34_LevelMin" uuid="145bffe1-7363-4e75-b6d6-d709b0b5cfd5" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="DES_3_4.LevelMin.Value"/>
+	</object>
+	<object access-modifier="private" name="DES56_LevelMin" display-name="DES56_LevelMin" uuid="8003f9a8-c23a-400c-914c-ec52a51e65c5" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="DES_5_6.LevelMin.Value"/>
+	</object>
+	<object access-modifier="private" name="Block_LevelMin" display-name="Block_LevelMin" uuid="aae621c6-3640-4934-8f79-2071f1852911" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="State.BlockLevelMin"/>
+	</object>
+	<object access-modifier="private" name="Block_LevelMax" display-name="Block_LevelMax" uuid="2ea867a4-c653-4511-9735-ad31f835284a" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="State.BlockLevelMax"/>
+	</object>
+	<object access-modifier="private" name="Block_PressureMin" display-name="Block_PressureMin" uuid="ef5859c9-ee41-49c6-a119-80f7588986f5" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="State.BlockPressureMin"/>
+	</object>
+	<object access-modifier="private" name="Block_PressureMax" display-name="Block_PressureMax" uuid="5e97ca3c-381e-4eef-a092-fdca2fc9eb5d" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="3" ref="OpcSource"/>
+		<init target="Path" ver="4" value="State.BlockPressureMax"/>
+	</object>
+	<object access-modifier="private" name="Block_ATE_P" display-name="Block_ATE_P" uuid="66c5c13e-ca85-44d1-b218-2a350bc6399a" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="BLOCKS.State.Block_ATE_P1_P5"/>
+	</object>
+	<object access-modifier="private" name="Block_ATE_H" display-name="Block_ATE_H" uuid="b00e0ed5-464b-4459-abea-d5646123349c" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="BLOCKS.State.Block_ATE_H1_H3"/>
+	</object>
+	<object access-modifier="private" name="Block_FIRE" display-name="Block_FIRE" uuid="32cc8548-bdf1-4f49-9e46-8e374ffb3851" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="BLOCKS.State.BlockFIRE"/>
+	</object>
+	<object access-modifier="private" name="Block_DES" display-name="Block_DES" uuid="15b0c508-49bc-46fb-80ea-d3f01cbd4b33" base-type="OpcItemBool" base-type-id="a9fc4ea9-0a0d-42c7-a17a-009dcf19fe35" ver="3">
+		<init target="Source" ver="4" ref="unit.Global.ENERG"/>
+		<init target="Path" ver="4" value="BLOCKS.State.Block_LevelMin_DES"/>
+	</object>
+	<object access-modifier="private" name="Ellipse_1" display-name="Ellipse_1" uuid="73f15408-d133-4232-af7e-22b992f5d09c" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="4">
+		<designed target="X" value="345.5" ver="4"/>
+		<designed target="Y" value="749" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="9" ver="4"/>
+		<designed target="Height" value="9" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="1" ver="4"/>
+		<designed target="PieAngle" value="360" ver="4"/>
+		<designed target="PieAngleStart" value="360" ver="4"/>
+		<designed target="HoleSize" value="0" ver="4"/>
+	</object>
+	<object access-modifier="private" name="Ellipse_2" display-name="Ellipse_2" uuid="c54effc7-e86a-4b95-a226-7633c99e94dd" base-type="Ellipse" base-type-id="7f9e9b77-5d97-45c4-89c1-0f67adb636cd" ver="4">
+		<designed target="X" value="345.5" ver="4"/>
+		<designed target="Y" value="929.5" ver="4"/>
+		<designed target="ZValue" value="0" ver="4"/>
+		<designed target="Rotation" value="0" ver="4"/>
+		<designed target="Scale" value="1" ver="4"/>
+		<designed target="Visible" value="true" ver="4"/>
+		<designed target="Opacity" value="1" ver="4"/>
+		<designed target="Enabled" value="true" ver="4"/>
+		<designed target="Tooltip" value="" ver="4"/>
+		<designed target="Width" value="9" ver="4"/>
+		<designed target="Height" value="9" ver="4"/>
+		<designed target="PenColor" value="4278190080" ver="4"/>
+		<designed target="PenStyle" value="1" ver="4"/>
+		<designed target="PenWidth" value="1" ver="4"/>
+		<designed target="BrushColor" value="4278190080" ver="4"/>
+		<designed target="BrushStyle" value="1" ver="4"/>
+		<designed target="PieAngle" value="360" ver="4"/>
+		<designed target="PieAngleStart" value="360" ver="4"/>
+		<designed target="HoleSize" value="0" ver="4"/>
+	</object>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

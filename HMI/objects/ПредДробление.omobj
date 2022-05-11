@@ -1,0 +1,202 @@
+<type access-modifier="private" name="ПредДробление" display-name="ПредДробление" uuid="09bebd98-371f-4bb3-b25f-93fbffbea86b" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="1919" ver="2"/>
+	<designed target="Height" value="960" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="0xffc7c7c7" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="0" ver="2"/>
+	<designed target="WindowY" value="0" ver="2"/>
+	<designed target="WindowWidth" value="1920" ver="2"/>
+	<designed target="WindowHeight" value="960" ver="2"/>
+	<designed target="WindowCaption" value="Энергокомплекс" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="true" ver="2"/>
+	<designed target="ShowWindowMaximize" value="true" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="false" ver="2"/>
+	<designed target="WindowSizeMode" value="0" ver="2"/>
+	<designed target="WindowBorderStyle" value="1" ver="2"/>
+	<designed target="WindowState" value="2" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="0" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<object access-modifier="private" name="Заголовок экрана" display-name="Заголовок экрана" uuid="1346ea5a-e8e5-416f-99dd-e4c5c3bedcad" base-type="Text" base-type-id="21d59f8d-2ca4-4592-92ca-b4dc48992a0f" ver="2">
+		<designed target="X" value="20" ver="2"/>
+		<designed target="Y" value="20" ver="2"/>
+		<designed target="Rotation" value="0" ver="2"/>
+		<designed target="Scale" value="1" ver="2"/>
+		<designed target="Visible" value="true" ver="2"/>
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="Tooltip" value="" ver="2"/>
+		<designed target="Width" value="680" ver="2"/>
+		<designed target="Height" value="40" ver="2"/>
+		<designed target="Text" value="ОТДЕЛЕНИЕ ПРЕДВАРИТЕЛЬНОГО ДРОБЛЕНИЯ" ver="2"/>
+		<designed target="Font" value="MS Shell Dlg 2,20,-1,5,75,0,0,0,0,0,Полужирный" ver="2"/>
+		<designed target="FontColor" value="4278190080" ver="2"/>
+		<designed target="TextAlignment" value="129" ver="2"/>
+		<designed target="ZValue" value="0" ver="3"/>
+		<designed target="Opacity" value="1" ver="3"/>
+	</object>
+	<designed target="WindowIconPath" value="arrow.png" ver="5"/>
+	<object access-modifier="private" name="Дробилка_1" display-name="Дробилка_1" uuid="56a0bbb6-8cd7-4584-b276-9092bb33b21e" base-type="Дробилка" base-type-id="47ca8c7b-4d32-4618-8f8d-e79a31088c4d" ver="5" description="" cardinal="1">
+		<designed target="X" value="-82" ver="5"/>
+		<designed target="Y" value="868" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="D_11"/>
+	</object>
+	<object access-modifier="private" name="Питатель_1" display-name="Питатель_1" uuid="5f6d972c-9628-4579-8454-f8a50ff138f6" base-type="Питатель" base-type-id="5cc33269-bb96-48b1-82aa-f34a45b2ebfd" ver="5" description="" cardinal="1">
+		<designed target="X" value="478" ver="5"/>
+		<designed target="Y" value="928" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="P_11"/>
+	</object>
+	<object access-modifier="private" name="Дробилка2_2" display-name="Дробилка2_2" uuid="c9f3c89a-6158-47e9-867a-ed2833e1251b" base-type="Дробилка2" base-type-id="9d7e12ab-1bef-46c7-87f5-098cd79f51c7" ver="5" description="" cardinal="1">
+		<designed target="X" value="190" ver="5"/>
+		<designed target="Y" value="440" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="D_11"/>
+	</object>
+	<object access-modifier="private" name="Б-11_1" display-name="Б-11_1" uuid="d9d98e1f-b71f-4449-af79-98e0fe853536" base-type="Bunker" base-type-id="a37c2810-7cb6-4ab3-a234-8c8623f89335" ver="5" description="" cardinal="1">
+		<designed target="X" value="90" ver="5"/>
+		<designed target="Y" value="110" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="B_11"/>
+		<init target="High" ver="5" value="true"/>
+	</object>
+	<object access-modifier="private" name="Питатель2_1" display-name="Питатель2_1" uuid="b1be0b7c-9c2a-4d6f-b5ff-28d8543afea0" base-type="Питатель2" base-type-id="6b608619-2201-4273-9e29-a4c4d764f32c" ver="5" description="" cardinal="1">
+		<designed target="X" value="100" ver="5"/>
+		<designed target="Y" value="280" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="P_11"/>
+	</object>
+	<object access-modifier="private" name="Вентилятор_1" display-name="Вентилятор_1" uuid="3b5f656f-bd0a-41a9-9131-e85538979068" base-type="Вентилятор" base-type-id="cbc947a2-bc77-4409-b73c-e0b5b55d07d3" ver="5" description="" cardinal="1">
+		<designed target="X" value="80" ver="5"/>
+		<designed target="Y" value="460" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="W_11"/>
+	</object>
+	<object access-modifier="private" name="Транспортёр2_1" display-name="Транспортёр2_1" uuid="2cd3d6bc-1af7-4a8a-891e-c84d578fb962" base-type="Транспортёр2" base-type-id="907586ef-dbd0-43b7-8379-e535fc5ff0be" ver="5" description="" cardinal="1">
+		<designed target="X" value="190" ver="5"/>
+		<designed target="Y" value="470" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="T_11"/>
+	</object>
+	<object access-modifier="private" name="Б-11_2" display-name="Б-11_2" uuid="9faeac60-f415-472d-bfbd-58f4879eb51b" base-type="Bunker" base-type-id="a37c2810-7cb6-4ab3-a234-8c8623f89335" ver="5" description="" cardinal="1">
+		<designed target="X" value="510" ver="5"/>
+		<designed target="Y" value="110" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="B_12"/>
+		<init target="High" ver="5" value="true"/>
+	</object>
+	<object access-modifier="private" name="Питатель2_2" display-name="Питатель2_2" uuid="a2cfed2c-22ff-487c-b5c2-d225ec0512c8" base-type="Питатель2" base-type-id="6b608619-2201-4273-9e29-a4c4d764f32c" ver="5" description="" cardinal="1">
+		<designed target="X" value="520" ver="5"/>
+		<designed target="Y" value="280" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="P_12"/>
+	</object>
+	<object access-modifier="private" name="Дробилка2_3" display-name="Дробилка2_3" uuid="966b11ad-9b5b-42c2-b67c-ee2d457b1ec0" base-type="Дробилка2" base-type-id="9d7e12ab-1bef-46c7-87f5-098cd79f51c7" ver="5" description="" cardinal="1">
+		<designed target="X" value="610" ver="5"/>
+		<designed target="Y" value="440" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="D_12"/>
+	</object>
+	<object access-modifier="private" name="Дробилка2_4" display-name="Дробилка2_4" uuid="721f4407-bec0-4fce-9c96-27cefdcded4b" base-type="Дробилка2" base-type-id="9d7e12ab-1bef-46c7-87f5-098cd79f51c7" ver="5" description="" cardinal="1">
+		<designed target="X" value="1120" ver="5"/>
+		<designed target="Y" value="580" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="D_13"/>
+	</object>
+	<object access-modifier="private" name="Б-11_3" display-name="Б-11_3" uuid="6521b9f3-579b-46ba-817b-b4afdb1269e8" base-type="Bunker" base-type-id="a37c2810-7cb6-4ab3-a234-8c8623f89335" ver="5" description="" cardinal="1">
+		<designed target="X" value="1250" ver="5"/>
+		<designed target="Y" value="110" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="B_13"/>
+		<init target="High" ver="5" value="true"/>
+	</object>
+	<object access-modifier="private" name="Питатель2_3" display-name="Питатель2_3" uuid="4ccaf55f-02cd-462d-bdc8-ddf023f77cc0" base-type="Питатель2" base-type-id="6b608619-2201-4273-9e29-a4c4d764f32c" ver="5" description="" cardinal="1">
+		<designed target="X" value="1260" ver="5"/>
+		<designed target="Y" value="280" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="P_13"/>
+	</object>
+	<object access-modifier="private" name="Вентилятор_2" display-name="Вентилятор_2" uuid="06fe5e99-4f04-4ac9-a05c-64386d9463d5" base-type="Вентилятор" base-type-id="cbc947a2-bc77-4409-b73c-e0b5b55d07d3" ver="5" description="" cardinal="1">
+		<designed target="X" value="1010" ver="5"/>
+		<designed target="Y" value="600" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="W_12"/>
+	</object>
+	<object access-modifier="private" name="Транспортёр440_1" display-name="Транспортёр440_1" uuid="f2f1ccde-a4d4-46d1-b142-f3da1c467a38" base-type="Транспортёр440" base-type-id="a6230c50-f945-401a-bb7e-0858068762f4" ver="5" description="" cardinal="1">
+		<designed target="X" value="1116" ver="5"/>
+		<designed target="Y" value="602" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="T_12"/>
+	</object>
+	<object access-modifier="private" name="Бункер2_1" display-name="Бункер2_1" uuid="5e0930ba-0e63-452c-9f1b-7a8ed9bd944a" base-type="Бункер2" base-type-id="b95a0f9f-0a10-4176-b87a-5ca3838af7f8" ver="5" description="" cardinal="1">
+		<designed target="X" value="1926.25" ver="5"/>
+		<designed target="Y" value="639" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="B_14"/>
+	</object>
+	<object access-modifier="private" name="Питатель2_4" display-name="Питатель2_4" uuid="5b1c966d-0bed-4aee-90ed-f40505014caa" base-type="Питатель2" base-type-id="6b608619-2201-4273-9e29-a4c4d764f32c" ver="5" description="" cardinal="1">
+		<designed target="X" value="1514" ver="5"/>
+		<designed target="Y" value="908" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="P_21"/>
+	</object>
+	<object access-modifier="private" name="Питатель2_5" display-name="Питатель2_5" uuid="5926e5c3-777e-4b1d-9e9b-7fac42664110" base-type="Питатель2" base-type-id="6b608619-2201-4273-9e29-a4c4d764f32c" ver="5" description="" cardinal="1">
+		<designed target="X" value="1680" ver="5"/>
+		<designed target="Y" value="906" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="P_22"/>
+	</object>
+	<object access-modifier="private" name="AI_1_1" display-name="AI_1_1" uuid="8aa7a347-33f3-4d1f-8ed7-948e731f9264" base-type="AI_1" base-type-id="abc38d27-608b-41cb-b709-15e921196b43" ver="5" description="" cardinal="1">
+		<designed target="X" value="268" ver="5"/>
+		<designed target="Y" value="680" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+		<init target="Путь" ver="5" value="QI7E2"/>
+		<init target="Формат" ver="5" value="1"/>
+	</object>
+	<object access-modifier="private" name="DI_1" display-name="DI_1" uuid="a8200a49-bc1c-4f57-80ea-99fea801d355" base-type="DI" base-type-id="c7993107-bbbf-4f19-8ae5-3438217fc9f6" ver="5" description="" cardinal="1">
+		<designed target="X" value="495.25" ver="5"/>
+		<designed target="Y" value="677" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+		<init target="Источник" ver="5" ref="unit.Global.COROS_S1"/>
+	</object>
+	<object access-modifier="private" name="Выпарной_Аппарат_1284_1" display-name="Выпарной_Аппарат_1284_1" uuid="84b4b592-2e1a-43f1-babf-0860a07a5ddf" base-type="Выпарной_Аппарат_1284" base-type-id="8c9eb826-c48e-436e-aed4-6c039c7f8b23" ver="5" description="" cardinal="1">
+		<designed target="X" value="1796.5" ver="5"/>
+		<designed target="Y" value="26" ver="5"/>
+		<designed target="Rotation" value="0" ver="5"/>
+	</object>
+</type>
+

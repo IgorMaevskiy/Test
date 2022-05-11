@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceSettings Version="3.25.1">
+  <Sources>
+    <Source>
+      <Name>ABK</Name>
+      <ShowConditionDeactivationEvents>false</ShowConditionDeactivationEvents>
+      <DropAckRequiredForAnother>false</DropAckRequiredForAnother>
+      <RequestObjectTag>true</RequestObjectTag>
+      <AllowCommentingByAcking>false</AllowCommentingByAcking>
+      <RequestObjectURL>false</RequestObjectURL>
+      <ObjectURLSignalName>FormURL</ObjectURLSignalName>
+      <Servers>
+        <Server d5p1:type="OPCAEServer" xmlns:d5p1="http://www.w3.org/2001/XMLSchema-instance">
+          <Host>localhost</Host>
+          <ServerDescription />
+          <ClassId>00000000-0000-0000-0000-000000000000</ClassId>
+          <ProgId>SUER.OPCAEServer.AccessPoint</ProgId>
+          <DaEnabled>true</DaEnabled>
+          <DaProgId>SUER.OPCDAServer.AccessPoint</DaProgId>
+          <DaSoundStopTag />
+        </Server>
+        <Server d5p1:type="Historian" xmlns:d5p1="http://www.w3.org/2001/XMLSchema-instance">
+          <Host>localhost</Host>
+          <ProgId>SUER.HDAServer.AccessPoint</ProgId>
+          <ExtendIntervalHours>0</ExtendIntervalHours>
+        </Server>
+      </Servers>
+    </Source>
+  </Sources>
+</SourceSettings>

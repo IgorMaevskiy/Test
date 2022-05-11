@@ -1,0 +1,4 @@
+<object access-modifier="private" name="Colors" display-name="Global2" uuid="817c10b7-8d15-4afa-8e98-86b15928daee" base-type="JustDummy" base-type-id="34bc054d-53be-4c82-873b-bd509d7c7c3b" ver="2">
+	<object access-modifier="private" name="noConnectColor" display-name="noConnectColor" uuid="145de44e-edcc-46a9-9bf9-2c9776fc5791" base-type="uint4" base-type-id="a42274b8-724b-4f03-bcf9-dd8498c29f8e" ver="2"/>
+</object>
+

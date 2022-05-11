@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourcesSeverityGroups Version="3.26.1">
+  <Sources>
+    <Source>
+      <Name>ABK</Name>
+      <SeverityGroups>
+        <SeverityGroup>
+          <Name>VeryHigh</Name>
+          <Values>667-1000</Values>
+          <SoundEnabled>true</SoundEnabled>
+          <RepeatCount>0</RepeatCount>
+          <Priority>0</Priority>
+        </SeverityGroup>
+        <SeverityGroup>
+          <Name>High</Name>
+          <Values />
+          <SoundEnabled>true</SoundEnabled>
+          <RepeatCount>3</RepeatCount>
+          <Priority>0</Priority>
+        </SeverityGroup>
+        <SeverityGroup>
+          <Name>Medium</Name>
+          <Values>334-666</Values>
+          <SoundEnabled>true</SoundEnabled>
+          <RepeatCount>1</RepeatCount>
+          <Priority>0</Priority>
+        </SeverityGroup>
+        <SeverityGroup>
+          <Name>Low</Name>
+          <Values />
+          <SoundEnabled>true</SoundEnabled>
+          <RepeatCount>1</RepeatCount>
+          <Priority>0</Priority>
+        </SeverityGroup>
+      </SeverityGroups>
+    </Source>
+  </Sources>
+</SourcesSeverityGroups>

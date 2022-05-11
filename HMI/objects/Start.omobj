@@ -1,0 +1,201 @@
+<type access-modifier="private" name="Start" display-name="Form_4" uuid="b6f02722-77f4-41f3-be89-deca16ce11e3" base-type="Form" base-type-id="ffaf5544-6200-45f4-87ec-9dd24558a9d5" ver="2">
+	<designed target="X" value="0" ver="2"/>
+	<designed target="Y" value="0" ver="2"/>
+	<designed target="Rotation" value="0" ver="2"/>
+	<designed target="Scale" value="1" ver="2"/>
+	<designed target="Visible" value="true" ver="2"/>
+	<designed target="Enabled" value="true" ver="2"/>
+	<designed target="Tooltip" value="" ver="2"/>
+	<designed target="Width" value="400" ver="2"/>
+	<designed target="Height" value="300" ver="2"/>
+	<designed target="PenColor" value="4278190080" ver="2"/>
+	<designed target="PenStyle" value="0" ver="2"/>
+	<designed target="PenWidth" value="1" ver="2"/>
+	<designed target="BrushColor" value="4293980400" ver="2"/>
+	<designed target="BrushStyle" value="1" ver="2"/>
+	<designed target="WindowX" value="0" ver="2"/>
+	<designed target="WindowY" value="0" ver="2"/>
+	<designed target="WindowWidth" value="1920" ver="2"/>
+	<designed target="WindowHeight" value="1080" ver="2"/>
+	<designed target="WindowCaption" value="MainForm" ver="2"/>
+	<designed target="ShowWindowCaption" value="true" ver="2"/>
+	<designed target="ShowWindowMinimize" value="true" ver="2"/>
+	<designed target="ShowWindowMaximize" value="true" ver="2"/>
+	<designed target="ShowWindowClose" value="true" ver="2"/>
+	<designed target="AlwaysOnTop" value="false" ver="2"/>
+	<designed target="WindowSizeMode" value="2" ver="2"/>
+	<designed target="WindowBorderStyle" value="0" ver="2"/>
+	<designed target="WindowState" value="2" ver="2"/>
+	<designed target="WindowScalingMode" value="0" ver="2"/>
+	<designed target="MonitorNumber" value="0" ver="2"/>
+	<designed target="WindowPosition" value="1" ver="2"/>
+	<designed target="WindowCloseMode" value="0" ver="2"/>
+	<object access-modifier="private" name="Action_1" display-name="Action_1" uuid="fb6ed484-528a-45ff-b83d-6e1cac96be64" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-by-id="false" form-action="open">
+			<object access-modifier="private" uuid="6882c2a2-3e36-478f-9eb4-9a03215d1d21" base-type="MainMain" base-type-id="62ed13fe-5b17-4e5f-9201-f78a5d924cff" ver="2">
+				<do-trace access-modifier="private" target="OpenScreen0_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen0]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen1_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen1]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen2_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen2
+]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen3_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen3]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen4_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen4]]>
+					</body>
+				</do-trace>
+				<designed target="WindowState" value="0" ver="3"/>
+				<designed target="MonitorNumber" value="1" ver="5"/>
+			</object>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Action_2" display-name="Action_2" uuid="d05f9145-ad41-4172-aa9e-37d0cbbca14a" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-by-id="false" form-action="open-new">
+			<object access-modifier="private" uuid="1cfd1b6b-a492-482d-9e4c-10a1b9b65420" base-type="MainMain" base-type-id="62ed13fe-5b17-4e5f-9201-f78a5d924cff" ver="2">
+				<designed target="WindowState" value="0" ver="2"/>
+				<designed target="MonitorNumber" value="2" ver="2"/>
+				<do-trace access-modifier="private" target="OpenScreen0_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen0]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen1_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen1]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen2_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen2]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen3_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen3]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen4_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen4]]>
+					</body>
+				</do-trace>
+			</object>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="MonitorCount" display-name="MonitorCount" uuid="19871c8f-0c3d-4331-8f26-623779104d79" base-type="int1" base-type-id="756a0a23-7e63-4a13-8a35-e8a38909e5ed" ver="2"/>
+	<object access-modifier="private" name="MonitorList_1" display-name="MonitorList_1" uuid="40b78055-47e3-4a56-9a8e-81abbbced364" base-type="MonitorList" base-type-id="c74bfc5a-253e-4144-8b20-917cf4cf333b" ver="2"/>
+	<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Opened">
+		<body kind="om">
+			<![CDATA[Action_1.Invoke();
+
+if(MonitorList_1.Count() > 2)
+{
+	Action_1.Invoke();
+}
+
+if(MonitorList_1.Count() > 2)
+{
+	//Action_2.Invoke();
+}
+
+if(MonitorList_1.Count() > 3)
+{
+	//Action_1.Invoke();
+}
+]]>
+		</body>
+	</do-on>
+	<object access-modifier="private" name="Action_3" display-name="Action_3" uuid="f643366e-bbc7-4791-9242-e4018253bf00" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-by-id="false" form-action="open-new">
+			<object access-modifier="private" uuid="58ba56fc-0380-4b71-b767-09d0e07b936f" base-type="MainMain" base-type-id="62ed13fe-5b17-4e5f-9201-f78a5d924cff" ver="2">
+				<designed target="WindowState" value="0" ver="2"/>
+				<designed target="MonitorNumber" value="3" ver="2"/>
+				<do-trace access-modifier="private" target="OpenScreen0_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen0]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen1_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen1]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen2_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen2]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen3_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen3]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen4_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen4]]>
+					</body>
+				</do-trace>
+			</object>
+		</do-on>
+	</object>
+	<object access-modifier="private" name="Action_4" display-name="Action_4" uuid="9689ce4f-21d7-4314-b577-b68758a0a466" base-type="Action" base-type-id="a9ee9770-1c4a-44c9-b815-157d9fc2ab95" ver="2">
+		<designed target="Enabled" value="true" ver="2"/>
+		<designed target="InvokeTrigger" value="false" ver="2"/>
+		<do-on access-modifier="private" name="Handler_1" display-name="Handler_1" ver="2" event="Invoked" form-by-id="false" form-action="open-new">
+			<object access-modifier="private" uuid="2f329bf6-7750-45ec-8815-1ae4e6f64998" base-type="MainMain" base-type-id="62ed13fe-5b17-4e5f-9201-f78a5d924cff" ver="2">
+				<designed target="WindowState" value="0" ver="2"/>
+				<designed target="MonitorNumber" value="4" ver="2"/>
+				<do-trace access-modifier="private" target="OpenScreen0_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen0]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen1_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen1]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen2_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen2]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen3_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen3]]>
+					</body>
+				</do-trace>
+				<do-trace access-modifier="private" target="OpenScreen4_MainMain" ver="3">
+					<body>
+						<![CDATA[unit.Global.OpenScreen4]]>
+					</body>
+				</do-trace>
+			</object>
+		</do-on>
+	</object>
+	<designed target="ZValue" value="0" ver="3"/>
+	<designed target="Opacity" value="1" ver="3"/>
+	<designed target="WindowIconPath" value="" ver="5"/>
+</type>
+

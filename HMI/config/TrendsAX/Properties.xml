@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Propertys Version="3.25">
+  <DoUseUserLegendHeight>false</DoUseUserLegendHeight>
+  <UserLegendHeight>1</UserLegendHeight>
+  <IsOverviewVisible>true</IsOverviewVisible>
+  <RangeGlobal>true</RangeGlobal>
+  <RangeAuto>false</RangeAuto>
+  <KnownUsers />
+  <WindowBounds>
+    <X>2</X>
+    <Y>46</Y>
+    <Width>1916</Width>
+    <Height>976</Height>
+  </WindowBounds>
+  <WindowState>Normal</WindowState>
+  <ToolsStripVisible>true</ToolsStripVisible>
+  <SignalsAndSourcePanelVisible>false</SignalsAndSourcePanelVisible>
+  <LegendVisible>true</LegendVisible>
+  <SourcesChartSeparatorPosition>296</SourcesChartSeparatorPosition>
+  <LegendColumns>
+    <LegendColumn Id="color" Visible="true" Width="38" />
+    <LegendColumn Id="axis" Visible="false" Width="44" />
+    <LegendColumn Id="description" Visible="true" Width="341" />
+    <LegendColumn Id="source" Visible="false" Width="95" />
+    <LegendColumn Id="object" Visible="false" Width="51" />
+    <LegendColumn Id="tag" Visible="true" Width="218" />
+    <LegendColumn Id="value" Visible="true" Width="76" />
+    <LegendColumn Id="units" Visible="true" Width="110" />
+    <LegendColumn Id="time" Visible="true" Width="48" />
+    <LegendColumn Id="quality" Visible="false" Width="60" />
+    <LegendColumn Id="minimum" Visible="true" Width="76" />
+    <LegendColumn Id="maximum" Visible="true" Width="196" />
+    <LegendColumn Id="count" Visible="false" Width="72" />
+  </LegendColumns>
+  <HistoryPeriodBegin>2022-03-06T16:10:05.7385188+07:00</HistoryPeriodBegin>
+  <HistoryPeriodEnd>2022-03-06T16:40:05.7385188+07:00</HistoryPeriodEnd>
+  <CurrentMode>Operative</CurrentMode>
+</Propertys>

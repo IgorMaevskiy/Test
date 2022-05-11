@@ -1,0 +1,148 @@
+<unit uuid="c730faba-4740-4922-baac-435fc1071d32" name="abk" main-form-id="b6f02722-77f4-41f3-be89-deca16ce11e3">
+	<object file="AI.omobj" filter="Сигналы ввода-вывода"/>
+	<object file="DI.omobj" filter="Сигналы ввода-вывода"/>
+	<object file="Global.omobj" filter=""/>
+	<object file="Trends.omobj" filter="Алармы и Тренды"/>
+	<object file="Colors.omobj" filter=""/>
+	<object file="exchanger.omobj" filter="Статические объекты"/>
+	<object file="column_large.omobj" filter="Статические объекты"/>
+	<object file="column_medium.omobj" filter="Статические объекты"/>
+	<object file="column_small.omobj" filter="Статические объекты"/>
+	<object file="cistern_large.omobj" filter="Статические объекты"/>
+	<object file="cistern_medium.omobj" filter="Статические объекты"/>
+	<object file="cistern_small.omobj" filter="Статические объекты"/>
+	<object file="oven_large.omobj" filter="Статические объекты"/>
+	<object file="oven_medium.omobj" filter="Статические объекты"/>
+	<object file="oven_small.omobj" filter="Статические объекты"/>
+	<object file="Насос.omobj" filter="ШКИП5"/>
+	<object file="Arrows.omobj" filter="Прочие элементы"/>
+	<object file="Arrow2.omobj" filter="Прочие элементы"/>
+	<object file="Man valve.omobj" filter="Статические объекты"/>
+	<object file="MainMain.omobj" filter=""/>
+	<object file="Start.omobj" filter=""/>
+	<object file="Насос_Форма.omobj" filter="ШКИП5"/>
+	<object file="Security.omobj" filter=""/>
+	<object file="cistern_small_titel_center.omobj" filter="Статические объекты"/>
+	<object file="AbsAutoClosingForm.omobj" filter="Администрирование"/>
+	<object file="AbsOkDialog.omobj" filter="Администрирование"/>
+	<object file="LoginButton.omobj" filter="Прочие элементы"/>
+	<object file="LoginPopUp.omobj" filter="Администрирование"/>
+	<object file="Смена пароля.omobj" filter="Администрирование"/>
+	<object file="Смена пароля_срок.omobj" filter="Администрирование"/>
+	<object file="AI_Форма.omobj" filter="Формы объектов"/>
+	<object file="Alarms.omobj" filter="Алармы и Тренды"/>
+	<object file="AP_Trends.omobj" filter="Алармы и Тренды"/>
+	<object file="OperAlarms.omobj" filter="Алармы и Тренды"/>
+	<object file="Trends_.omobj" filter="Алармы и Тренды"/>
+	<object file="Warning.omobj" filter="Всплывающие окна"/>
+	<object file="Warning_cmd.omobj" filter="Всплывающие окна"/>
+	<object file="Valve_Trends.omobj" filter="Алармы и Тренды"/>
+	<object file="Valve_Trends3.omobj" filter="Алармы и Тренды"/>
+	<object file="Trends10.omobj" filter="Алармы и Тренды"/>
+	<object file="MessageBoxCmd.omobj" filter="Всплывающие окна"/>
+	<object file="MessageBlock.omobj" filter="Всплывающие окна"/>
+	<object file="logo.omobj" filter="Прочие элементы"/>
+	<object file="logoAlarms.omobj" filter="Прочие элементы"/>
+	<object file="logoTrends.omobj" filter="Прочие элементы"/>
+	<object file="logoReports.omobj" filter="Прочие элементы"/>
+	<object file="logoPrint.omobj" filter="Прочие элементы"/>
+	<object file="arrowSuer.omobj" filter="Прочие элементы"/>
+	<object file="MessageBlock_AP.omobj" filter="Всплывающие окна"/>
+	<object file="Клапан.omobj" filter="ШКИП5"/>
+	<object file="Клапан_Форма.omobj" filter="ШКИП5"/>
+	<object file="DI_Форма.omobj" filter="Формы объектов"/>
+	<object file="Резервуар.omobj" filter="ШКИП5/Резервуары"/>
+	<object file="Резервуар_Форма.omobj" filter="ШКИП5/Формы для резервуаров"/>
+	<object file="АСН_Форма.omobj" filter="ШКИП5"/>
+	<object file="Бензовоз_СУЭР.omobj" filter="ШКИП5"/>
+	<object file="Энергокомплекс.omobj" filter="Основные мнемосхемы"/>
+	<object file="ДЭС.omobj" filter="ШКИП5"/>
+	<object file="Резервуар_РАВ.omobj" filter="ШКИП5/Резервуары"/>
+	<object file="РАВ_Форма.omobj" filter="ШКИП5/Формы для резервуаров"/>
+	<object file="РАВ1_Форма.omobj" filter="ШКИП5/Формы для резервуаров"/>
+	<object file="Резервуар_РАВ1.omobj" filter="ШКИП5/Резервуары"/>
+	<object file="ДЭС_Форма.omobj" filter="ШКИП5"/>
+	<object file="АВ1_Форма.omobj" filter="ШКИП5"/>
+	<object file="ИБП_БП_Форма.omobj" filter=""/>
+	<object file="Шлагбаум_Форма.omobj" filter="ШКИП5"/>
+	<object file="Ключ.omobj" filter="ШКИП5"/>
+	<object file="Блокировки_Насосной.omobj" filter="ШКИП5"/>
+	<object file="DI_Блокировочный.omobj" filter="Сигналы ввода-вывода"/>
+	<object file="Материальный_склад.omobj" filter="Основные мнемосхемы"/>
+	<object file="СГМ.omobj" filter=""/>
+	<object file="СГМ_Форма.omobj" filter=""/>
+	<object file="Склад_сухих_продуктов.omobj" filter="Основные мнемосхемы"/>
+	<object file="Аварийные_Вентиляции.omobj" filter="ШКИП6"/>
+	<object file="РЧВ_1000.omobj" filter="ШКИП11"/>
+	<object file="НСХПВ.omobj" filter="Основные мнемосхемы"/>
+	<object file="AI_НСХПВ.omobj" filter="ШКИП11"/>
+	<object file="Клапан_НСХПВ.omobj" filter="ШКИП11"/>
+	<object file="Затвор_НСХПВ.omobj" filter="ШКИП11"/>
+	<object file="Насос_НСХПВ.omobj" filter="ШКИП11"/>
+	<object file="Состояние_НСХПВ.omobj" filter="ШКИП11"/>
+	<object file="Сумматоры_Расхода.omobj" filter="ШКИП11"/>
+	<object file="Водоподготовка.omobj" filter="Основные мнемосхемы"/>
+	<object file="Очистные_сооружения.omobj" filter="Основные мнемосхемы"/>
+	<object file="AI_СВП.omobj" filter="ШКИП12"/>
+	<object file="Насос_СВП.omobj" filter="ШКИП12"/>
+	<object file="Клапан_СВП.omobj" filter="ШКИП12"/>
+	<object file="ППНС.omobj" filter="Основные мнемосхемы"/>
+	<object file="Общественный_Центр.omobj" filter="Основные мнемосхемы"/>
+	<object file="Приточки_П1.omobj" filter="ШКИП2"/>
+	<object file="Приточки_П2.omobj" filter="ШКИП2"/>
+	<object file="Приточки_П3.omobj" filter="ШКИП2"/>
+	<object file="Вытяжки_1.omobj" filter="ШКИП2"/>
+	<object file="Вытяжки_2.omobj" filter="ШКИП2"/>
+	<object file="ПВ1416.omobj" filter="ШКИП2"/>
+	<object file="ПВ31.omobj" filter="ШКИП2"/>
+	<object file="ПВ32.omobj" filter="ШКИП2"/>
+	<object file="TrendsSGM.omobj" filter="Алармы и Тренды"/>
+	<object file="TrendsPPNS.omobj" filter="Алармы и Тренды"/>
+	<object file="DI2.omobj" filter="Сигналы ввода-вывода"/>
+	<object file="TrendsOS_PSV.omobj" filter="Алармы и Тренды"/>
+	<object file="ВентиляторЛ.omobj" filter="Вентиляция"/>
+	<object file="ВентиляторП.omobj" filter="Вентиляция"/>
+	<object file="Фильтр.omobj" filter="Вентиляция"/>
+	<object file="Заслонка.omobj" filter="Вентиляция"/>
+	<object file="Нагреватель.omobj" filter="Вентиляция"/>
+	<object file="Диагностика.omobj" filter="Основные мнемосхемы"/>
+	<object file="ШКИП_7_1.omobj" filter="Диагностика_Modbus"/>
+	<object file="ШКИП_6_1_1.omobj" filter="Диагностика_Modbus"/>
+	<object file="ШКИП_5_1.omobj" filter="Диагностика_Modbus"/>
+	<object file="ШКИП_2_1_1.omobj" filter="Диагностика_Modbus"/>
+	<object file="TrendsASN.omobj" filter="Алармы и Тренды"/>
+	<object file="РУ35_Форма.omobj" filter="ШКИП5"/>
+	<object file="ЗдравПункт.omobj" filter="ШКИП6"/>
+	<object file="Общежитие1.omobj" filter="ШКИП2"/>
+	<object file="Общежитие2.omobj" filter="ШКИП2"/>
+	<object file="Общежитие3.omobj" filter="ШКИП2"/>
+	<object file="ОбщежитиеИТР.omobj" filter="ШКИП2"/>
+	<object file="АБК.omobj" filter="ШКИП2"/>
+	<object file="ОС_ХБС.omobj" filter="Основные мнемосхемы"/>
+	<object file="AI_ОС_ХБС.omobj" filter="ШКИП13"/>
+	<object file="AI_1.omobj" filter="РУСАЛ"/>
+	<object file="AI_Форма_1.omobj" filter="Формы объектов"/>
+	<object file="Энергокомплекс_1.omobj" filter="Основные мнемосхемы"/>
+	<object file="Насос_1.omobj" filter="РУСАЛ"/>
+	<object file="РВС_1000.omobj" filter=""/>
+	<object file="РВС_4900.omobj" filter=""/>
+	<object file="Бункер.omobj" filter=""/>
+	<object file="Bunker2.omobj" filter=""/>
+	<object file="Клапан_1.omobj" filter="РУСАЛ"/>
+	<object file="valve_adj.omobj" filter=""/>
+	<object file="logo_1.omobj" filter="РУСАЛ"/>
+	<object file="ПредДробление.omobj" filter="Основные мнемосхемы"/>
+	<object file="Дробилка.omobj" filter=""/>
+	<object file="Транспортёр.omobj" filter=""/>
+	<object file="Питатель.omobj" filter=""/>
+	<object file="Дробилка2.omobj" filter=""/>
+	<object file="Питатель2.omobj" filter=""/>
+	<object file="Вентилятор.omobj" filter=""/>
+	<object file="Транспортёр880.omobj" filter=""/>
+	<object file="Транспортёр520.omobj" filter=""/>
+	<object file="Бункер2.omobj" filter=""/>
+	<object file="DI_1_2.omobj" filter="РУСАЛ"/>
+	<object file="DI_Форма_1.omobj" filter="Формы объектов"/>
+	<object file="Выпарной_Аппарат_1284.omobj" filter=""/>
+</unit>
+
